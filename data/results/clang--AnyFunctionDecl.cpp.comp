@@ -1,0 +1,8 @@
+COMPLETION: AnyFunctionDecl : AnyFunctionDecl
+COMPLETION: Function : [#NamedDecl *#]Function
+COMPLETION: get : [#NamedDecl *#]get()[# const#]
+COMPLETION: getFromNamedDecl : [#AnyFunctionDecl#]getFromNamedDecl(<#NamedDecl *ND#>)
+COMPLETION: operator clang::NamedDecl * : operator clang::NamedDecl *()[# const#]
+COMPLETION: operator= : [#AnyFunctionDecl &#]operator=(<#const AnyFunctionDecl &#>)
+COMPLETION: operator= : [#AnyFunctionDecl &#]operator=(<#AnyFunctionDecl &&#>)
+COMPLETION: ~AnyFunctionDecl : [#void#]~AnyFunctionDecl()

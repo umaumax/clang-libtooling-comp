@@ -1,0 +1,22 @@
+COMPLETION: dump : [#void#]dump(<#const SourceManager &SM#>)[# const#]
+COMPLETION: getFileLoc : [#SourceLocation#]getFileLoc(<#unsigned int ID#>)
+COMPLETION: getFromPtrEncoding : [#SourceLocation#]getFromPtrEncoding(<#const void *Encoding#>)
+COMPLETION: getFromRawEncoding : [#SourceLocation#]getFromRawEncoding(<#unsigned int Encoding#>)
+COMPLETION: getLocWithOffset : [#SourceLocation#]getLocWithOffset(<#int Offset#>)[# const#]
+COMPLETION: getMacroLoc : [#SourceLocation#]getMacroLoc(<#unsigned int ID#>)
+COMPLETION: getOffset : [#unsigned int#]getOffset()[# const#]
+COMPLETION: getPtrEncoding : [#void *#]getPtrEncoding()[# const#]
+COMPLETION: getRawEncoding : [#unsigned int#]getRawEncoding()[# const#]
+COMPLETION: ID : [#unsigned int#]ID
+COMPLETION: isFileID : [#bool#]isFileID()[# const#]
+COMPLETION: isInvalid : [#bool#]isInvalid()[# const#]
+COMPLETION: isMacroID : [#bool#]isMacroID()[# const#]
+COMPLETION: isPairOfFileLocations : [#bool#]isPairOfFileLocations(<#SourceLocation Start#>, <#SourceLocation End#>)
+COMPLETION: isValid : [#bool#]isValid()[# const#]
+COMPLETION: MacroIDBit : [#clang::SourceLocation::(anonymous)#]MacroIDBit
+COMPLETION: operator= : [#SourceLocation &#]operator=(<#const SourceLocation &#>)
+COMPLETION: operator= : [#SourceLocation &#]operator=(<#SourceLocation &&#>)
+COMPLETION: print : [#void#]print(<#raw_ostream &OS#>, <#const SourceManager &SM#>)[# const#]
+COMPLETION: printToString : [#std::string#]printToString(<#const SourceManager &SM#>)[# const#]
+COMPLETION: SourceLocation : SourceLocation
+COMPLETION: ~SourceLocation : [#void#]~SourceLocation()

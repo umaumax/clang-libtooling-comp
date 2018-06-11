@@ -1,0 +1,10 @@
+COMPLETION: AssociatedConstraints : [#Expr *#]AssociatedConstraints
+COMPLETION: ConstrainedTemplateDeclInfo : ConstrainedTemplateDeclInfo
+COMPLETION: getAssociatedConstraints : [#Expr *#]getAssociatedConstraints()[# const#]
+COMPLETION: getTemplateParameters : [#TemplateParameterList *#]getTemplateParameters()[# const#]
+COMPLETION: operator= : [#ConstrainedTemplateDeclInfo &#]operator=(<#const ConstrainedTemplateDeclInfo &#>)
+COMPLETION: operator= : [#ConstrainedTemplateDeclInfo &#]operator=(<#ConstrainedTemplateDeclInfo &&#>)
+COMPLETION: setAssociatedConstraints : [#void#]setAssociatedConstraints(<#Expr *AC#>)
+COMPLETION: setTemplateParameters : [#void#]setTemplateParameters(<#TemplateParameterList *TParams#>)
+COMPLETION: TemplateParams : [#TemplateParameterList *#]TemplateParams
+COMPLETION: ~ConstrainedTemplateDeclInfo : [#void#]~ConstrainedTemplateDeclInfo()

@@ -1,0 +1,5 @@
+clang::SourceLocation
+clang::SourceManager
+# clang::SourceMgr class?
+clang::SourceRange
+clang::VarDecl

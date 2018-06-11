@@ -1,0 +1,21 @@
+COMPLETION: AnalysisDeclContextManager : AnalysisDeclContextManager
+COMPLETION: cfgBuildOptions : [#CFG::BuildOptions#]cfgBuildOptions
+COMPLETION: clear : [#void#]clear()
+COMPLETION: ContextMap : ContextMap
+COMPLETION: Contexts : [#ContextMap#]Contexts
+COMPLETION: FunctionBodyFarm : [#BodyFarm#]FunctionBodyFarm
+COMPLETION: getBodyFarm : [#BodyFarm &#]getBodyFarm()
+COMPLETION: getCFGBuildOptions : [#CFG::BuildOptions &#]getCFGBuildOptions()
+COMPLETION: getContext : [#AnalysisDeclContext *#]getContext(<#const Decl *D#>)
+COMPLETION: getLocationContextManager : [#LocationContextManager &#]getLocationContextManager()
+COMPLETION: getStackFrame : [#const StackFrameContext *#]getStackFrame(<#AnalysisDeclContext *Ctx#>, <#const LocationContext *Parent#>, <#const Stmt *S#>, <#const CFGBlock *Blk#>, <#unsigned int Idx#>)
+COMPLETION: getStackFrame : [#const StackFrameContext *#]getStackFrame(<#const Decl *D#>)
+COMPLETION: getStackFrame : [#const StackFrameContext *#]getStackFrame(<#const Decl *D#>, <#const LocationContext *Parent#>, <#const Stmt *S#>, <#const CFGBlock *Blk#>, <#unsigned int Idx#>)
+COMPLETION: getUseUnoptimizedCFG : [#bool#]getUseUnoptimizedCFG()[# const#]
+COMPLETION: Injector : [#std::unique_ptr<CodeInjector>#]Injector
+COMPLETION: LocContexts : [#LocationContextManager#]LocContexts
+COMPLETION: operator= : [#AnalysisDeclContextManager &#]operator=(<#AnalysisDeclContextManager &&#>)
+COMPLETION: operator= : [#AnalysisDeclContextManager &#]operator=(<#const AnalysisDeclContextManager &#>)
+COMPLETION: SynthesizeBodies : [#bool#]SynthesizeBodies
+COMPLETION: synthesizeBodies : [#bool#]synthesizeBodies()[# const#]
+COMPLETION: ~AnalysisDeclContextManager : [#void#]~AnalysisDeclContextManager()

@@ -1,0 +1,186 @@
+COMPLETION: AddLineNote : [#void#]AddLineNote(<#SourceLocation Loc#>, <#unsigned int LineNo#>, <#int FilenameID#>, <#bool IsFileEntry#>, <#bool IsFileExit#>, <#SrcMgr::CharacteristicKind FileKind#>)
+COMPLETION: AllocateLoadedSLocEntries : [#std::pair<int, unsigned int>#]AllocateLoadedSLocEntries(<#unsigned int NumSLocEntries#>, <#unsigned int TotalSize#>)
+COMPLETION: associateFileChunkWithMacroArgExp : [#void#]associateFileChunkWithMacroArgExp(<#MacroArgsMap &MacroArgsCache#>, <#FileID FID#>, <#SourceLocation SpellLoc#>, <#SourceLocation ExpansionLoc#>, <#unsigned int ExpansionLength#>)[# const#]
+COMPLETION: clearIDTables : [#void#]clearIDTables()
+COMPLETION: computeMacroArgsCache : [#void#]computeMacroArgsCache(<#MacroArgsMap &MacroArgsCache#>, <#FileID FID#>)[# const#]
+COMPLETION: ContentCacheAlloc : [#llvm::BumpPtrAllocator#]ContentCacheAlloc
+COMPLETION: createExpansionLoc : [#SourceLocation#]createExpansionLoc(<#SourceLocation Loc#>, <#SourceLocation ExpansionLocStart#>, <#SourceLocation ExpansionLocEnd#>, <#unsigned int TokLength#>{#, <#int LoadedID = 0#>{#, <#unsigned int LoadedOffset = 0#>#}#})
+COMPLETION: createExpansionLocImpl : [#SourceLocation#]createExpansionLocImpl(<#const SrcMgr::ExpansionInfo &Expansion#>, <#unsigned int TokLength#>{#, <#int LoadedID = 0#>{#, <#unsigned int LoadedOffset = 0#>#}#})
+COMPLETION: createFileID : [#FileID#]createFileID(<#const FileEntry *SourceFile#>, <#SourceLocation IncludePos#>, <#SrcMgr::CharacteristicKind FileCharacter#>{#, <#int LoadedID = 0#>{#, <#unsigned int LoadedOffset = 0#>#}#})
+COMPLETION: createFileID : [#FileID#]createFileID(<#std::unique_ptr<llvm::MemoryBuffer> Buffer#>{#, <#SrcMgr::CharacteristicKind FileCharacter = SrcMgr::C_User#>{#, <#int LoadedID = 0#>{#, <#unsigned int LoadedOffset = 0#>{#, <#SourceLocation IncludeLoc = SourceLocation()#>#}#}#}#})
+COMPLETION: createFileID : [#FileID#]createFileID(<#UnownedTag#>, <#llvm::MemoryBuffer *Buffer#>{#, <#SrcMgr::CharacteristicKind FileCharacter = SrcMgr::C_User#>{#, <#int LoadedID = 0#>{#, <#unsigned int LoadedOffset = 0#>{#, <#SourceLocation IncludeLoc = SourceLocation()#>#}#}#}#})
+COMPLETION: createFileID : [#FileID#]createFileID(<#const SrcMgr::ContentCache *File#>, <#SourceLocation IncludePos#>, <#SrcMgr::CharacteristicKind DirCharacter#>, <#int LoadedID#>, <#unsigned int LoadedOffset#>)
+COMPLETION: createMacroArgExpansionLoc : [#SourceLocation#]createMacroArgExpansionLoc(<#SourceLocation Loc#>, <#SourceLocation ExpansionLoc#>, <#unsigned int TokLength#>)
+COMPLETION: createMemBufferContentCache : [#const SrcMgr::ContentCache *#]createMemBufferContentCache(<#llvm::MemoryBuffer *Buf#>, <#bool DoNotFree#>)
+COMPLETION: CurrentLoadedOffset : [#unsigned int#]CurrentLoadedOffset
+COMPLETION: Diag : [#DiagnosticsEngine &#]Diag
+COMPLETION: disableFileContentsOverride : [#void#]disableFileContentsOverride(<#const FileEntry *File#>)
+COMPLETION: dump : [#void#]dump()[# const#]
+COMPLETION: ExternalSLocEntries : [#ExternalSLocEntrySource *#]ExternalSLocEntries
+COMPLETION: FakeBufferForRecovery : [#std::unique_ptr<llvm::MemoryBuffer>#]FakeBufferForRecovery
+COMPLETION: FakeContentCacheForRecovery : [#std::unique_ptr<SrcMgr::ContentCache>#]FakeContentCacheForRecovery
+COMPLETION: fileinfo_begin : [#fileinfo_iterator#]fileinfo_begin()[# const#]
+COMPLETION: fileinfo_end : [#fileinfo_iterator#]fileinfo_end()[# const#]
+COMPLETION: fileinfo_iterator : fileinfo_iterator
+COMPLETION: FileInfos : [#llvm::DenseMap<const FileEntry *, SrcMgr::ContentCache *>#]FileInfos
+COMPLETION: FileMgr : [#FileManager &#]FileMgr
+COMPLETION: FilesAreTransient : [#bool#]FilesAreTransient
+COMPLETION: getBuffer : [#llvm::MemoryBuffer *#]getBuffer(<#FileID FID#>, <#SourceLocation Loc#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getBuffer : [#llvm::MemoryBuffer *#]getBuffer(<#FileID FID#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getBufferData : [#StringRef#]getBufferData(<#FileID FID#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getBufferName : [#StringRef#]getBufferName(<#SourceLocation Loc#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getCharacterData : [#const char *#]getCharacterData(<#SourceLocation SL#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getColumnNumber : [#unsigned int#]getColumnNumber(<#FileID FID#>, <#unsigned int FilePos#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getContentCacheSize : [#size_t#]getContentCacheSize()[# const#]
+COMPLETION: getDataStructureSizes : [#size_t#]getDataStructureSizes()[# const#]
+COMPLETION: getDecomposedExpansionLoc : [#std::pair<FileID, unsigned int>#]getDecomposedExpansionLoc(<#SourceLocation Loc#>)[# const#]
+COMPLETION: getDecomposedExpansionLocSlowCase : [#std::pair<FileID, unsigned int>#]getDecomposedExpansionLocSlowCase(<#const SrcMgr::SLocEntry *E#>)[# const#]
+COMPLETION: getDecomposedIncludedLoc : [#std::pair<FileID, unsigned int>#]getDecomposedIncludedLoc(<#FileID FID#>)[# const#]
+COMPLETION: getDecomposedLoc : [#std::pair<FileID, unsigned int>#]getDecomposedLoc(<#SourceLocation Loc#>)[# const#]
+COMPLETION: getDecomposedSpellingLoc : [#std::pair<FileID, unsigned int>#]getDecomposedSpellingLoc(<#SourceLocation Loc#>)[# const#]
+COMPLETION: getDecomposedSpellingLocSlowCase : [#std::pair<FileID, unsigned int>#]getDecomposedSpellingLocSlowCase(<#const SrcMgr::SLocEntry *E#>, <#unsigned int Offset#>)[# const#]
+COMPLETION: getDiagnostics : [#DiagnosticsEngine &#]getDiagnostics()[# const#]
+COMPLETION: getExpansionColumnNumber : [#unsigned int#]getExpansionColumnNumber(<#SourceLocation Loc#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getExpansionLineNumber : [#unsigned int#]getExpansionLineNumber(<#SourceLocation Loc#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getExpansionLoc : [#SourceLocation#]getExpansionLoc(<#SourceLocation Loc#>)[# const#]
+COMPLETION: getExpansionLocSlowCase : [#SourceLocation#]getExpansionLocSlowCase(<#SourceLocation Loc#>)[# const#]
+COMPLETION: getExpansionRange : [#std::pair<SourceLocation, SourceLocation>#]getExpansionRange(<#SourceLocation Loc#>)[# const#]
+COMPLETION: getExpansionRange : [#SourceRange#]getExpansionRange(<#SourceRange Range#>)[# const#]
+COMPLETION: getFakeBufferForRecovery : [#llvm::MemoryBuffer *#]getFakeBufferForRecovery()[# const#]
+COMPLETION: getFakeContentCacheForRecovery : [#const SrcMgr::ContentCache *#]getFakeContentCacheForRecovery()[# const#]
+COMPLETION: getFileCharacteristic : [#SrcMgr::CharacteristicKind#]getFileCharacteristic(<#SourceLocation Loc#>)[# const#]
+COMPLETION: getFileEntryForID : [#const FileEntry *#]getFileEntryForID(<#FileID FID#>)[# const#]
+COMPLETION: getFileEntryForSLocEntry : [#const FileEntry *#]getFileEntryForSLocEntry(<#const SrcMgr::SLocEntry &sloc#>)[# const#]
+COMPLETION: getFileID : [#FileID#]getFileID(<#SourceLocation SpellingLoc#>)[# const#]
+COMPLETION: getFileIDLoaded : [#FileID#]getFileIDLoaded(<#unsigned int SLocOffset#>)[# const#]
+COMPLETION: getFileIDLocal : [#FileID#]getFileIDLocal(<#unsigned int SLocOffset#>)[# const#]
+COMPLETION: getFileIDSize : [#unsigned int#]getFileIDSize(<#FileID FID#>)[# const#]
+COMPLETION: getFileIDSlow : [#FileID#]getFileIDSlow(<#unsigned int SLocOffset#>)[# const#]
+COMPLETION: getFileLoc : [#SourceLocation#]getFileLoc(<#SourceLocation Loc#>)[# const#]
+COMPLETION: getFileLocSlowCase : [#SourceLocation#]getFileLocSlowCase(<#SourceLocation Loc#>)[# const#]
+COMPLETION: getFileManager : [#FileManager &#]getFileManager()[# const#]
+COMPLETION: getFilename : [#StringRef#]getFilename(<#SourceLocation SpellingLoc#>)[# const#]
+COMPLETION: getFileOffset : [#unsigned int#]getFileOffset(<#SourceLocation SpellingLoc#>)[# const#]
+COMPLETION: getImmediateExpansionRange : [#std::pair<SourceLocation, SourceLocation>#]getImmediateExpansionRange(<#SourceLocation Loc#>)[# const#]
+COMPLETION: getImmediateMacroCallerLoc : [#SourceLocation#]getImmediateMacroCallerLoc(<#SourceLocation Loc#>)[# const#]
+COMPLETION: getImmediateSpellingLoc : [#SourceLocation#]getImmediateSpellingLoc(<#SourceLocation Loc#>)[# const#]
+COMPLETION: getInBeforeInTUCache : [#InBeforeInTUCacheEntry &#]getInBeforeInTUCache(<#FileID LFID#>, <#FileID RFID#>)[# const#]
+COMPLETION: getIncludeLoc : [#SourceLocation#]getIncludeLoc(<#FileID FID#>)[# const#]
+COMPLETION: getLineNumber : [#unsigned int#]getLineNumber(<#FileID FID#>, <#unsigned int FilePos#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getLineTable : [#LineTableInfo &#]getLineTable()
+COMPLETION: getLineTableFilenameID : [#unsigned int#]getLineTableFilenameID(<#StringRef Str#>)
+COMPLETION: getLoadedSLocEntry : [#const SrcMgr::SLocEntry &#]getLoadedSLocEntry(<#unsigned int Index#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getLoadedSLocEntryByID : [#const SrcMgr::SLocEntry &#]getLoadedSLocEntryByID(<#int ID#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getLocalSLocEntry : [#const SrcMgr::SLocEntry &#]getLocalSLocEntry(<#unsigned int Index#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getLocForEndOfFile : [#SourceLocation#]getLocForEndOfFile(<#FileID FID#>)[# const#]
+COMPLETION: getLocForStartOfFile : [#SourceLocation#]getLocForStartOfFile(<#FileID FID#>)[# const#]
+COMPLETION: getMacroArgExpandedLocation : [#SourceLocation#]getMacroArgExpandedLocation(<#SourceLocation Loc#>)[# const#]
+COMPLETION: getMainFileID : [#FileID#]getMainFileID()[# const#]
+COMPLETION: getMemoryBufferForFile : [#llvm::MemoryBuffer *#]getMemoryBufferForFile(<#const FileEntry *File#>{#, <#bool *Invalid = nullptr#>#})
+COMPLETION: getMemoryBufferSizes : [#MemoryBufferSizes#]getMemoryBufferSizes()[# const#]
+COMPLETION: getModuleBuildStack : [#ModuleBuildStack#]getModuleBuildStack()[# const#]
+COMPLETION: getModuleImportLoc : [#std::pair<SourceLocation, StringRef>#]getModuleImportLoc(<#SourceLocation Loc#>)[# const#]
+COMPLETION: getNextFileID : [#FileID#]getNextFileID(<#FileID FID#>)[# const#]
+COMPLETION: getNextLocalOffset : [#unsigned int#]getNextLocalOffset()[# const#]
+COMPLETION: getNumCreatedFIDsForFileID : [#unsigned int#]getNumCreatedFIDsForFileID(<#FileID FID#>)[# const#]
+COMPLETION: getOrCreateContentCache : [#const SrcMgr::ContentCache *#]getOrCreateContentCache(<#const FileEntry *SourceFile#>{#, <#bool isSystemFile = false#>#})
+COMPLETION: getOrCreateFileID : [#FileID#]getOrCreateFileID(<#const FileEntry *SourceFile#>, <#SrcMgr::CharacteristicKind FileCharacter#>)
+COMPLETION: getOverriddenFilesInfo : [#OverriddenFilesInfoTy &#]getOverriddenFilesInfo()
+COMPLETION: getPreambleFileID : [#FileID#]getPreambleFileID()[# const#]
+COMPLETION: getPresumedColumnNumber : [#unsigned int#]getPresumedColumnNumber(<#SourceLocation Loc#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getPresumedLineNumber : [#unsigned int#]getPresumedLineNumber(<#SourceLocation Loc#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getPresumedLoc : [#PresumedLoc#]getPresumedLoc(<#SourceLocation Loc#>{#, <#bool UseLineDirectives = true#>#})[# const#]
+COMPLETION: getPreviousFileID : [#FileID#]getPreviousFileID(<#FileID FID#>)[# const#]
+COMPLETION: getSLocEntry : [#const SrcMgr::SLocEntry &#]getSLocEntry(<#FileID FID#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getSLocEntryByID : [#const SrcMgr::SLocEntry &#]getSLocEntryByID(<#int ID#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getSpellingColumnNumber : [#unsigned int#]getSpellingColumnNumber(<#SourceLocation Loc#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getSpellingLineNumber : [#unsigned int#]getSpellingLineNumber(<#SourceLocation Loc#>{#, <#bool *Invalid = nullptr#>#})[# const#]
+COMPLETION: getSpellingLoc : [#SourceLocation#]getSpellingLoc(<#SourceLocation Loc#>)[# const#]
+COMPLETION: getSpellingLocSlowCase : [#SourceLocation#]getSpellingLocSlowCase(<#SourceLocation Loc#>)[# const#]
+COMPLETION: hasFileInfo : [#bool#]hasFileInfo(<#const FileEntry *File#>)[# const#]
+COMPLETION: hasLineTable : [#bool#]hasLineTable()[# const#]
+COMPLETION: IBTUCache : [#InBeforeInTUCache#]IBTUCache
+COMPLETION: IBTUCacheOverflow : [#InBeforeInTUCacheEntry#]IBTUCacheOverflow
+COMPLETION: InBeforeInTUCache : InBeforeInTUCache
+COMPLETION: IncludedLocMap : [#llvm::DenseMap<FileID, std::pair<FileID, unsigned int> >#]IncludedLocMap
+COMPLETION: initializeForReplay : [#void#]initializeForReplay(<#const SourceManager &Old#>)
+COMPLETION: isAtEndOfImmediateMacroExpansion : [#bool#]isAtEndOfImmediateMacroExpansion(<#SourceLocation Loc#>{#, <#SourceLocation *MacroEnd = nullptr#>#})[# const#]
+COMPLETION: isAtStartOfImmediateMacroExpansion : [#bool#]isAtStartOfImmediateMacroExpansion(<#SourceLocation Loc#>{#, <#SourceLocation *MacroBegin = nullptr#>#})[# const#]
+COMPLETION: isBeforeInSLocAddrSpace : [#bool#]isBeforeInSLocAddrSpace(<#SourceLocation LHS#>, <#SourceLocation RHS#>)[# const#]
+COMPLETION: isBeforeInSLocAddrSpace : [#bool#]isBeforeInSLocAddrSpace(<#SourceLocation LHS#>, <#unsigned int RHS#>)[# const#]
+COMPLETION: isBeforeInTranslationUnit : [#bool#]isBeforeInTranslationUnit(<#SourceLocation LHS#>, <#SourceLocation RHS#>)[# const#]
+COMPLETION: IsBeforeInTUCacheKey : IsBeforeInTUCacheKey
+COMPLETION: isFileOverridden : [#bool#]isFileOverridden(<#const FileEntry *File#>)[# const#]
+COMPLETION: isInExternCSystemHeader : [#bool#]isInExternCSystemHeader(<#SourceLocation Loc#>)[# const#]
+COMPLETION: isInFileID : [#bool#]isInFileID(<#SourceLocation Loc#>, <#FileID FID#>{#, <#unsigned int *RelativeOffset = nullptr#>#})[# const#]
+COMPLETION: isInMainFile : [#bool#]isInMainFile(<#SourceLocation Loc#>)[# const#]
+COMPLETION: isInSameSLocAddrSpace : [#bool#]isInSameSLocAddrSpace(<#SourceLocation LHS#>, <#SourceLocation RHS#>, <#int *RelativeOffset#>)[# const#]
+COMPLETION: isInSLocAddrSpace : [#bool#]isInSLocAddrSpace(<#SourceLocation Loc#>, <#SourceLocation Start#>, <#unsigned int Length#>{#, <#unsigned int *RelativeOffset = nullptr#>#})[# const#]
+COMPLETION: isInSystemHeader : [#bool#]isInSystemHeader(<#SourceLocation Loc#>)[# const#]
+COMPLETION: isInSystemMacro : [#bool#]isInSystemMacro(<#SourceLocation loc#>)[# const#]
+COMPLETION: isInTheSameTranslationUnit : [#std::pair<bool, bool>#]isInTheSameTranslationUnit(<#std::pair<FileID, unsigned int> &LOffs#>, <#std::pair<FileID, unsigned int> &ROffs#>)[# const#]
+COMPLETION: isLoadedFileID : [#bool#]isLoadedFileID(<#FileID FID#>)[# const#]
+COMPLETION: isLoadedSourceLocation : [#bool#]isLoadedSourceLocation(<#SourceLocation Loc#>)[# const#]
+COMPLETION: isLocalFileID : [#bool#]isLocalFileID(<#FileID FID#>)[# const#]
+COMPLETION: isLocalSourceLocation : [#bool#]isLocalSourceLocation(<#SourceLocation Loc#>)[# const#]
+COMPLETION: isMacroArgExpansion : [#bool#]isMacroArgExpansion(<#SourceLocation Loc#>{#, <#SourceLocation *StartLoc = nullptr#>#})[# const#]
+COMPLETION: isMacroBodyExpansion : [#bool#]isMacroBodyExpansion(<#SourceLocation Loc#>)[# const#]
+COMPLETION: isOffsetInFileID : [#bool#]isOffsetInFileID(<#FileID FID#>, <#unsigned int SLocOffset#>)[# const#]
+COMPLETION: isPointWithin : [#bool#]isPointWithin(<#SourceLocation Location#>, <#SourceLocation Start#>, <#SourceLocation End#>)[# const#]
+COMPLETION: isWrittenInMainFile : [#bool#]isWrittenInMainFile(<#SourceLocation Loc#>)[# const#]
+COMPLETION: isWrittenInSameFile : [#bool#]isWrittenInSameFile(<#SourceLocation Loc1#>, <#SourceLocation Loc2#>)[# const#]
+COMPLETION: LastFileIDLookup : [#FileID#]LastFileIDLookup
+COMPLETION: LastLineNoContentCache : [#SrcMgr::ContentCache *#]LastLineNoContentCache
+COMPLETION: LastLineNoFileIDQuery : [#FileID#]LastLineNoFileIDQuery
+COMPLETION: LastLineNoFilePos : [#unsigned int#]LastLineNoFilePos
+COMPLETION: LastLineNoResult : [#unsigned int#]LastLineNoResult
+COMPLETION: LineTable : [#LineTableInfo *#]LineTable
+COMPLETION: loaded_sloc_entry_size : [#unsigned int#]loaded_sloc_entry_size()[# const#]
+COMPLETION: LoadedSLocEntryTable : [#SmallVector<SrcMgr::SLocEntry, 0>#]LoadedSLocEntryTable
+COMPLETION: loadSLocEntry : [#const SrcMgr::SLocEntry &#]loadSLocEntry(<#unsigned int Index#>, <#bool *Invalid#>)[# const#]
+COMPLETION: local_sloc_entry_size : [#unsigned int#]local_sloc_entry_size()[# const#]
+COMPLETION: LocalSLocEntryTable : [#SmallVector<SrcMgr::SLocEntry, 0>#]LocalSLocEntryTable
+COMPLETION: MacroArgsCacheMap : [#llvm::DenseMap<FileID, std::unique_ptr<MacroArgsMap> >#]MacroArgsCacheMap
+COMPLETION: MacroArgsMap : MacroArgsMap
+COMPLETION: MainFileID : [#FileID#]MainFileID
+COMPLETION: MaxLoadedOffset : [#const unsigned int#]MaxLoadedOffset
+COMPLETION: MemBufferInfos : [#std::vector<SrcMgr::ContentCache *>#]MemBufferInfos
+COMPLETION: MemoryBufferSizes : MemoryBufferSizes
+COMPLETION: NextLocalOffset : [#unsigned int#]NextLocalOffset
+COMPLETION: NumBinaryProbes : [#unsigned int#]NumBinaryProbes
+COMPLETION: NumLinearScans : [#unsigned int#]NumLinearScans
+COMPLETION: operator= : [#SourceManager &#]operator=(<#const SourceManager &#>)
+COMPLETION: operator= (Hidden) : [#RefCountedBase<SourceManager> &#]llvm::RefCountedBase<SourceManager>::operator=(<#const RefCountedBase<SourceManager> &#>)
+COMPLETION: OverriddenFilesInfo : [#std::unique_ptr<OverriddenFilesInfoTy>#]OverriddenFilesInfo
+COMPLETION: OverriddenFilesInfoTy : OverriddenFilesInfoTy
+COMPLETION: overrideFileContents : [#void#]overrideFileContents(<#const FileEntry *SourceFile#>, <#llvm::MemoryBuffer *Buffer#>, <#bool DoNotFree#>)
+COMPLETION: overrideFileContents : [#void#]overrideFileContents(<#const FileEntry *SourceFile#>, <#std::unique_ptr<llvm::MemoryBuffer> Buffer#>)
+COMPLETION: overrideFileContents : [#void#]overrideFileContents(<#const FileEntry *SourceFile#>, <#const FileEntry *NewFile#>)
+COMPLETION: OverridenFilesKeepOriginalName : [#bool#]OverridenFilesKeepOriginalName
+COMPLETION: PreambleFileID : [#FileID#]PreambleFileID
+COMPLETION: PrintStats : [#void#]PrintStats()[# const#]
+COMPLETION: pushModuleBuildStack : [#void#]pushModuleBuildStack(<#StringRef moduleName#>, <#FullSourceLoc importLoc#>)
+COMPLETION: RefCount : [#unsigned int#]RefCount
+COMPLETION: RefCountedBase : RefCountedBase
+COMPLETION: Release : [#void#]Release()[# const#]
+COMPLETION: Retain : [#void#]Retain()[# const#]
+COMPLETION: setAllFilesAreTransient : [#void#]setAllFilesAreTransient(<#bool Transient#>)
+COMPLETION: setExternalSLocEntrySource : [#void#]setExternalSLocEntrySource(<#ExternalSLocEntrySource *Source#>)
+COMPLETION: setFileIsTransient : [#void#]setFileIsTransient(<#const FileEntry *SourceFile#>)
+COMPLETION: setMainFileID : [#void#]setMainFileID(<#FileID FID#>)
+COMPLETION: setModuleBuildStack : [#void#]setModuleBuildStack(<#ModuleBuildStack stack#>)
+COMPLETION: setNumCreatedFIDsForFileID : [#void#]setNumCreatedFIDsForFileID(<#FileID FID#>, <#unsigned int NumFIDs#>)[# const#]
+COMPLETION: setOverridenFilesKeepOriginalName : [#void#]setOverridenFilesKeepOriginalName(<#bool value#>)
+COMPLETION: setPreambleFileID : [#void#]setPreambleFileID(<#FileID Preamble#>)
+COMPLETION: SLocEntryLoaded : [#llvm::BitVector#]SLocEntryLoaded
+COMPLETION: SourceManager : SourceManager
+COMPLETION: StoredModuleBuildStack : [#SmallVector<std::pair<std::string, FullSourceLoc>, 2>#]StoredModuleBuildStack
+COMPLETION: translateFile : [#FileID#]translateFile(<#const FileEntry *SourceFile#>)[# const#]
+COMPLETION: translateFileLineCol : [#SourceLocation#]translateFileLineCol(<#const FileEntry *SourceFile#>, <#unsigned int Line#>, <#unsigned int Col#>)[# const#]
+COMPLETION: translateLineCol : [#SourceLocation#]translateLineCol(<#FileID FID#>, <#unsigned int Line#>, <#unsigned int Col#>)[# const#]
+COMPLETION: Unowned : [#clang::SourceManager::UnownedTag#]Unowned
+COMPLETION: UnownedTag : UnownedTag
+COMPLETION: UserFilesAreVolatile : [#bool#]UserFilesAreVolatile
+COMPLETION: userFilesAreVolatile : [#bool#]userFilesAreVolatile()[# const#]
+COMPLETION: ~RefCountedBase : [#void#]~RefCountedBase()
+COMPLETION: ~SourceManager : [#void#]~SourceManager()

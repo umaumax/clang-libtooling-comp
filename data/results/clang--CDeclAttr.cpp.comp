@@ -1,0 +1,46 @@
+COMPLETION: Attr : Attr
+COMPLETION: AttrKind : [#unsigned int#]AttrKind
+COMPLETION: CDeclAttr : CDeclAttr
+COMPLETION: classof : [#bool#]classof(<#const Attr *A#>)
+COMPLETION: classof (Hidden) : [#bool#]clang::InheritableAttr::classof(<#const Attr *A#>)
+COMPLETION: clone : [#CDeclAttr *#]clone(<#ASTContext &C#>)[# const#]
+COMPLETION: clone (Hidden) : [#Attr *#]clang::Attr::clone(<#ASTContext &C#>)[# const#]
+COMPLETION: CreateImplicit : [#CDeclAttr *#]CreateImplicit(<#ASTContext &Ctx#>{#, <#SourceRange Loc = SourceRange()#>#})
+COMPLETION: DuplicatesAllowed : [#unsigned int#]DuplicatesAllowed
+COMPLETION: duplicatesAllowed : [#bool#]duplicatesAllowed()[# const#]
+COMPLETION: getKind : [#attr::Kind#]getKind()[# const#]
+COMPLETION: getLocation : [#SourceLocation#]getLocation()[# const#]
+COMPLETION: getRange : [#SourceRange#]getRange()[# const#]
+COMPLETION: getSpelling : [#const char *#]getSpelling()[# const#]
+COMPLETION: getSpelling (Hidden) : [#const char *#]clang::Attr::getSpelling()[# const#]
+COMPLETION: getSpellingListIndex : [#unsigned int#]getSpellingListIndex()[# const#]
+COMPLETION: Implicit : [#unsigned int#]Implicit
+COMPLETION: InheritableAttr : InheritableAttr
+COMPLETION: Inherited : [#unsigned int#]Inherited
+COMPLETION: isImplicit : [#bool#]isImplicit()[# const#]
+COMPLETION: isInherited : [#bool#]isInherited()[# const#]
+COMPLETION: IsLateParsed : [#unsigned int#]IsLateParsed
+COMPLETION: isLateParsed : [#bool#]isLateParsed()[# const#]
+COMPLETION: IsPackExpansion : [#unsigned int#]IsPackExpansion
+COMPLETION: isPackExpansion : [#bool#]isPackExpansion()[# const#]
+COMPLETION: operator delete : [#void#]operator delete(<#void *data#>)
+COMPLETION: operator delete : [#void#]operator delete(<#void *Ptr#>, <#ASTContext &C#>, <#size_t Alignment#>)
+COMPLETION: operator new : [#void *#]operator new(<#size_t bytes#>)
+COMPLETION: operator new : [#void *#]operator new(<#size_t Bytes#>, <#ASTContext &C#>{#, <#size_t Alignment = 8#>#})
+COMPLETION: operator= : [#CDeclAttr &#]operator=(<#const CDeclAttr &#>)
+COMPLETION: operator= : [#CDeclAttr &#]operator=(<#CDeclAttr &&#>)
+COMPLETION: operator= (Hidden) : [#InheritableAttr &#]clang::InheritableAttr::operator=(<#const InheritableAttr &#>)
+COMPLETION: operator= (Hidden) : [#InheritableAttr &#]clang::InheritableAttr::operator=(<#InheritableAttr &&#>)
+COMPLETION: operator= (Hidden) : [#Attr &#]clang::Attr::operator=(<#const Attr &#>)
+COMPLETION: operator= (Hidden) : [#Attr &#]clang::Attr::operator=(<#Attr &&#>)
+COMPLETION: printPretty : [#void#]printPretty(<#raw_ostream &OS#>, <#const PrintingPolicy &Policy#>)[# const#]
+COMPLETION: printPretty (Hidden) : [#void#]clang::Attr::printPretty(<#raw_ostream &OS#>, <#const PrintingPolicy &Policy#>)[# const#]
+COMPLETION: Range : [#SourceRange#]Range
+COMPLETION: setImplicit : [#void#]setImplicit(<#bool I#>)
+COMPLETION: setInherited : [#void#]setInherited(<#bool I#>)
+COMPLETION: setPackExpansion : [#void#]setPackExpansion(<#bool PE#>)
+COMPLETION: setRange : [#void#]setRange(<#SourceRange R#>)
+COMPLETION: SpellingListIndex : [#unsigned int#]SpellingListIndex
+COMPLETION: ~Attr : [#void#]~Attr()
+COMPLETION: ~CDeclAttr : [#void#]~CDeclAttr()
+COMPLETION: ~InheritableAttr : [#void#]~InheritableAttr()

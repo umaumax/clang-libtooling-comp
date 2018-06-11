@@ -1,0 +1,14 @@
+COMPLETION: B : [#SourceLocation#]B
+COMPLETION: E : [#SourceLocation#]E
+COMPLETION: getBegin : [#SourceLocation#]getBegin()[# const#]
+COMPLETION: getEnd : [#SourceLocation#]getEnd()[# const#]
+COMPLETION: isInvalid : [#bool#]isInvalid()[# const#]
+COMPLETION: isValid : [#bool#]isValid()[# const#]
+COMPLETION: operator!= : [#bool#]operator!=(<#const SourceRange &X#>)[# const#]
+COMPLETION: operator= : [#SourceRange &#]operator=(<#const SourceRange &#>)
+COMPLETION: operator= : [#SourceRange &#]operator=(<#SourceRange &&#>)
+COMPLETION: operator== : [#bool#]operator==(<#const SourceRange &X#>)[# const#]
+COMPLETION: setBegin : [#void#]setBegin(<#SourceLocation b#>)
+COMPLETION: setEnd : [#void#]setEnd(<#SourceLocation e#>)
+COMPLETION: SourceRange : SourceRange
+COMPLETION: ~SourceRange : [#void#]~SourceRange()

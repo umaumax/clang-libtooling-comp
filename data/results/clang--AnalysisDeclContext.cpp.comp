@@ -1,0 +1,50 @@
+COMPLETION: A : [#llvm::BumpPtrAllocator#]A
+COMPLETION: AnalysisDeclContext : AnalysisDeclContext
+COMPLETION: builtCFG : [#bool#]builtCFG
+COMPLETION: builtCompleteCFG : [#bool#]builtCompleteCFG
+COMPLETION: CFA : [#std::unique_ptr<CFGReverseBlockReachabilityAnalysis>#]CFA
+COMPLETION: cfg : [#std::unique_ptr<CFG>#]cfg
+COMPLETION: cfgBuildOptions : [#CFG::BuildOptions#]cfgBuildOptions
+COMPLETION: cfgStmtMap : [#std::unique_ptr<CFGStmtMap>#]cfgStmtMap
+COMPLETION: completeCFG : [#std::unique_ptr<CFG>#]completeCFG
+COMPLETION: D : [#const Decl *const#]D
+COMPLETION: dumpCFG : [#void#]dumpCFG(<#bool ShowColors#>)
+COMPLETION: forcedBlkExprs : [#CFG::BuildOptions::ForcedBlkExprs *#]forcedBlkExprs
+COMPLETION: getAddEHEdges : [#bool#]getAddEHEdges()[# const#]
+COMPLETION: getAddImplicitDtors : [#bool#]getAddImplicitDtors()[# const#]
+COMPLETION: getAddInitializers : [#bool#]getAddInitializers()[# const#]
+COMPLETION: getAnalysis : [#T *#]getAnalysis<<#typename T#>>()
+COMPLETION: getAnalysisImpl : [#ManagedAnalysis *&#]getAnalysisImpl(<#const void *tag#>)
+COMPLETION: getASTContext : [#ASTContext &#]getASTContext()[# const#]
+COMPLETION: getBlockForRegisteredExpression : [#const CFGBlock *#]getBlockForRegisteredExpression(<#const Stmt *stmt#>)
+COMPLETION: getBlockInvocationContext : [#const BlockInvocationContext *#]getBlockInvocationContext(<#const LocationContext *parent#>, <#const BlockDecl *BD#>, <#const void *ContextData#>)
+COMPLETION: getBody : [#Stmt *#]getBody()[# const#]
+COMPLETION: getBody : [#Stmt *#]getBody(<#bool &IsAutosynthesized#>)[# const#]
+COMPLETION: getCFG : [#CFG *#]getCFG()
+COMPLETION: getCFGBuildOptions : [#CFG::BuildOptions &#]getCFGBuildOptions()
+COMPLETION: getCFGBuildOptions : [#const CFG::BuildOptions &#]getCFGBuildOptions()[# const#]
+COMPLETION: getCFGReachablityAnalysis : [#CFGReverseBlockReachabilityAnalysis *#]getCFGReachablityAnalysis()
+COMPLETION: getCFGStmtMap : [#CFGStmtMap *#]getCFGStmtMap()
+COMPLETION: getDecl : [#const Decl *#]getDecl()[# const#]
+COMPLETION: getLocationContextManager : [#LocationContextManager &#]getLocationContextManager()
+COMPLETION: getManager : [#AnalysisDeclContextManager *#]getManager()[# const#]
+COMPLETION: getParentMap : [#ParentMap &#]getParentMap()
+COMPLETION: getPseudoConstantAnalysis : [#PseudoConstantAnalysis *#]getPseudoConstantAnalysis()
+COMPLETION: getReferencedBlockVars : [#llvm::iterator_range<referenced_decls_iterator>#]getReferencedBlockVars(<#const BlockDecl *BD#>)
+COMPLETION: getSelfDecl : [#const ImplicitParamDecl *#]getSelfDecl()[# const#]
+COMPLETION: getStackFrame : [#const StackFrameContext *#]getStackFrame(<#const LocationContext *Parent#>, <#const Stmt *S#>, <#const CFGBlock *Blk#>, <#unsigned int Idx#>)
+COMPLETION: getUnoptimizedCFG : [#CFG *#]getUnoptimizedCFG()
+COMPLETION: getUseUnoptimizedCFG : [#bool#]getUseUnoptimizedCFG()[# const#]
+COMPLETION: isBodyAutosynthesized : [#bool#]isBodyAutosynthesized()[# const#]
+COMPLETION: isBodyAutosynthesizedFromModelFile : [#bool#]isBodyAutosynthesizedFromModelFile()[# const#]
+COMPLETION: isCFGBuilt : [#bool#]isCFGBuilt()[# const#]
+COMPLETION: isInStdNamespace : [#bool#]isInStdNamespace(<#const Decl *D#>)
+COMPLETION: ManagedAnalyses : [#void *#]ManagedAnalyses
+COMPLETION: Manager : [#AnalysisDeclContextManager *#]Manager
+COMPLETION: operator= : [#AnalysisDeclContext &#]operator=(<#const AnalysisDeclContext &#>)
+COMPLETION: PCA : [#std::unique_ptr<PseudoConstantAnalysis>#]PCA
+COMPLETION: PM : [#std::unique_ptr<ParentMap>#]PM
+COMPLETION: referenced_decls_iterator : referenced_decls_iterator
+COMPLETION: ReferencedBlockVars : [#llvm::DenseMap<const BlockDecl *, void *> *#]ReferencedBlockVars
+COMPLETION: registerForcedBlockExpression : [#void#]registerForcedBlockExpression(<#const Stmt *stmt#>)
+COMPLETION: ~AnalysisDeclContext : [#void#]~AnalysisDeclContext()

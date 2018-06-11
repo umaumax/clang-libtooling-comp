@@ -1,0 +1,423 @@
+COMPLETION: Access : [#unsigned int#]Access
+COMPLETION: AccessDeclContextSanity : [#bool#]AccessDeclContextSanity()[# const#]
+COMPLETION: AccessSpec : [#clang::Decl::Kind#]AccessSpec
+COMPLETION: add : [#void#]add(<#Kind k#>)
+COMPLETION: addAttr : [#void#]addAttr(<#Attr *A#>)
+COMPLETION: anchor : [#void#]anchor()
+COMPLETION: anchor (Hidden) : [#void#]clang::UsingShadowDecl::anchor()
+COMPLETION: anchor (Hidden) : [#void#]clang::NamedDecl::anchor()
+COMPLETION: attr_begin : [#attr_iterator#]attr_begin()[# const#]
+COMPLETION: attr_end : [#attr_iterator#]attr_end()[# const#]
+COMPLETION: attr_iterator : attr_iterator
+COMPLETION: attr_range : attr_range
+COMPLETION: attrs : [#attr_range#]attrs()[# const#]
+COMPLETION: Binding : [#clang::Decl::Kind#]Binding
+COMPLETION: Block : [#clang::Decl::Kind#]Block
+COMPLETION: BuiltinTemplate : [#clang::Decl::Kind#]BuiltinTemplate
+COMPLETION: CacheValidAndLinkage : [#unsigned int#]CacheValidAndLinkage
+COMPLETION: canBeWeakImported : [#bool#]canBeWeakImported(<#bool &IsDefinition#>)[# const#]
+COMPLETION: Captured : [#clang::Decl::Kind#]Captured
+COMPLETION: castFromDeclContext : [#Decl *#]castFromDeclContext(<#const DeclContext *#>)
+COMPLETION: castToDeclContext : [#DeclContext *#]castToDeclContext(<#const Decl *#>)
+COMPLETION: classof : [#bool#]classof(<#const Decl *D#>)
+COMPLETION: classof (Hidden) : [#bool#]clang::UsingShadowDecl::classof(<#const Decl *D#>)
+COMPLETION: classof (Hidden) : [#bool#]clang::NamedDecl::classof(<#const Decl *D#>)
+COMPLETION: classofKind : [#bool#]classofKind(<#Kind K#>)
+COMPLETION: classofKind (Hidden) : [#bool#]clang::UsingShadowDecl::classofKind(<#Kind K#>)
+COMPLETION: classofKind (Hidden) : [#bool#]clang::NamedDecl::classofKind(<#Kind K#>)
+COMPLETION: classofKind (Hidden) : [#bool#]clang::Decl::classofKind(<#Kind K#>)
+COMPLETION: ClassScopeFunctionSpecialization : [#clang::Decl::Kind#]ClassScopeFunctionSpecialization
+COMPLETION: ClassTemplate : [#clang::Decl::Kind#]ClassTemplate
+COMPLETION: ClassTemplatePartialSpecialization : [#clang::Decl::Kind#]ClassTemplatePartialSpecialization
+COMPLETION: ClassTemplateSpecialization : [#clang::Decl::Kind#]ClassTemplateSpecialization
+COMPLETION: ConstructedBaseClassShadowDecl : [#ConstructorUsingShadowDecl *#]ConstructedBaseClassShadowDecl
+COMPLETION: ConstructorUsingShadow : [#clang::Decl::Kind#]ConstructorUsingShadow
+COMPLETION: ConstructorUsingShadowDecl : ConstructorUsingShadowDecl
+COMPLETION: constructsVirtualBase : [#bool#]constructsVirtualBase()[# const#]
+COMPLETION: Create : [#ConstructorUsingShadowDecl *#]Create(<#ASTContext &C#>, <#DeclContext *DC#>, <#SourceLocation Loc#>, <#UsingDecl *Using#>, <#NamedDecl *Target#>, <#bool IsVirtual#>)
+COMPLETION: Create (Hidden) : [#UsingShadowDecl *#]clang::UsingShadowDecl::Create(<#ASTContext &C#>, <#DeclContext *DC#>, <#SourceLocation Loc#>, <#UsingDecl *Using#>, <#NamedDecl *Target#>)
+COMPLETION: CreateDeserialized : [#ConstructorUsingShadowDecl *#]CreateDeserialized(<#ASTContext &C#>, <#unsigned int ID#>)
+COMPLETION: CreateDeserialized (Hidden) : [#UsingShadowDecl *#]clang::UsingShadowDecl::CreateDeserialized(<#ASTContext &C#>, <#unsigned int ID#>)
+COMPLETION: CXXConstructor : [#clang::Decl::Kind#]CXXConstructor
+COMPLETION: CXXConversion : [#clang::Decl::Kind#]CXXConversion
+COMPLETION: CXXDeductionGuide : [#clang::Decl::Kind#]CXXDeductionGuide
+COMPLETION: CXXDestructor : [#clang::Decl::Kind#]CXXDestructor
+COMPLETION: CXXMethod : [#clang::Decl::Kind#]CXXMethod
+COMPLETION: CXXRecord : [#clang::Decl::Kind#]CXXRecord
+COMPLETION: Decl : Decl
+COMPLETION: declarationReplaces : [#bool#]declarationReplaces(<#NamedDecl *OldD#>{#, <#bool IsKnownNewer = true#>#})[# const#]
+COMPLETION: DeclCtx : [#llvm::PointerUnion<DeclContext *, MultipleDC *>#]DeclCtx
+COMPLETION: DeclKind : [#unsigned int#]DeclKind
+COMPLETION: DeclLink : DeclLink
+COMPLETION: Decomposition : [#clang::Decl::Kind#]Decomposition
+COMPLETION: dropAttr : [#void#]dropAttr<<#typename T#>>()
+COMPLETION: dropAttrs : [#void#]dropAttrs()
+COMPLETION: dump : [#void#]dump()[# const#]
+COMPLETION: dump : [#void#]dump(<#raw_ostream &Out#>{#, <#bool Deserialize = false#>#})[# const#]
+COMPLETION: dumpColor : [#void#]dumpColor()[# const#]
+COMPLETION: Empty : [#clang::Decl::Kind#]Empty
+COMPLETION: EmptyShell : EmptyShell
+COMPLETION: EnableStatistics : [#void#]EnableStatistics()
+COMPLETION: Enum : [#clang::Decl::Kind#]Enum
+COMPLETION: EnumConstant : [#clang::Decl::Kind#]EnumConstant
+COMPLETION: ExplicitVisibilityKind : ExplicitVisibilityKind
+COMPLETION: Export : [#clang::Decl::Kind#]Export
+COMPLETION: ExternCContext : [#clang::Decl::Kind#]ExternCContext
+COMPLETION: Field : [#clang::Decl::Kind#]Field
+COMPLETION: FileScopeAsm : [#clang::Decl::Kind#]FileScopeAsm
+COMPLETION: First : [#UsingShadowDecl *#]First
+COMPLETION: firstClassTemplateSpecialization : [#clang::Decl::Kind#]firstClassTemplateSpecialization
+COMPLETION: firstCXXMethod : [#clang::Decl::Kind#]firstCXXMethod
+COMPLETION: firstCXXRecord : [#clang::Decl::Kind#]firstCXXRecord
+COMPLETION: firstDecl : [#clang::Decl::Kind#]firstDecl
+COMPLETION: firstDeclarator : [#clang::Decl::Kind#]firstDeclarator
+COMPLETION: firstField : [#clang::Decl::Kind#]firstField
+COMPLETION: firstFunction : [#clang::Decl::Kind#]firstFunction
+COMPLETION: firstNamed : [#clang::Decl::Kind#]firstNamed
+COMPLETION: firstObjCContainer : [#clang::Decl::Kind#]firstObjCContainer
+COMPLETION: firstObjCImpl : [#clang::Decl::Kind#]firstObjCImpl
+COMPLETION: firstRecord : [#clang::Decl::Kind#]firstRecord
+COMPLETION: firstRedeclarableTemplate : [#clang::Decl::Kind#]firstRedeclarableTemplate
+COMPLETION: firstTag : [#clang::Decl::Kind#]firstTag
+COMPLETION: firstTemplate : [#clang::Decl::Kind#]firstTemplate
+COMPLETION: firstType : [#clang::Decl::Kind#]firstType
+COMPLETION: firstTypedefName : [#clang::Decl::Kind#]firstTypedefName
+COMPLETION: firstUsingShadow : [#clang::Decl::Kind#]firstUsingShadow
+COMPLETION: firstValue : [#clang::Decl::Kind#]firstValue
+COMPLETION: firstVar : [#clang::Decl::Kind#]firstVar
+COMPLETION: firstVarTemplateSpecialization : [#clang::Decl::Kind#]firstVarTemplateSpecialization
+COMPLETION: FOK_Declared : [#clang::Decl::FriendObjectKind#]FOK_Declared
+COMPLETION: FOK_None : [#clang::Decl::FriendObjectKind#]FOK_None
+COMPLETION: FOK_Undeclared : [#clang::Decl::FriendObjectKind#]FOK_Undeclared
+COMPLETION: Friend : [#clang::Decl::Kind#]Friend
+COMPLETION: FriendObjectKind : FriendObjectKind
+COMPLETION: FriendTemplate : [#clang::Decl::Kind#]FriendTemplate
+COMPLETION: FromASTFile : [#unsigned int#]FromASTFile
+COMPLETION: Function : [#clang::Decl::Kind#]Function
+COMPLETION: FunctionTemplate : [#clang::Decl::Kind#]FunctionTemplate
+COMPLETION: getAccess : [#AccessSpecifier#]getAccess()[# const#]
+COMPLETION: getAccessUnsafe : [#AccessSpecifier#]getAccessUnsafe()[# const#]
+COMPLETION: getAsFunction : [#FunctionDecl *#]getAsFunction()
+COMPLETION: getAsFunction : [#const FunctionDecl *#]getAsFunction()[# const#]
+COMPLETION: getASTContext : [#ASTContext &#]getASTContext()[# const#]
+COMPLETION: getASTMutationListener : [#ASTMutationListener *#]getASTMutationListener()[# const#]
+COMPLETION: getAttr : [#T *#]getAttr<<#typename T#>>()[# const#]
+COMPLETION: getAttrs : [#AttrVec &#]getAttrs()
+COMPLETION: getAttrs : [#const AttrVec &#]getAttrs()[# const#]
+COMPLETION: getAvailability : [#AvailabilityResult#]getAvailability({#<#std::string *Message = nullptr#>{#, <#VersionTuple EnclosingVersion = VersionTuple()#>#}#})[# const#]
+COMPLETION: getBody : [#Stmt *#]getBody()[# const#]
+COMPLETION: getBodyRBrace : [#SourceLocation#]getBodyRBrace()[# const#]
+COMPLETION: getCachedLinkage : [#Linkage#]getCachedLinkage()[# const#]
+COMPLETION: getCanonicalDecl : [#UsingShadowDecl *#]getCanonicalDecl()
+COMPLETION: getCanonicalDecl : [#const UsingShadowDecl *#]getCanonicalDecl()[# const#]
+COMPLETION: getCanonicalDecl (Hidden) : [#Decl *#]clang::Decl::getCanonicalDecl()
+COMPLETION: getCanonicalDecl (Hidden) : [#const Decl *#]clang::Decl::getCanonicalDecl()[# const#]
+COMPLETION: getConstructedBaseClass : [#CXXRecordDecl *#]getConstructedBaseClass()[# const#]
+COMPLETION: getConstructedBaseClassShadowDecl : [#ConstructorUsingShadowDecl *#]getConstructedBaseClassShadowDecl()[# const#]
+COMPLETION: getConstructor : [#CXXConstructorDecl *#]getConstructor()[# const#]
+COMPLETION: getDeclContext : [#DeclContext *#]getDeclContext()
+COMPLETION: getDeclContext : [#const DeclContext *#]getDeclContext()[# const#]
+COMPLETION: getDeclKindName : [#const char *#]getDeclKindName()[# const#]
+COMPLETION: getDeclName : [#DeclarationName#]getDeclName()[# const#]
+COMPLETION: getDefiningAttr : [#const Attr *#]getDefiningAttr()[# const#]
+COMPLETION: getDescribedTemplate : [#TemplateDecl *#]getDescribedTemplate()[# const#]
+COMPLETION: getExplicitVisibility : [#Optional<Visibility>#]getExplicitVisibility(<#ExplicitVisibilityKind kind#>)[# const#]
+COMPLETION: getExternalSourceSymbolAttr : [#ExternalSourceSymbolAttr *#]getExternalSourceSymbolAttr()[# const#]
+COMPLETION: getFirstDecl : [#UsingShadowDecl *#]getFirstDecl()
+COMPLETION: getFirstDecl : [#const UsingShadowDecl *#]getFirstDecl()[# const#]
+COMPLETION: getFormalLinkage : [#Linkage#]getFormalLinkage()[# const#]
+COMPLETION: getFriendObjectKind : [#FriendObjectKind#]getFriendObjectKind()[# const#]
+COMPLETION: getFunctionType : [#const FunctionType *#]getFunctionType({#<#bool BlocksToo = true#>#})[# const#]
+COMPLETION: getGlobalID : [#unsigned int#]getGlobalID()[# const#]
+COMPLETION: getIdentifier : [#IdentifierInfo *#]getIdentifier()[# const#]
+COMPLETION: getIdentifierNamespace : [#unsigned int#]getIdentifierNamespace()[# const#]
+COMPLETION: getIdentifierNamespaceForKind : [#unsigned int#]getIdentifierNamespaceForKind(<#Kind DK#>)
+COMPLETION: getImportedOwningModule : [#Module *#]getImportedOwningModule()[# const#]
+COMPLETION: getKind : [#Kind#]getKind()[# const#]
+COMPLETION: getLexicalDeclContext : [#DeclContext *#]getLexicalDeclContext()
+COMPLETION: getLexicalDeclContext : [#const DeclContext *#]getLexicalDeclContext()[# const#]
+COMPLETION: getLinkageAndVisibility : [#LinkageInfo#]getLinkageAndVisibility()[# const#]
+COMPLETION: getLinkageInternal : [#Linkage#]getLinkageInternal()[# const#]
+COMPLETION: getLocalOwningModule : [#Module *#]getLocalOwningModule()[# const#]
+COMPLETION: getLocation : [#SourceLocation#]getLocation()[# const#]
+COMPLETION: getLocEnd : [#SourceLocation#]getLocEnd()[# const#]
+COMPLETION: getLocStart : [#SourceLocation#]getLocStart()[# const#]
+COMPLETION: getMaxAlignment : [#unsigned int#]getMaxAlignment()[# const#]
+COMPLETION: getModuleOwnershipKind : [#ModuleOwnershipKind#]getModuleOwnershipKind()[# const#]
+COMPLETION: getModuleOwnershipKindForChildOf : [#ModuleOwnershipKind#]getModuleOwnershipKindForChildOf(<#DeclContext *DC#>)
+COMPLETION: getMostRecentDecl : [#UsingShadowDecl *#]getMostRecentDecl()
+COMPLETION: getMostRecentDecl : [#const UsingShadowDecl *#]getMostRecentDecl()[# const#]
+COMPLETION: getMostRecentDecl (Hidden) : [#NamedDecl *#]clang::NamedDecl::getMostRecentDecl()
+COMPLETION: getMostRecentDecl (Hidden) : [#const NamedDecl *#]clang::NamedDecl::getMostRecentDecl()[# const#]
+COMPLETION: getMostRecentDecl (Hidden) : [#Decl *#]clang::Decl::getMostRecentDecl()
+COMPLETION: getMostRecentDecl (Hidden) : [#const Decl *#]clang::Decl::getMostRecentDecl()[# const#]
+COMPLETION: getMostRecentDeclImpl : [#UsingShadowDecl *#]getMostRecentDeclImpl()
+COMPLETION: getMostRecentDeclImpl (Hidden) : [#Decl *#]clang::Decl::getMostRecentDeclImpl()
+COMPLETION: getMultipleDC : [#MultipleDC *#]getMultipleDC()[# const#]
+COMPLETION: getName : [#StringRef#]getName()[# const#]
+COMPLETION: getNameAsString : [#std::string#]getNameAsString()[# const#]
+COMPLETION: getNameForDiagnostic : [#void#]getNameForDiagnostic(<#raw_ostream &OS#>, <#const PrintingPolicy &Policy#>, <#bool Qualified#>)[# const#]
+COMPLETION: getNextDeclInContext : [#Decl *#]getNextDeclInContext()
+COMPLETION: getNextDeclInContext : [#const Decl *#]getNextDeclInContext()[# const#]
+COMPLETION: getNextRedeclaration : [#UsingShadowDecl *#]getNextRedeclaration()[# const#]
+COMPLETION: getNextRedeclarationImpl : [#UsingShadowDecl *#]getNextRedeclarationImpl()
+COMPLETION: getNextRedeclarationImpl (Hidden) : [#Decl *#]clang::Decl::getNextRedeclarationImpl()
+COMPLETION: getNextUsingShadowDecl : [#UsingShadowDecl *#]getNextUsingShadowDecl()[# const#]
+COMPLETION: getNominatedBaseClass : [#CXXRecordDecl *#]getNominatedBaseClass()[# const#]
+COMPLETION: getNominatedBaseClassShadowDecl : [#ConstructorUsingShadowDecl *#]getNominatedBaseClassShadowDecl()[# const#]
+COMPLETION: getNonClosureContext : [#Decl *#]getNonClosureContext()
+COMPLETION: getNonClosureContext : [#const Decl *#]getNonClosureContext()[# const#]
+COMPLETION: getObjCFStringFormattingFamily : [#ObjCStringFormatFamily#]getObjCFStringFormattingFamily()[# const#]
+COMPLETION: getOwningModule : [#Module *#]getOwningModule()[# const#]
+COMPLETION: getOwningModuleForLinkage : [#Module *#]getOwningModuleForLinkage({#<#bool IgnoreLinkage = false#>#})[# const#]
+COMPLETION: getOwningModuleID : [#unsigned int#]getOwningModuleID()[# const#]
+COMPLETION: getOwningModuleSlow : [#Module *#]getOwningModuleSlow()[# const#]
+COMPLETION: getParent : [#const CXXRecordDecl *#]getParent()[# const#]
+COMPLETION: getParent : [#CXXRecordDecl *#]getParent()
+COMPLETION: getParentFunctionOrMethod : [#const DeclContext *#]getParentFunctionOrMethod()[# const#]
+COMPLETION: getParentFunctionOrMethod : [#DeclContext *#]getParentFunctionOrMethod()
+COMPLETION: getPreviousDecl : [#UsingShadowDecl *#]getPreviousDecl()
+COMPLETION: getPreviousDecl : [#const UsingShadowDecl *#]getPreviousDecl()[# const#]
+COMPLETION: getPreviousDecl (Hidden) : [#Decl *#]clang::Decl::getPreviousDecl()
+COMPLETION: getPreviousDecl (Hidden) : [#const Decl *#]clang::Decl::getPreviousDecl()[# const#]
+COMPLETION: getPreviousDeclImpl : [#UsingShadowDecl *#]getPreviousDeclImpl()
+COMPLETION: getPreviousDeclImpl (Hidden) : [#Decl *#]clang::Decl::getPreviousDeclImpl()
+COMPLETION: getQualifiedNameAsString : [#std::string#]getQualifiedNameAsString()[# const#]
+COMPLETION: getSemanticDC : [#DeclContext *#]getSemanticDC()[# const#]
+COMPLETION: getSourceRange : [#SourceRange#]getSourceRange()[# const#]
+COMPLETION: getTargetDecl : [#NamedDecl *#]getTargetDecl()[# const#]
+COMPLETION: getTranslationUnitDecl : [#TranslationUnitDecl *#]getTranslationUnitDecl()
+COMPLETION: getTranslationUnitDecl : [#const TranslationUnitDecl *#]getTranslationUnitDecl()[# const#]
+COMPLETION: getUnderlyingDecl : [#NamedDecl *#]getUnderlyingDecl()
+COMPLETION: getUnderlyingDecl : [#const NamedDecl *#]getUnderlyingDecl()[# const#]
+COMPLETION: getUnderlyingDeclImpl : [#NamedDecl *#]getUnderlyingDeclImpl()
+COMPLETION: getUsingDecl : [#UsingDecl *#]getUsingDecl()[# const#]
+COMPLETION: getVersionIntroduced : [#VersionTuple#]getVersionIntroduced()[# const#]
+COMPLETION: getVisibility : [#Visibility#]getVisibility()[# const#]
+COMPLETION: hasAttr : [#bool#]hasAttr<<#typename T#>>()[# const#]
+COMPLETION: HasAttrs : [#unsigned int#]HasAttrs
+COMPLETION: hasAttrs : [#bool#]hasAttrs()[# const#]
+COMPLETION: hasBody : [#bool#]hasBody()[# const#]
+COMPLETION: hasCachedLinkage : [#bool#]hasCachedLinkage()[# const#]
+COMPLETION: hasDefiningAttr : [#bool#]hasDefiningAttr()[# const#]
+COMPLETION: hasExternalFormalLinkage : [#bool#]hasExternalFormalLinkage()[# const#]
+COMPLETION: hasLinkage : [#bool#]hasLinkage()[# const#]
+COMPLETION: hasLinkageBeenComputed : [#bool#]hasLinkageBeenComputed()[# const#]
+COMPLETION: hasLocalOwningModuleStorage : [#bool#]hasLocalOwningModuleStorage()[# const#]
+COMPLETION: hasOwningModule : [#bool#]hasOwningModule()[# const#]
+COMPLETION: hasTagIdentifierNamespace : [#bool#]hasTagIdentifierNamespace()[# const#]
+COMPLETION: IdentifierNamespace : [#unsigned int#]IdentifierNamespace
+COMPLETION: IDNS_Label : [#clang::Decl::IdentifierNamespace#]IDNS_Label
+COMPLETION: IDNS_LocalExtern : [#clang::Decl::IdentifierNamespace#]IDNS_LocalExtern
+COMPLETION: IDNS_Member : [#clang::Decl::IdentifierNamespace#]IDNS_Member
+COMPLETION: IDNS_Namespace : [#clang::Decl::IdentifierNamespace#]IDNS_Namespace
+COMPLETION: IDNS_NonMemberOperator : [#clang::Decl::IdentifierNamespace#]IDNS_NonMemberOperator
+COMPLETION: IDNS_ObjCProtocol : [#clang::Decl::IdentifierNamespace#]IDNS_ObjCProtocol
+COMPLETION: IDNS_OMPReduction : [#clang::Decl::IdentifierNamespace#]IDNS_OMPReduction
+COMPLETION: IDNS_Ordinary : [#clang::Decl::IdentifierNamespace#]IDNS_Ordinary
+COMPLETION: IDNS_OrdinaryFriend : [#clang::Decl::IdentifierNamespace#]IDNS_OrdinaryFriend
+COMPLETION: IDNS_Tag : [#clang::Decl::IdentifierNamespace#]IDNS_Tag
+COMPLETION: IDNS_TagFriend : [#clang::Decl::IdentifierNamespace#]IDNS_TagFriend
+COMPLETION: IDNS_Type : [#clang::Decl::IdentifierNamespace#]IDNS_Type
+COMPLETION: IDNS_Using : [#clang::Decl::IdentifierNamespace#]IDNS_Using
+COMPLETION: Implicit : [#unsigned int#]Implicit
+COMPLETION: ImplicitParam : [#clang::Decl::Kind#]ImplicitParam
+COMPLETION: Import : [#clang::Decl::Kind#]Import
+COMPLETION: IndirectField : [#clang::Decl::Kind#]IndirectField
+COMPLETION: InvalidDecl : [#unsigned int#]InvalidDecl
+COMPLETION: isCanonicalDecl : [#bool#]isCanonicalDecl()[# const#]
+COMPLETION: isCXXClassMember : [#bool#]isCXXClassMember()[# const#]
+COMPLETION: isCXXInstanceMember : [#bool#]isCXXInstanceMember()[# const#]
+COMPLETION: isDefinedOutsideFunctionOrMethod : [#bool#]isDefinedOutsideFunctionOrMethod()[# const#]
+COMPLETION: isDeprecated : [#bool#]isDeprecated({#<#std::string *Message = nullptr#>#})[# const#]
+COMPLETION: isExported : [#bool#]isExported()[# const#]
+COMPLETION: isExternallyDeclarable : [#bool#]isExternallyDeclarable()[# const#]
+COMPLETION: isExternallyVisible : [#bool#]isExternallyVisible()[# const#]
+COMPLETION: isFirstDecl : [#bool#]isFirstDecl()[# const#]
+COMPLETION: isFirstDecl (Hidden) : [#bool#]clang::Decl::isFirstDecl()[# const#]
+COMPLETION: isFromASTFile : [#bool#]isFromASTFile()[# const#]
+COMPLETION: isFunctionOrFunctionTemplate : [#bool#]isFunctionOrFunctionTemplate()[# const#]
+COMPLETION: isHidden : [#bool#]isHidden()[# const#]
+COMPLETION: isImplicit : [#bool#]isImplicit()[# const#]
+COMPLETION: isInAnonymousNamespace : [#bool#]isInAnonymousNamespace()[# const#]
+COMPLETION: isInIdentifierNamespace : [#bool#]isInIdentifierNamespace(<#unsigned int NS#>)[# const#]
+COMPLETION: isInSemaDC : [#bool#]isInSemaDC()[# const#]
+COMPLETION: isInStdNamespace : [#bool#]isInStdNamespace()[# const#]
+COMPLETION: isInvalidDecl : [#bool#]isInvalidDecl()[# const#]
+COMPLETION: isLexicallyWithinFunctionOrMethod : [#bool#]isLexicallyWithinFunctionOrMethod()[# const#]
+COMPLETION: isLinkageValid : [#bool#]isLinkageValid()[# const#]
+COMPLETION: isLocalExternDecl : [#bool#]isLocalExternDecl()
+COMPLETION: isModulePrivate : [#bool#]isModulePrivate()[# const#]
+COMPLETION: isOutOfLine : [#bool#]isOutOfLine()[# const#]
+COMPLETION: isOutOfSemaDC : [#bool#]isOutOfSemaDC()[# const#]
+COMPLETION: isParameterPack : [#bool#]isParameterPack()[# const#]
+COMPLETION: isReferenced : [#bool#]isReferenced()[# const#]
+COMPLETION: isTagIdentifierNamespace : [#bool#]isTagIdentifierNamespace(<#unsigned int NS#>)
+COMPLETION: isTemplated : [#bool#]isTemplated()[# const#]
+COMPLETION: isTemplateDecl : [#bool#]isTemplateDecl()[# const#]
+COMPLETION: isTemplateParameter : [#bool#]isTemplateParameter()[# const#]
+COMPLETION: isTemplateParameterPack : [#bool#]isTemplateParameterPack()[# const#]
+COMPLETION: isThisDeclarationReferenced : [#bool#]isThisDeclarationReferenced()[# const#]
+COMPLETION: isTopLevelDeclInObjCContainer : [#bool#]isTopLevelDeclInObjCContainer()[# const#]
+COMPLETION: isUnavailable : [#bool#]isUnavailable({#<#std::string *Message = nullptr#>#})[# const#]
+COMPLETION: isUsed : [#bool#]isUsed({#<#bool CheckUsedAttr = true#>#})[# const#]
+COMPLETION: IsVirtual : [#unsigned int#]IsVirtual
+COMPLETION: isWeakImported : [#bool#]isWeakImported()[# const#]
+COMPLETION: Kind : Kind
+COMPLETION: Label : [#clang::Decl::Kind#]Label
+COMPLETION: lastClassTemplateSpecialization : [#clang::Decl::Kind#]lastClassTemplateSpecialization
+COMPLETION: lastCXXMethod : [#clang::Decl::Kind#]lastCXXMethod
+COMPLETION: lastCXXRecord : [#clang::Decl::Kind#]lastCXXRecord
+COMPLETION: lastDecl : [#clang::Decl::Kind#]lastDecl
+COMPLETION: lastDeclarator : [#clang::Decl::Kind#]lastDeclarator
+COMPLETION: lastField : [#clang::Decl::Kind#]lastField
+COMPLETION: lastFunction : [#clang::Decl::Kind#]lastFunction
+COMPLETION: lastNamed : [#clang::Decl::Kind#]lastNamed
+COMPLETION: lastObjCContainer : [#clang::Decl::Kind#]lastObjCContainer
+COMPLETION: lastObjCImpl : [#clang::Decl::Kind#]lastObjCImpl
+COMPLETION: lastRecord : [#clang::Decl::Kind#]lastRecord
+COMPLETION: lastRedeclarableTemplate : [#clang::Decl::Kind#]lastRedeclarableTemplate
+COMPLETION: lastTag : [#clang::Decl::Kind#]lastTag
+COMPLETION: lastTemplate : [#clang::Decl::Kind#]lastTemplate
+COMPLETION: lastType : [#clang::Decl::Kind#]lastType
+COMPLETION: lastTypedefName : [#clang::Decl::Kind#]lastTypedefName
+COMPLETION: lastUsingShadow : [#clang::Decl::Kind#]lastUsingShadow
+COMPLETION: lastValue : [#clang::Decl::Kind#]lastValue
+COMPLETION: lastVar : [#clang::Decl::Kind#]lastVar
+COMPLETION: lastVarTemplateSpecialization : [#clang::Decl::Kind#]lastVarTemplateSpecialization
+COMPLETION: LatestDeclLink : [#DeclLink#]LatestDeclLink(<#const ASTContext &Ctx#>)
+COMPLETION: LinkageSpec : [#clang::Decl::Kind#]LinkageSpec
+COMPLETION: Loc : [#SourceLocation#]Loc
+COMPLETION: markUsed : [#void#]markUsed(<#ASTContext &C#>)
+COMPLETION: ModuleOwnershipKind : ModuleOwnershipKind
+COMPLETION: MSProperty : [#clang::Decl::Kind#]MSProperty
+COMPLETION: MultipleDC : MultipleDC
+COMPLETION: Name : [#DeclarationName#]Name
+COMPLETION: NamedDecl : NamedDecl
+COMPLETION: Namespace : [#clang::Decl::Kind#]Namespace
+COMPLETION: NamespaceAlias : [#clang::Decl::Kind#]NamespaceAlias
+COMPLETION: NextInContextAndBits : [#llvm::PointerIntPair<Decl *, 2, ModuleOwnershipKind>#]NextInContextAndBits
+COMPLETION: NominatedBaseClassShadowDecl : [#ConstructorUsingShadowDecl *#]NominatedBaseClassShadowDecl
+COMPLETION: NonTypeTemplateParm : [#clang::Decl::Kind#]NonTypeTemplateParm
+COMPLETION: OBJC_TQ_Bycopy : [#clang::Decl::ObjCDeclQualifier#]OBJC_TQ_Bycopy
+COMPLETION: OBJC_TQ_Byref : [#clang::Decl::ObjCDeclQualifier#]OBJC_TQ_Byref
+COMPLETION: OBJC_TQ_CSNullability : [#clang::Decl::ObjCDeclQualifier#]OBJC_TQ_CSNullability
+COMPLETION: OBJC_TQ_In : [#clang::Decl::ObjCDeclQualifier#]OBJC_TQ_In
+COMPLETION: OBJC_TQ_Inout : [#clang::Decl::ObjCDeclQualifier#]OBJC_TQ_Inout
+COMPLETION: OBJC_TQ_None : [#clang::Decl::ObjCDeclQualifier#]OBJC_TQ_None
+COMPLETION: OBJC_TQ_Oneway : [#clang::Decl::ObjCDeclQualifier#]OBJC_TQ_Oneway
+COMPLETION: OBJC_TQ_Out : [#clang::Decl::ObjCDeclQualifier#]OBJC_TQ_Out
+COMPLETION: ObjCAtDefsField : [#clang::Decl::Kind#]ObjCAtDefsField
+COMPLETION: ObjCCategory : [#clang::Decl::Kind#]ObjCCategory
+COMPLETION: ObjCCategoryImpl : [#clang::Decl::Kind#]ObjCCategoryImpl
+COMPLETION: ObjCCompatibleAlias : [#clang::Decl::Kind#]ObjCCompatibleAlias
+COMPLETION: ObjCDeclQualifier : ObjCDeclQualifier
+COMPLETION: ObjCImplementation : [#clang::Decl::Kind#]ObjCImplementation
+COMPLETION: ObjCInterface : [#clang::Decl::Kind#]ObjCInterface
+COMPLETION: ObjCIvar : [#clang::Decl::Kind#]ObjCIvar
+COMPLETION: ObjCMethod : [#clang::Decl::Kind#]ObjCMethod
+COMPLETION: ObjCProperty : [#clang::Decl::Kind#]ObjCProperty
+COMPLETION: ObjCPropertyImpl : [#clang::Decl::Kind#]ObjCPropertyImpl
+COMPLETION: ObjCProtocol : [#clang::Decl::Kind#]ObjCProtocol
+COMPLETION: ObjCTypeParam : [#clang::Decl::Kind#]ObjCTypeParam
+COMPLETION: OMPCapturedExpr : [#clang::Decl::Kind#]OMPCapturedExpr
+COMPLETION: OMPDeclareReduction : [#clang::Decl::Kind#]OMPDeclareReduction
+COMPLETION: OMPThreadPrivate : [#clang::Decl::Kind#]OMPThreadPrivate
+COMPLETION: operator new : [#void *#]operator new(<#std::size_t Size#>, <#const ASTContext &Ctx#>, <#unsigned int ID#>{#, <#std::size_t Extra = 0#>#})
+COMPLETION: operator new : [#void *#]operator new(<#std::size_t Size#>, <#const ASTContext &Ctx#>, <#DeclContext *Parent#>{#, <#std::size_t Extra = 0#>#})
+COMPLETION: operator= : [#ConstructorUsingShadowDecl &#]operator=(<#const ConstructorUsingShadowDecl &#>)
+COMPLETION: operator= : [#ConstructorUsingShadowDecl &#]operator=(<#ConstructorUsingShadowDecl &&#>)
+COMPLETION: operator= (Hidden) : [#UsingShadowDecl &#]clang::UsingShadowDecl::operator=(<#const UsingShadowDecl &#>)
+COMPLETION: operator= (Hidden) : [#UsingShadowDecl &#]clang::UsingShadowDecl::operator=(<#UsingShadowDecl &&#>)
+COMPLETION: operator= (Hidden) : [#NamedDecl &#]clang::NamedDecl::operator=(<#const NamedDecl &#>)
+COMPLETION: operator= (Hidden) : [#NamedDecl &#]clang::NamedDecl::operator=(<#NamedDecl &&#>)
+COMPLETION: operator= (Hidden) : [#Decl &#]clang::Decl::operator=(<#const Decl &#>)
+COMPLETION: operator= (Hidden) : [#Redeclarable<UsingShadowDecl> &#]clang::Redeclarable<UsingShadowDecl>::operator=(<#const Redeclarable<UsingShadowDecl> &#>)
+COMPLETION: operator= (Hidden) : [#Redeclarable<UsingShadowDecl> &#]clang::Redeclarable<UsingShadowDecl>::operator=(<#Redeclarable<UsingShadowDecl> &&#>)
+COMPLETION: ParmVar : [#clang::Decl::Kind#]ParmVar
+COMPLETION: PragmaComment : [#clang::Decl::Kind#]PragmaComment
+COMPLETION: PragmaDetectMismatch : [#clang::Decl::Kind#]PragmaDetectMismatch
+COMPLETION: PreviousDeclLink : [#DeclLink#]PreviousDeclLink(<#UsingShadowDecl *D#>)
+COMPLETION: print : [#void#]print(<#raw_ostream &Out#>{#, <#unsigned int Indentation = 0#>{#, <#bool PrintInstantiation = false#>#}#})[# const#]
+COMPLETION: print : [#void#]print(<#raw_ostream &Out#>, <#const PrintingPolicy &Policy#>{#, <#unsigned int Indentation = 0#>{#, <#bool PrintInstantiation = false#>#}#})[# const#]
+COMPLETION: printGroup : [#void#]printGroup(<#Decl **Begin#>, <#unsigned int NumDecls#>, <#raw_ostream &Out#>, <#const PrintingPolicy &Policy#>{#, <#unsigned int Indentation = 0#>#})
+COMPLETION: printName : [#void#]printName(<#raw_ostream &os#>)[# const#]
+COMPLETION: printQualifiedName : [#void#]printQualifiedName(<#raw_ostream &OS#>)[# const#]
+COMPLETION: printQualifiedName : [#void#]printQualifiedName(<#raw_ostream &OS#>, <#const PrintingPolicy &Policy#>)[# const#]
+COMPLETION: PrintStats : [#void#]PrintStats()
+COMPLETION: Record : [#clang::Decl::Kind#]Record
+COMPLETION: redecl_iterator : redecl_iterator
+COMPLETION: redecl_iterator (Hidden) : clang::Decl::redecl_iterator
+COMPLETION: redecl_iterator (Hidden) : clang::Redeclarable<UsingShadowDecl>::redecl_iterator
+COMPLETION: redecl_range : redecl_range
+COMPLETION: redecl_range (Hidden) : clang::Decl::redecl_range
+COMPLETION: redecl_range (Hidden) : clang::Redeclarable<UsingShadowDecl>::redecl_range
+COMPLETION: Redeclarable : Redeclarable
+COMPLETION: redeclarable_base : redeclarable_base
+COMPLETION: RedeclLink : [#DeclLink#]RedeclLink
+COMPLETION: redecls : [#redecl_range#]redecls()[# const#]
+COMPLETION: redecls (Hidden) : [#redecl_range#]clang::Decl::redecls()[# const#]
+COMPLETION: redecls_begin : [#redecl_iterator#]redecls_begin()[# const#]
+COMPLETION: redecls_begin (Hidden) : [#redecl_iterator#]clang::Decl::redecls_begin()[# const#]
+COMPLETION: redecls_end : [#redecl_iterator#]redecls_end()[# const#]
+COMPLETION: redecls_end (Hidden) : [#redecl_iterator#]clang::Decl::redecls_end()[# const#]
+COMPLETION: Referenced : [#unsigned int#]Referenced
+COMPLETION: setAccess : [#void#]setAccess(<#AccessSpecifier AS#>)
+COMPLETION: setAttrs : [#void#]setAttrs(<#const AttrVec &Attrs#>)
+COMPLETION: setAttrsImpl : [#void#]setAttrsImpl(<#const AttrVec &Attrs#>, <#ASTContext &Ctx#>)
+COMPLETION: setCachedLinkage : [#void#]setCachedLinkage(<#Linkage L#>)[# const#]
+COMPLETION: setConstructor : [#void#]setConstructor(<#NamedDecl *Ctor#>)
+COMPLETION: setDeclContext : [#void#]setDeclContext(<#DeclContext *DC#>)
+COMPLETION: setDeclContextsImpl : [#void#]setDeclContextsImpl(<#DeclContext *SemaDC#>, <#DeclContext *LexicalDC#>, <#ASTContext &Ctx#>)
+COMPLETION: setDeclName : [#void#]setDeclName(<#DeclarationName N#>)
+COMPLETION: setImplicit : [#void#]setImplicit({#<#bool I = true#>#})
+COMPLETION: setInvalidDecl : [#void#]setInvalidDecl({#<#bool Invalid = true#>#})
+COMPLETION: setIsUsed : [#void#]setIsUsed()
+COMPLETION: setLexicalDeclContext : [#void#]setLexicalDeclContext(<#DeclContext *DC#>)
+COMPLETION: setLocalExternDecl : [#void#]setLocalExternDecl()
+COMPLETION: setLocalOwningModule : [#void#]setLocalOwningModule(<#Module *M#>)
+COMPLETION: setLocation : [#void#]setLocation(<#SourceLocation L#>)
+COMPLETION: setModuleOwnershipKind : [#void#]setModuleOwnershipKind(<#ModuleOwnershipKind MOK#>)
+COMPLETION: setModulePrivate : [#void#]setModulePrivate()
+COMPLETION: setNonMemberOperator : [#void#]setNonMemberOperator()
+COMPLETION: setObjectOfFriendDecl : [#void#]setObjectOfFriendDecl({#<#bool PerformFriendInjection = false#>#})
+COMPLETION: setOwningModuleID : [#void#]setOwningModuleID(<#unsigned int ID#>)
+COMPLETION: setPreviousDecl : [#void#]setPreviousDecl(<#UsingShadowDecl *PrevDecl#>)
+COMPLETION: setReferenced : [#void#]setReferenced({#<#bool R = true#>#})
+COMPLETION: setTargetDecl : [#void#]setTargetDecl(<#NamedDecl *ND#>)
+COMPLETION: setTopLevelDeclInObjCContainer : [#void#]setTopLevelDeclInObjCContainer({#<#bool V = true#>#})
+COMPLETION: setVisibleDespiteOwningModule : [#void#]setVisibleDespiteOwningModule()
+COMPLETION: specific_attr_begin : [#specific_attr_iterator<T>#]specific_attr_begin<<#typename T#>>()[# const#]
+COMPLETION: specific_attr_end : [#specific_attr_iterator<T>#]specific_attr_end<<#typename T#>>()[# const#]
+COMPLETION: specific_attrs : [#llvm::iterator_range<specific_attr_iterator<T> >#]specific_attrs<<#typename T#>>()[# const#]
+COMPLETION: StaticAssert : [#clang::Decl::Kind#]StaticAssert
+COMPLETION: StatisticsEnabled : [#bool#]StatisticsEnabled
+COMPLETION: TemplateTemplateParm : [#clang::Decl::Kind#]TemplateTemplateParm
+COMPLETION: TemplateTypeParm : [#clang::Decl::Kind#]TemplateTypeParm
+COMPLETION: TopLevelDeclInObjCContainer : [#unsigned int#]TopLevelDeclInObjCContainer
+COMPLETION: TranslationUnit : [#clang::Decl::Kind#]TranslationUnit
+COMPLETION: TypeAlias : [#clang::Decl::Kind#]TypeAlias
+COMPLETION: TypeAliasTemplate : [#clang::Decl::Kind#]TypeAliasTemplate
+COMPLETION: Typedef : [#clang::Decl::Kind#]Typedef
+COMPLETION: Underlying : [#NamedDecl *#]Underlying
+COMPLETION: UnresolvedUsingTypename : [#clang::Decl::Kind#]UnresolvedUsingTypename
+COMPLETION: UnresolvedUsingValue : [#clang::Decl::Kind#]UnresolvedUsingValue
+COMPLETION: updateOutOfDate : [#void#]updateOutOfDate(<#IdentifierInfo &II#>)[# const#]
+COMPLETION: Used : [#unsigned int#]Used
+COMPLETION: Using : [#clang::Decl::Kind#]Using
+COMPLETION: UsingDirective : [#clang::Decl::Kind#]UsingDirective
+COMPLETION: UsingOrNextShadow : [#NamedDecl *#]UsingOrNextShadow
+COMPLETION: UsingPack : [#clang::Decl::Kind#]UsingPack
+COMPLETION: UsingShadow : [#clang::Decl::Kind#]UsingShadow
+COMPLETION: UsingShadowDecl : UsingShadowDecl
+COMPLETION: Var : [#clang::Decl::Kind#]Var
+COMPLETION: VarTemplate : [#clang::Decl::Kind#]VarTemplate
+COMPLETION: VarTemplatePartialSpecialization : [#clang::Decl::Kind#]VarTemplatePartialSpecialization
+COMPLETION: VarTemplateSpecialization : [#clang::Decl::Kind#]VarTemplateSpecialization
+COMPLETION: VisibilityForType : [#clang::NamedDecl::ExplicitVisibilityKind#]VisibilityForType
+COMPLETION: VisibilityForValue : [#clang::NamedDecl::ExplicitVisibilityKind#]VisibilityForValue
+COMPLETION: ~ConstructorUsingShadowDecl : [#void#]~ConstructorUsingShadowDecl()
+COMPLETION: ~Decl : [#void#]~Decl()
+COMPLETION: ~NamedDecl : [#void#]~NamedDecl()
+COMPLETION: ~Redeclarable : [#void#]~Redeclarable()
+COMPLETION: ~UsingShadowDecl : [#void#]~UsingShadowDecl()

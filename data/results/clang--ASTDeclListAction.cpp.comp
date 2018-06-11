@@ -1,0 +1,44 @@
+COMPLETION: ASTDeclListAction : ASTDeclListAction
+COMPLETION: ASTFrontendAction : ASTFrontendAction
+COMPLETION: BeginInvocation : [#bool#]BeginInvocation(<#CompilerInstance &CI#>)
+COMPLETION: BeginSourceFile : [#bool#]BeginSourceFile(<#CompilerInstance &CI#>, <#const FrontendInputFile &Input#>)
+COMPLETION: BeginSourceFileAction : [#bool#]BeginSourceFileAction(<#CompilerInstance &CI#>)
+COMPLETION: CreateASTConsumer : [#std::unique_ptr<ASTConsumer>#]CreateASTConsumer(<#CompilerInstance &CI#>, <#StringRef InFile#>)
+COMPLETION: CreateASTConsumer (Hidden) : [#std::unique_ptr<ASTConsumer>#]clang::FrontendAction::CreateASTConsumer(<#CompilerInstance &CI#>, <#StringRef InFile#>)
+COMPLETION: CreateWrappedASTConsumer : [#std::unique_ptr<ASTConsumer>#]CreateWrappedASTConsumer(<#CompilerInstance &CI#>, <#StringRef InFile#>)
+COMPLETION: CurrentASTUnit : [#std::unique_ptr<ASTUnit>#]CurrentASTUnit
+COMPLETION: CurrentInput : [#FrontendInputFile#]CurrentInput
+COMPLETION: EndSourceFile : [#void#]EndSourceFile()
+COMPLETION: EndSourceFileAction : [#void#]EndSourceFileAction()
+COMPLETION: Execute : [#bool#]Execute()
+COMPLETION: ExecuteAction : [#void#]ExecuteAction()
+COMPLETION: ExecuteAction (Hidden) : [#void#]clang::FrontendAction::ExecuteAction()
+COMPLETION: FrontendAction : FrontendAction
+COMPLETION: getCompilerInstance : [#CompilerInstance &#]getCompilerInstance()[# const#]
+COMPLETION: getCurrentASTUnit : [#ASTUnit &#]getCurrentASTUnit()[# const#]
+COMPLETION: getCurrentFile : [#const StringRef#]getCurrentFile()[# const#]
+COMPLETION: getCurrentFileKind : [#InputKind#]getCurrentFileKind()[# const#]
+COMPLETION: getCurrentInput : [#const FrontendInputFile &#]getCurrentInput()[# const#]
+COMPLETION: getCurrentModule : [#Module *#]getCurrentModule()[# const#]
+COMPLETION: getTranslationUnitKind : [#TranslationUnitKind#]getTranslationUnitKind()
+COMPLETION: hasASTFileSupport : [#bool#]hasASTFileSupport()[# const#]
+COMPLETION: hasCodeCompletionSupport : [#bool#]hasCodeCompletionSupport()[# const#]
+COMPLETION: hasIRSupport : [#bool#]hasIRSupport()[# const#]
+COMPLETION: hasPCHSupport : [#bool#]hasPCHSupport()[# const#]
+COMPLETION: Instance : [#CompilerInstance *#]Instance
+COMPLETION: isCurrentFileAST : [#bool#]isCurrentFileAST()[# const#]
+COMPLETION: isModelParsingAction : [#bool#]isModelParsingAction()[# const#]
+COMPLETION: operator= : [#ASTDeclListAction &#]operator=(<#const ASTDeclListAction &#>)
+COMPLETION: operator= : [#ASTDeclListAction &#]operator=(<#ASTDeclListAction &&#>)
+COMPLETION: operator= (Hidden) : [#ASTFrontendAction &#]clang::ASTFrontendAction::operator=(<#const ASTFrontendAction &#>)
+COMPLETION: operator= (Hidden) : [#ASTFrontendAction &#]clang::ASTFrontendAction::operator=(<#ASTFrontendAction &&#>)
+COMPLETION: operator= (Hidden) : [#FrontendAction &#]clang::FrontendAction::operator=(<#const FrontendAction &#>)
+COMPLETION: setCompilerInstance : [#void#]setCompilerInstance(<#CompilerInstance *Value#>)
+COMPLETION: setCurrentInput : [#void#]setCurrentInput(<#const FrontendInputFile &CurrentInput#>{#, <#std::unique_ptr<ASTUnit> AST = nullptr#>#})
+COMPLETION: shouldEraseOutputFiles : [#bool#]shouldEraseOutputFiles()
+COMPLETION: takeCurrentASTUnit : [#std::unique_ptr<ASTUnit>#]takeCurrentASTUnit()
+COMPLETION: usesPreprocessorOnly : [#bool#]usesPreprocessorOnly()[# const#]
+COMPLETION: usesPreprocessorOnly (Hidden) : [#bool#]clang::FrontendAction::usesPreprocessorOnly()[# const#]
+COMPLETION: ~ASTDeclListAction : [#void#]~ASTDeclListAction()
+COMPLETION: ~ASTFrontendAction : [#void#]~ASTFrontendAction()
+COMPLETION: ~FrontendAction : [#void#]~FrontendAction()

@@ -1,0 +1,2569 @@
+COMPLETION: AANT_ArgumentIdentifier : [#clang::AttributeArgumentNType#]AANT_ArgumentIdentifier
+COMPLETION: AANT_ArgumentIntegerConstant : [#clang::AttributeArgumentNType#]AANT_ArgumentIntegerConstant
+COMPLETION: AANT_ArgumentIntOrBool : [#clang::AttributeArgumentNType#]AANT_ArgumentIntOrBool
+COMPLETION: AANT_ArgumentString : [#clang::AttributeArgumentNType#]AANT_ArgumentString
+COMPLETION: AArch64 : AArch64
+COMPLETION: AbiTagAttr : AbiTagAttr
+COMPLETION: AbstractConditionalOperator : AbstractConditionalOperator
+COMPLETION: AccessSpecDecl : AccessSpecDecl
+COMPLETION: AccessSpecifier : AccessSpecifier
+COMPLETION: AcquireCapabilityAttr : AcquireCapabilityAttr
+COMPLETION: AcquiredAfterAttr : AcquiredAfterAttr
+COMPLETION: AcquiredBeforeAttr : AcquiredBeforeAttr
+COMPLETION: ActionResult : ActionResult<<#class PtrTy#>{#, <#bool CompressInvalid#>#}>
+COMPLETION: AddFlagValue : AddFlagValue
+COMPLETION: AddrLabelExpr : AddrLabelExpr
+COMPLETION: AdjustedLocInfo : AdjustedLocInfo
+COMPLETION: AdjustedType : AdjustedType
+COMPLETION: AdjustedTypeLoc : AdjustedTypeLoc
+COMPLETION: ADLResult : ADLResult
+COMPLETION: AliasAttr : AliasAttr
+COMPLETION: alignedAllocMinVersion : [#VersionTuple#]alignedAllocMinVersion(<#llvm::Triple::OSType OS#>)
+COMPLETION: AlignedAttr : AlignedAttr
+COMPLETION: AlignMac68kAttr : AlignMac68kAttr
+COMPLETION: AlignValueAttr : AlignValueAttr
+COMPLETION: All : [#clang::AnalysisInliningMode#]All
+COMPLETION: ALL_GNU_LANGUAGES : [#clang::LanguageID#]ALL_GNU_LANGUAGES
+COMPLETION: ALL_LANGUAGES : [#clang::LanguageID#]ALL_LANGUAGES
+COMPLETION: ALL_MS_LANGUAGES : [#clang::LanguageID#]ALL_MS_LANGUAGES
+COMPLETION: ALL_OCLC_LANGUAGES : [#clang::LanguageID#]ALL_OCLC_LANGUAGES
+COMPLETION: AllocAlignAttr : AllocAlignAttr
+COMPLETION: allocateDefaultArgStorageChain : [#void *#]allocateDefaultArgStorageChain(<#const ASTContext &C#>)
+COMPLETION: AllocSizeAttr : AllocSizeAttr
+COMPLETION: AlwaysInlineAttr : AlwaysInlineAttr
+COMPLETION: AmbiguousConversionSequence : AmbiguousConversionSequence
+COMPLETION: AMDGPU : AMDGPU
+COMPLETION: AMDGPUFlatWorkGroupSizeAttr : AMDGPUFlatWorkGroupSizeAttr
+COMPLETION: AMDGPUNumSGPRAttr : AMDGPUNumSGPRAttr
+COMPLETION: AMDGPUNumVGPRAttr : AMDGPUNumVGPRAttr
+COMPLETION: AMDGPUWavesPerEUAttr : AMDGPUWavesPerEUAttr
+COMPLETION: Analyses : Analyses
+COMPLETION: AnalysisConstraints : AnalysisConstraints
+COMPLETION: AnalysisDeclContext : AnalysisDeclContext
+COMPLETION: AnalysisDeclContextManager : AnalysisDeclContextManager
+COMPLETION: AnalysisDiagClients : AnalysisDiagClients
+COMPLETION: AnalysisInliningMode : AnalysisInliningMode
+COMPLETION: AnalysisPurgeMode : AnalysisPurgeMode
+COMPLETION: AnalysisStores : AnalysisStores
+COMPLETION: analyze_format_string : analyze_format_string
+COMPLETION: analyze_os_log : analyze_os_log
+COMPLETION: analyze_printf : analyze_printf
+COMPLETION: analyze_scanf : analyze_scanf
+COMPLETION: AnalyzerNoReturnAttr : AnalyzerNoReturnAttr
+COMPLETION: AnalyzerOptions : AnalyzerOptions
+COMPLETION: AnalyzerOptionsRef : AnalyzerOptionsRef
+COMPLETION: AnnotateAttr : AnnotateAttr
+COMPLETION: AnyFunctionDecl : AnyFunctionDecl
+COMPLETION: AnyX86InterruptAttr : AnyX86InterruptAttr
+COMPLETION: AnyX86NoCallerSavedRegistersAttr : AnyX86NoCallerSavedRegistersAttr
+COMPLETION: APFloatStorage : APFloatStorage
+COMPLETION: APIntStorage : APIntStorage
+COMPLETION: APNumericStorage : APNumericStorage
+COMPLETION: ApplyHeaderSearchOptions : [#void#]ApplyHeaderSearchOptions(<#HeaderSearch &HS#>, <#const HeaderSearchOptions &HSOpts#>, <#const LangOptions &Lang#>, <#const llvm::Triple &triple#>)
+COMPLETION: APValue : APValue
+COMPLETION: AR_Available : [#clang::AvailabilityResult#]AR_Available
+COMPLETION: AR_Deprecated : [#clang::AvailabilityResult#]AR_Deprecated
+COMPLETION: AR_NotYetIntroduced : [#clang::AvailabilityResult#]AR_NotYetIntroduced
+COMPLETION: AR_Unavailable : [#clang::AvailabilityResult#]AR_Unavailable
+COMPLETION: arcmt : arcmt
+COMPLETION: ArcWeakrefUnavailableAttr : ArcWeakrefUnavailableAttr
+COMPLETION: ARCXX_libcxx : [#clang::ObjCXXARCStandardLibraryKind#]ARCXX_libcxx
+COMPLETION: ARCXX_libstdcxx : [#clang::ObjCXXARCStandardLibraryKind#]ARCXX_libstdcxx
+COMPLETION: ARCXX_nolib : [#clang::ObjCXXARCStandardLibraryKind#]ARCXX_nolib
+COMPLETION: ArgsUnion : ArgsUnion
+COMPLETION: ArgsVector : ArgsVector
+COMPLETION: ArgumentWithTypeTagAttr : ArgumentWithTypeTagAttr
+COMPLETION: ARM : ARM
+COMPLETION: ARMInterruptAttr : ARMInterruptAttr
+COMPLETION: ArrayInitIndexExpr : ArrayInitIndexExpr
+COMPLETION: ArrayInitLoopExpr : ArrayInitLoopExpr
+COMPLETION: ArrayLocInfo : ArrayLocInfo
+COMPLETION: ArrayRef : ArrayRef<<#typename T#>>
+COMPLETION: ArraySubscriptExpr : ArraySubscriptExpr
+COMPLETION: ArrayType : ArrayType
+COMPLETION: ArrayTypeLoc : ArrayTypeLoc
+COMPLETION: ArrayTypeTrait : ArrayTypeTrait
+COMPLETION: ArrayTypeTraitExpr : ArrayTypeTraitExpr
+COMPLETION: AS_none : [#clang::AccessSpecifier#]AS_none
+COMPLETION: AS_private : [#clang::AccessSpecifier#]AS_private
+COMPLETION: AS_protected : [#clang::AccessSpecifier#]AS_protected
+COMPLETION: AS_public : [#clang::AccessSpecifier#]AS_public
+COMPLETION: AsmLabelAttr : AsmLabelAttr
+COMPLETION: AsmStmt : AsmStmt
+COMPLETION: AssertCapabilityAttr : AssertCapabilityAttr
+COMPLETION: AssertExclusiveLockAttr : AssertExclusiveLockAttr
+COMPLETION: AssertSharedLockAttr : AssertSharedLockAttr
+COMPLETION: AssertSuccess : [#Expr *#]AssertSuccess(<#ExprResult R#>)
+COMPLETION: AssertSuccess : [#Stmt *#]AssertSuccess(<#StmtResult R#>)
+COMPLETION: AssumeAlignedAttr : AssumeAlignedAttr
+COMPLETION: ast_matchers : ast_matchers
+COMPLETION: ast_type_traits : ast_type_traits
+COMPLETION: ASTConsumer : ASTConsumer
+COMPLETION: ASTContext : ASTContext
+COMPLETION: ASTDeclListAction : ASTDeclListAction
+COMPLETION: ASTDeserializationListener : ASTDeserializationListener
+COMPLETION: ASTDumpAction : ASTDumpAction
+COMPLETION: ASTFileSignature : ASTFileSignature
+COMPLETION: ASTFrontendAction : ASTFrontendAction
+COMPLETION: ASTImporter : ASTImporter
+COMPLETION: ASTMergeAction : ASTMergeAction
+COMPLETION: ASTMutationListener : ASTMutationListener
+COMPLETION: ASTPrintAction : ASTPrintAction
+COMPLETION: ASTReader : ASTReader
+COMPLETION: ASTReaderListener : ASTReaderListener
+COMPLETION: ASTRecordLayout : ASTRecordLayout
+COMPLETION: ASTRecordReader : ASTRecordReader
+COMPLETION: ASTRecordWriter : ASTRecordWriter
+COMPLETION: ASTTemplateArgsPtr : ASTTemplateArgsPtr
+COMPLETION: ASTTemplateArgumentListInfo : ASTTemplateArgumentListInfo
+COMPLETION: ASTTemplateKWAndArgsInfo : ASTTemplateKWAndArgsInfo
+COMPLETION: ASTUnit : ASTUnit
+COMPLETION: ASTUnresolvedSet : ASTUnresolvedSet
+COMPLETION: ASTVector : ASTVector<<#typename T#>>
+COMPLETION: ASTViewAction : ASTViewAction
+COMPLETION: ASTWriter : ASTWriter
+COMPLETION: AsTypeExpr : AsTypeExpr
+COMPLETION: AtomicExpr : AtomicExpr
+COMPLETION: AtomicScopeModel : AtomicScopeModel
+COMPLETION: AtomicScopeModelKind : AtomicScopeModelKind
+COMPLETION: AtomicScopeOpenCLModel : AtomicScopeOpenCLModel
+COMPLETION: AtomicType : AtomicType
+COMPLETION: AtomicTypeLoc : AtomicTypeLoc
+COMPLETION: AtomicTypeLocInfo : AtomicTypeLocInfo
+COMPLETION: ATT_ArrayExtent : [#clang::ArrayTypeTrait#]ATT_ArrayExtent
+COMPLETION: ATT_ArrayRank : [#clang::ArrayTypeTrait#]ATT_ArrayRank
+COMPLETION: AttachDependencyGraphGen : [#void#]AttachDependencyGraphGen(<#Preprocessor &PP#>, <#StringRef OutputFile#>, <#StringRef SysRoot#>)
+COMPLETION: AttachHeaderIncludeGen : [#void#]AttachHeaderIncludeGen(<#Preprocessor &PP#>, <#const DependencyOutputOptions &DepOpts#>{#, <#bool ShowAllHeaders = false#>{#, <#StringRef OutputPath = ""#>{#, <#bool ShowDepth = true#>{#, <#bool MSStyle = false#>#}#}#}#})
+COMPLETION: Attr : Attr
+COMPLETION: attr : attr
+COMPLETION: AttributeArgumentNType : AttributeArgumentNType
+COMPLETION: AttributeDeclKind : AttributeDeclKind
+COMPLETION: AttributedLocInfo : AttributedLocInfo
+COMPLETION: AttributedStmt : AttributedStmt
+COMPLETION: AttributedType : AttributedType
+COMPLETION: AttributedTypeLoc : AttributedTypeLoc
+COMPLETION: AttributeFactory : AttributeFactory
+COMPLETION: AttributeList : AttributeList
+COMPLETION: AttributePool : AttributePool
+COMPLETION: AttrSyntax : AttrSyntax
+COMPLETION: AttrVec : AttrVec
+COMPLETION: AutoType : AutoType
+COMPLETION: AutoTypeKeyword : AutoTypeKeyword
+COMPLETION: AutoTypeLoc : AutoTypeLoc
+COMPLETION: AvailabilityAttr : AvailabilityAttr
+COMPLETION: AvailabilityChange : AvailabilityChange
+COMPLETION: AvailabilityData : AvailabilityData
+COMPLETION: AvailabilityResult : AvailabilityResult
+COMPLETION: AvailabilitySlot : AvailabilitySlot
+COMPLETION: AvailabilitySpec : AvailabilitySpec
+COMPLETION: AVRInterruptAttr : AVRInterruptAttr
+COMPLETION: AVRSignalAttr : AVRSignalAttr
+COMPLETION: Backend_EmitAssembly : [#clang::BackendAction#]Backend_EmitAssembly
+COMPLETION: Backend_EmitBC : [#clang::BackendAction#]Backend_EmitBC
+COMPLETION: Backend_EmitLL : [#clang::BackendAction#]Backend_EmitLL
+COMPLETION: Backend_EmitMCNull : [#clang::BackendAction#]Backend_EmitMCNull
+COMPLETION: Backend_EmitNothing : [#clang::BackendAction#]Backend_EmitNothing
+COMPLETION: Backend_EmitObj : [#clang::BackendAction#]Backend_EmitObj
+COMPLETION: BackendAction : BackendAction
+COMPLETION: BackendConsumer : BackendConsumer
+COMPLETION: BadConversionSequence : BadConversionSequence
+COMPLETION: BalancedDelimiterTracker : BalancedDelimiterTracker
+COMPLETION: BaseResult : BaseResult
+COMPLETION: BaseSubobject : BaseSubobject
+COMPLETION: BeforeThanCompare : BeforeThanCompare<<#typename T#>>
+COMPLETION: BinaryConditionalOperator : BinaryConditionalOperator
+COMPLETION: BinaryOperator : BinaryOperator
+COMPLETION: BinaryOperatorKind : BinaryOperatorKind
+COMPLETION: BindingDecl : BindingDecl
+COMPLETION: BlockDecl : BlockDecl
+COMPLETION: BlockEdge : BlockEdge
+COMPLETION: BlockEntrance : BlockEntrance
+COMPLETION: BlockExit : BlockExit
+COMPLETION: BlockExpr : BlockExpr
+COMPLETION: BlockInvocationContext : BlockInvocationContext
+COMPLETION: BlockPointerType : BlockPointerType
+COMPLETION: BlockPointerTypeLoc : BlockPointerTypeLoc
+COMPLETION: BlocksAttr : BlocksAttr
+COMPLETION: BO_Add : [#clang::BinaryOperatorKind#]BO_Add
+COMPLETION: BO_AddAssign : [#clang::BinaryOperatorKind#]BO_AddAssign
+COMPLETION: BO_And : [#clang::BinaryOperatorKind#]BO_And
+COMPLETION: BO_AndAssign : [#clang::BinaryOperatorKind#]BO_AndAssign
+COMPLETION: BO_Assign : [#clang::BinaryOperatorKind#]BO_Assign
+COMPLETION: BO_Cmp : [#clang::BinaryOperatorKind#]BO_Cmp
+COMPLETION: BO_Comma : [#clang::BinaryOperatorKind#]BO_Comma
+COMPLETION: BO_Div : [#clang::BinaryOperatorKind#]BO_Div
+COMPLETION: BO_DivAssign : [#clang::BinaryOperatorKind#]BO_DivAssign
+COMPLETION: BO_EQ : [#clang::BinaryOperatorKind#]BO_EQ
+COMPLETION: BO_GE : [#clang::BinaryOperatorKind#]BO_GE
+COMPLETION: BO_GT : [#clang::BinaryOperatorKind#]BO_GT
+COMPLETION: BO_LAnd : [#clang::BinaryOperatorKind#]BO_LAnd
+COMPLETION: BO_LE : [#clang::BinaryOperatorKind#]BO_LE
+COMPLETION: BO_LOr : [#clang::BinaryOperatorKind#]BO_LOr
+COMPLETION: BO_LT : [#clang::BinaryOperatorKind#]BO_LT
+COMPLETION: BO_Mul : [#clang::BinaryOperatorKind#]BO_Mul
+COMPLETION: BO_MulAssign : [#clang::BinaryOperatorKind#]BO_MulAssign
+COMPLETION: BO_NE : [#clang::BinaryOperatorKind#]BO_NE
+COMPLETION: BO_Or : [#clang::BinaryOperatorKind#]BO_Or
+COMPLETION: BO_OrAssign : [#clang::BinaryOperatorKind#]BO_OrAssign
+COMPLETION: BO_PtrMemD : [#clang::BinaryOperatorKind#]BO_PtrMemD
+COMPLETION: BO_PtrMemI : [#clang::BinaryOperatorKind#]BO_PtrMemI
+COMPLETION: BO_Rem : [#clang::BinaryOperatorKind#]BO_Rem
+COMPLETION: BO_RemAssign : [#clang::BinaryOperatorKind#]BO_RemAssign
+COMPLETION: BO_Shl : [#clang::BinaryOperatorKind#]BO_Shl
+COMPLETION: BO_ShlAssign : [#clang::BinaryOperatorKind#]BO_ShlAssign
+COMPLETION: BO_Shr : [#clang::BinaryOperatorKind#]BO_Shr
+COMPLETION: BO_ShrAssign : [#clang::BinaryOperatorKind#]BO_ShrAssign
+COMPLETION: BO_Sub : [#clang::BinaryOperatorKind#]BO_Sub
+COMPLETION: BO_SubAssign : [#clang::BinaryOperatorKind#]BO_SubAssign
+COMPLETION: BO_Xor : [#clang::BinaryOperatorKind#]BO_Xor
+COMPLETION: BO_XorAssign : [#clang::BinaryOperatorKind#]BO_XorAssign
+COMPLETION: BodyFarm : BodyFarm
+COMPLETION: BreakStmt : BreakStmt
+COMPLETION: BTK__make_integer_seq : [#clang::BuiltinTemplateKind#]BTK__make_integer_seq
+COMPLETION: BTK__type_pack_element : [#clang::BuiltinTemplateKind#]BTK__type_pack_element
+COMPLETION: BTT_IsAssignable : [#clang::TypeTrait#]BTT_IsAssignable
+COMPLETION: BTT_IsBaseOf : [#clang::TypeTrait#]BTT_IsBaseOf
+COMPLETION: BTT_IsConvertible : [#clang::TypeTrait#]BTT_IsConvertible
+COMPLETION: BTT_IsConvertibleTo : [#clang::TypeTrait#]BTT_IsConvertibleTo
+COMPLETION: BTT_IsNothrowAssignable : [#clang::TypeTrait#]BTT_IsNothrowAssignable
+COMPLETION: BTT_IsSame : [#clang::TypeTrait#]BTT_IsSame
+COMPLETION: BTT_IsTriviallyAssignable : [#clang::TypeTrait#]BTT_IsTriviallyAssignable
+COMPLETION: BTT_Last : [#clang::TypeTrait#]BTT_Last
+COMPLETION: BTT_TypeCompatible : [#clang::TypeTrait#]BTT_TypeCompatible
+COMPLETION: BuildPreambleError : BuildPreambleError
+COMPLETION: BuildPreambleErrorCategory : BuildPreambleErrorCategory
+COMPLETION: Builtin : Builtin
+COMPLETION: BuiltinLocInfo : BuiltinLocInfo
+COMPLETION: BuiltinTemplateDecl : BuiltinTemplateDecl
+COMPLETION: BuiltinTemplateKind : BuiltinTemplateKind
+COMPLETION: BuiltinType : BuiltinType
+COMPLETION: BuiltinTypeLoc : BuiltinTypeLoc
+COMPLETION: BumpVector : BumpVector<<#typename T#>>
+COMPLETION: BumpVectorContext : BumpVectorContext
+COMPLETION: BuryPointer : [#void#]BuryPointer(<#const void *Ptr#>)
+COMPLETION: BuryPointer : [#void#]BuryPointer(<#std::unique_ptr<T> Ptr#>)
+COMPLETION: C11NoReturnAttr : C11NoReturnAttr
+COMPLETION: C_LANG : [#clang::LanguageID#]C_LANG
+COMPLETION: CachedTokens : CachedTokens
+COMPLETION: CacheTokens : [#void#]CacheTokens(<#Preprocessor &PP#>, <#raw_pwrite_stream *OS#>)
+COMPLETION: CallableWhenAttr : CallableWhenAttr
+COMPLETION: CallEnter : CallEnter
+COMPLETION: CallExitBegin : CallExitBegin
+COMPLETION: CallExitEnd : CallExitEnd
+COMPLETION: CallExpr : CallExpr
+COMPLETION: CallGraph : CallGraph
+COMPLETION: CallGraphNode : CallGraphNode
+COMPLETION: CallingConv : CallingConv
+COMPLETION: CanonicalDeclPtr : CanonicalDeclPtr<<#typename decl_type#>>
+COMPLETION: CanProxy : CanProxy<<#typename T#>>
+COMPLETION: CanProxyAdaptor : CanProxyAdaptor<<#typename T#>>
+COMPLETION: CanProxyBase : CanProxyBase<<#typename T#>>
+COMPLETION: CanQual : CanQual<<#typename#>>
+COMPLETION: CanQualType : CanQualType
+COMPLETION: CanThrowResult : CanThrowResult
+COMPLETION: CanTypeIterator : CanTypeIterator<<#typename InputIterator#>>
+COMPLETION: CapabilityAttr : CapabilityAttr
+COMPLETION: CapturedDecl : CapturedDecl
+COMPLETION: CapturedRecordAttr : CapturedRecordAttr
+COMPLETION: CapturedRegionKind : CapturedRegionKind
+COMPLETION: CapturedStmt : CapturedStmt
+COMPLETION: CarriesDependencyAttr : CarriesDependencyAttr
+COMPLETION: CaseStmt : CaseStmt
+COMPLETION: cast : [#typename std::enable_if<!is_simple_type<Y>::value, typename cast_retty<X, const Y>::ret_type>::type#]cast<<#class X#>>(<#const Y &Val#>)
+COMPLETION: cast : [#typename cast_retty<X, Y>::ret_type#]cast<<#class X#>>(<#Y &Val#>)
+COMPLETION: cast : [#typename cast_retty<X, Y *>::ret_type#]cast<<#class X#>>(<#Y *Val#>)
+COMPLETION: cast : [#typename cast_retty<X, std::unique_ptr<Y> >::ret_type#]cast<<#class X#>>(<#std::unique_ptr<Y> &&Val#>)
+COMPLETION: cast_away_const : [#StmtIterator#]cast_away_const(<#const ConstStmtIterator &RHS#>)
+COMPLETION: cast_convert_decl_context : cast_convert_decl_context<<#class ToTy#>{#, <#bool IsKnownSubtype#>#}>
+COMPLETION: cast_or_null : [#typename std::enable_if<!is_simple_type<Y>::value, typename cast_retty<X, const Y>::ret_type>::type#]cast_or_null<<#class X#>>(<#const Y &Val#>)
+COMPLETION: cast_or_null : [#typename std::enable_if<!is_simple_type<Y>::value, typename cast_retty<X, Y>::ret_type>::type#]cast_or_null<<#class X#>>(<#Y &Val#>)
+COMPLETION: cast_or_null : [#typename cast_retty<X, Y *>::ret_type#]cast_or_null<<#class X#>>(<#Y *Val#>)
+COMPLETION: cast_or_null : [#typename cast_retty<X, std::unique_ptr<Y> >::ret_type#]cast_or_null<<#class X#>>(<#std::unique_ptr<Y> &&Val#>)
+COMPLETION: CastExpr : CastExpr
+COMPLETION: CastKind : CastKind
+COMPLETION: CC_AAPCS : [#clang::CallingConv#]CC_AAPCS
+COMPLETION: CC_AAPCS_VFP : [#clang::CallingConv#]CC_AAPCS_VFP
+COMPLETION: CC_C : [#clang::CallingConv#]CC_C
+COMPLETION: CC_IntelOclBicc : [#clang::CallingConv#]CC_IntelOclBicc
+COMPLETION: CC_OpenCLKernel : [#clang::CallingConv#]CC_OpenCLKernel
+COMPLETION: CC_PreserveAll : [#clang::CallingConv#]CC_PreserveAll
+COMPLETION: CC_PreserveMost : [#clang::CallingConv#]CC_PreserveMost
+COMPLETION: CC_SpirFunction : [#clang::CallingConv#]CC_SpirFunction
+COMPLETION: CC_Swift : [#clang::CallingConv#]CC_Swift
+COMPLETION: CC_Win64 : [#clang::CallingConv#]CC_Win64
+COMPLETION: CC_X86_64SysV : [#clang::CallingConv#]CC_X86_64SysV
+COMPLETION: CC_X86FastCall : [#clang::CallingConv#]CC_X86FastCall
+COMPLETION: CC_X86Pascal : [#clang::CallingConv#]CC_X86Pascal
+COMPLETION: CC_X86RegCall : [#clang::CallingConv#]CC_X86RegCall
+COMPLETION: CC_X86StdCall : [#clang::CallingConv#]CC_X86StdCall
+COMPLETION: CC_X86ThisCall : [#clang::CallingConv#]CC_X86ThisCall
+COMPLETION: CC_X86VectorCall : [#clang::CallingConv#]CC_X86VectorCall
+COMPLETION: CCD_BlockPropertySetter : [#clang::(anonymous)#]CCD_BlockPropertySetter
+COMPLETION: CCD_bool_in_ObjC : [#clang::(anonymous)#]CCD_bool_in_ObjC
+COMPLETION: CCD_InBaseClass : [#clang::(anonymous)#]CCD_InBaseClass
+COMPLETION: CCD_MethodAsProperty : [#clang::(anonymous)#]CCD_MethodAsProperty
+COMPLETION: CCD_ObjectQualifierMatch : [#clang::(anonymous)#]CCD_ObjectQualifierMatch
+COMPLETION: CCD_ProbablyNotObjCCollection : [#clang::(anonymous)#]CCD_ProbablyNotObjCCollection
+COMPLETION: CCD_SelectorMatch : [#clang::(anonymous)#]CCD_SelectorMatch
+COMPLETION: CCF_ExactTypeMatch : [#clang::(anonymous)#]CCF_ExactTypeMatch
+COMPLETION: CCF_SimilarTypeMatch : [#clang::(anonymous)#]CCF_SimilarTypeMatch
+COMPLETION: CCP_CodePattern : [#clang::(anonymous)#]CCP_CodePattern
+COMPLETION: CCP_Constant : [#clang::(anonymous)#]CCP_Constant
+COMPLETION: CCP_Declaration : [#clang::(anonymous)#]CCP_Declaration
+COMPLETION: CCP_EnumInCase : [#clang::(anonymous)#]CCP_EnumInCase
+COMPLETION: CCP_Keyword : [#clang::(anonymous)#]CCP_Keyword
+COMPLETION: CCP_LocalDeclaration : [#clang::(anonymous)#]CCP_LocalDeclaration
+COMPLETION: CCP_Macro : [#clang::(anonymous)#]CCP_Macro
+COMPLETION: CCP_MemberDeclaration : [#clang::(anonymous)#]CCP_MemberDeclaration
+COMPLETION: CCP_NestedNameSpecifier : [#clang::(anonymous)#]CCP_NestedNameSpecifier
+COMPLETION: CCP_NextInitializer : [#clang::(anonymous)#]CCP_NextInitializer
+COMPLETION: CCP_ObjC_cmd : [#clang::(anonymous)#]CCP_ObjC_cmd
+COMPLETION: CCP_SuperCompletion : [#clang::(anonymous)#]CCP_SuperCompletion
+COMPLETION: CCP_Type : [#clang::(anonymous)#]CCP_Type
+COMPLETION: CCP_Unlikely : [#clang::(anonymous)#]CCP_Unlikely
+COMPLETION: CDeclAttr : CDeclAttr
+COMPLETION: CFAuditedTransferAttr : CFAuditedTransferAttr
+COMPLETION: CFConsumedAttr : CFConsumedAttr
+COMPLETION: CFG : CFG
+COMPLETION: CFGAutomaticObjDtor : CFGAutomaticObjDtor
+COMPLETION: CFGBaseDtor : CFGBaseDtor
+COMPLETION: CFGBlock : CFGBlock
+COMPLETION: CFGCallback : CFGCallback
+COMPLETION: CFGDeleteDtor : CFGDeleteDtor
+COMPLETION: CFGElement : CFGElement
+COMPLETION: CFGImplicitDtor : CFGImplicitDtor
+COMPLETION: CFGInitializer : CFGInitializer
+COMPLETION: CFGLifetimeEnds : CFGLifetimeEnds
+COMPLETION: CFGLoopExit : CFGLoopExit
+COMPLETION: CFGMemberDtor : CFGMemberDtor
+COMPLETION: CFGNewAllocator : CFGNewAllocator
+COMPLETION: CFGReverseBlockReachabilityAnalysis : CFGReverseBlockReachabilityAnalysis
+COMPLETION: CFGStmt : CFGStmt
+COMPLETION: CFGStmtMap : CFGStmtMap
+COMPLETION: CFGTemporaryDtor : CFGTemporaryDtor
+COMPLETION: CFGTerminator : CFGTerminator
+COMPLETION: CFReturnsNotRetainedAttr : CFReturnsNotRetainedAttr
+COMPLETION: CFReturnsRetainedAttr : CFReturnsRetainedAttr
+COMPLETION: CFUnknownTransferAttr : CFUnknownTransferAttr
+COMPLETION: ChainedASTReaderListener : ChainedASTReaderListener
+COMPLETION: ChainedDiagnosticConsumer : ChainedDiagnosticConsumer
+COMPLETION: CharacterLiteral : CharacterLiteral
+COMPLETION: charinfo : charinfo
+COMPLETION: CharLiteralParser : CharLiteralParser
+COMPLETION: CharSourceRange : CharSourceRange
+COMPLETION: CharUnits : CharUnits
+COMPLETION: ChooseExpr : ChooseExpr
+COMPLETION: CIMK_Constructors : [#clang::CXXInlineableMemberKind#]CIMK_Constructors
+COMPLETION: CIMK_Destructors : [#clang::CXXInlineableMemberKind#]CIMK_Destructors
+COMPLETION: CIMK_MemberFunctions : [#clang::CXXInlineableMemberKind#]CIMK_MemberFunctions
+COMPLETION: CIMK_None : [#clang::CXXInlineableMemberKind#]CIMK_None
+COMPLETION: CK_AddressSpaceConversion : [#clang::CastKind#]CK_AddressSpaceConversion
+COMPLETION: CK_AnyPointerToBlockPointerCast : [#clang::CastKind#]CK_AnyPointerToBlockPointerCast
+COMPLETION: CK_ARCConsumeObject : [#clang::CastKind#]CK_ARCConsumeObject
+COMPLETION: CK_ARCExtendBlockObject : [#clang::CastKind#]CK_ARCExtendBlockObject
+COMPLETION: CK_ARCProduceObject : [#clang::CastKind#]CK_ARCProduceObject
+COMPLETION: CK_ARCReclaimReturnedObject : [#clang::CastKind#]CK_ARCReclaimReturnedObject
+COMPLETION: CK_ArrayToPointerDecay : [#clang::CastKind#]CK_ArrayToPointerDecay
+COMPLETION: CK_AtomicToNonAtomic : [#clang::CastKind#]CK_AtomicToNonAtomic
+COMPLETION: CK_BaseToDerived : [#clang::CastKind#]CK_BaseToDerived
+COMPLETION: CK_BaseToDerivedMemberPointer : [#clang::CastKind#]CK_BaseToDerivedMemberPointer
+COMPLETION: CK_BitCast : [#clang::CastKind#]CK_BitCast
+COMPLETION: CK_BlockPointerToObjCPointerCast : [#clang::CastKind#]CK_BlockPointerToObjCPointerCast
+COMPLETION: CK_BooleanToSignedIntegral : [#clang::CastKind#]CK_BooleanToSignedIntegral
+COMPLETION: CK_BuiltinFnToFnPtr : [#clang::CastKind#]CK_BuiltinFnToFnPtr
+COMPLETION: CK_ConstructorConversion : [#clang::CastKind#]CK_ConstructorConversion
+COMPLETION: CK_CopyAndAutoreleaseBlockObject : [#clang::CastKind#]CK_CopyAndAutoreleaseBlockObject
+COMPLETION: CK_CPointerToObjCPointerCast : [#clang::CastKind#]CK_CPointerToObjCPointerCast
+COMPLETION: CK_Dependent : [#clang::CastKind#]CK_Dependent
+COMPLETION: CK_DerivedToBase : [#clang::CastKind#]CK_DerivedToBase
+COMPLETION: CK_DerivedToBaseMemberPointer : [#clang::CastKind#]CK_DerivedToBaseMemberPointer
+COMPLETION: CK_Dynamic : [#clang::CastKind#]CK_Dynamic
+COMPLETION: CK_FloatingCast : [#clang::CastKind#]CK_FloatingCast
+COMPLETION: CK_FloatingComplexCast : [#clang::CastKind#]CK_FloatingComplexCast
+COMPLETION: CK_FloatingComplexToBoolean : [#clang::CastKind#]CK_FloatingComplexToBoolean
+COMPLETION: CK_FloatingComplexToIntegralComplex : [#clang::CastKind#]CK_FloatingComplexToIntegralComplex
+COMPLETION: CK_FloatingComplexToReal : [#clang::CastKind#]CK_FloatingComplexToReal
+COMPLETION: CK_FloatingRealToComplex : [#clang::CastKind#]CK_FloatingRealToComplex
+COMPLETION: CK_FloatingToBoolean : [#clang::CastKind#]CK_FloatingToBoolean
+COMPLETION: CK_FloatingToIntegral : [#clang::CastKind#]CK_FloatingToIntegral
+COMPLETION: CK_FunctionToPointerDecay : [#clang::CastKind#]CK_FunctionToPointerDecay
+COMPLETION: CK_IntegralCast : [#clang::CastKind#]CK_IntegralCast
+COMPLETION: CK_IntegralComplexCast : [#clang::CastKind#]CK_IntegralComplexCast
+COMPLETION: CK_IntegralComplexToBoolean : [#clang::CastKind#]CK_IntegralComplexToBoolean
+COMPLETION: CK_IntegralComplexToFloatingComplex : [#clang::CastKind#]CK_IntegralComplexToFloatingComplex
+COMPLETION: CK_IntegralComplexToReal : [#clang::CastKind#]CK_IntegralComplexToReal
+COMPLETION: CK_IntegralRealToComplex : [#clang::CastKind#]CK_IntegralRealToComplex
+COMPLETION: CK_IntegralToBoolean : [#clang::CastKind#]CK_IntegralToBoolean
+COMPLETION: CK_IntegralToFloating : [#clang::CastKind#]CK_IntegralToFloating
+COMPLETION: CK_IntegralToPointer : [#clang::CastKind#]CK_IntegralToPointer
+COMPLETION: CK_IntToOCLSampler : [#clang::CastKind#]CK_IntToOCLSampler
+COMPLETION: CK_LValueBitCast : [#clang::CastKind#]CK_LValueBitCast
+COMPLETION: CK_LValueToRValue : [#clang::CastKind#]CK_LValueToRValue
+COMPLETION: CK_MemberPointerToBoolean : [#clang::CastKind#]CK_MemberPointerToBoolean
+COMPLETION: CK_NonAtomicToAtomic : [#clang::CastKind#]CK_NonAtomicToAtomic
+COMPLETION: CK_NoOp : [#clang::CastKind#]CK_NoOp
+COMPLETION: CK_NullToMemberPointer : [#clang::CastKind#]CK_NullToMemberPointer
+COMPLETION: CK_NullToPointer : [#clang::CastKind#]CK_NullToPointer
+COMPLETION: CK_ObjCObjectLValueCast : [#clang::CastKind#]CK_ObjCObjectLValueCast
+COMPLETION: CK_PointerToBoolean : [#clang::CastKind#]CK_PointerToBoolean
+COMPLETION: CK_PointerToIntegral : [#clang::CastKind#]CK_PointerToIntegral
+COMPLETION: CK_ReinterpretMemberPointer : [#clang::CastKind#]CK_ReinterpretMemberPointer
+COMPLETION: CK_ToUnion : [#clang::CastKind#]CK_ToUnion
+COMPLETION: CK_ToVoid : [#clang::CastKind#]CK_ToVoid
+COMPLETION: CK_UncheckedDerivedToBase : [#clang::CastKind#]CK_UncheckedDerivedToBase
+COMPLETION: CK_UserDefinedConversion : [#clang::CastKind#]CK_UserDefinedConversion
+COMPLETION: CK_VectorSplat : [#clang::CastKind#]CK_VectorSplat
+COMPLETION: CK_ZeroToOCLEvent : [#clang::CastKind#]CK_ZeroToOCLEvent
+COMPLETION: CK_ZeroToOCLQueue : [#clang::CastKind#]CK_ZeroToOCLQueue
+COMPLETION: CLanguageLinkage : [#clang::LanguageLinkage#]CLanguageLinkage
+COMPLETION: ClassScopeFunctionSpecializationDecl : ClassScopeFunctionSpecializationDecl
+COMPLETION: ClassTemplateDecl : ClassTemplateDecl
+COMPLETION: ClassTemplatePartialSpecializationDecl : ClassTemplatePartialSpecializationDecl
+COMPLETION: ClassTemplateSpecializationDecl : ClassTemplateSpecializationDecl
+COMPLETION: CleanupAttr : CleanupAttr
+COMPLETION: CleanupInfo : CleanupInfo
+COMPLETION: CloneConstraint : CloneConstraint
+COMPLETION: CloneDetector : CloneDetector
+COMPLETION: CMK_None : [#clang::ConflictMarkerKind#]CMK_None
+COMPLETION: CMK_Normal : [#clang::ConflictMarkerKind#]CMK_Normal
+COMPLETION: CMK_Perforce : [#clang::ConflictMarkerKind#]CMK_Perforce
+COMPLETION: CoawaitExpr : CoawaitExpr
+COMPLETION: CodeCompleteConsumer : CodeCompleteConsumer
+COMPLETION: CodeCompleteOptions : CodeCompleteOptions
+COMPLETION: CodeCompletionAllocator : CodeCompletionAllocator
+COMPLETION: CodeCompletionBuilder : CodeCompletionBuilder
+COMPLETION: CodeCompletionContext : CodeCompletionContext
+COMPLETION: CodeCompletionHandler : CodeCompletionHandler
+COMPLETION: CodeCompletionResult : CodeCompletionResult
+COMPLETION: CodeCompletionString : CodeCompletionString
+COMPLETION: CodeCompletionTUInfo : CodeCompletionTUInfo
+COMPLETION: CodeGen : CodeGen
+COMPLETION: CodeGenAction : CodeGenAction
+COMPLETION: CodeGenerator : CodeGenerator
+COMPLETION: CodeGenOptions : CodeGenOptions
+COMPLETION: codegenoptions : codegenoptions
+COMPLETION: CodeGenOptionsBase : CodeGenOptionsBase
+COMPLETION: CodeInjector : CodeInjector
+COMPLETION: ColdAttr : ColdAttr
+COMPLETION: ColonProtectionRAIIObject : ColonProtectionRAIIObject
+COMPLETION: CommentHandler : CommentHandler
+COMPLETION: CommentOptions : CommentOptions
+COMPLETION: comments : comments
+COMPLETION: CommonAttr : CommonAttr
+COMPLETION: CompilerInstance : CompilerInstance
+COMPLETION: CompilerInvocation : CompilerInvocation
+COMPLETION: CompilerInvocationBase : CompilerInvocationBase
+COMPLETION: ComplexType : ComplexType
+COMPLETION: ComplexTypeLoc : ComplexTypeLoc
+COMPLETION: CompoundAssignOperator : CompoundAssignOperator
+COMPLETION: CompoundLiteralExpr : CompoundLiteralExpr
+COMPLETION: CompoundStmt : CompoundStmt
+COMPLETION: ComputePreambleBounds : [#PreambleBounds#]ComputePreambleBounds(<#const LangOptions &LangOpts#>, <#llvm::MemoryBuffer *Buffer#>, <#unsigned int MaxLines#>)
+COMPLETION: ConcreteTypeLoc : ConcreteTypeLoc<<#class Base#>, <#class Derived#>, <#class TypeClass#>, <#class LocalData#>>
+COMPLETION: ConditionalOperator : ConditionalOperator
+COMPLETION: ConflictMarkerKind : ConflictMarkerKind
+COMPLETION: ConstantArrayType : ConstantArrayType
+COMPLETION: ConstantArrayTypeLoc : ConstantArrayTypeLoc
+COMPLETION: ConstAttr : ConstAttr
+COMPLETION: ConstDeclVisitor : ConstDeclVisitor<<#typename ImplClass#>{#, <#typename RetTy#>#}>
+COMPLETION: ConstEvaluatedExprVisitor : ConstEvaluatedExprVisitor<<#typename ImplClass#>>
+COMPLETION: ConstOMPClauseVisitor : ConstOMPClauseVisitor<<#class ImplClass#>{#, <#typename RetTy#>#}>
+COMPLETION: ConstrainedTemplateDeclInfo : ConstrainedTemplateDeclInfo
+COMPLETION: ConstructorAttr : ConstructorAttr
+COMPLETION: ConstructorInfo : ConstructorInfo
+COMPLETION: ConstructorUsingShadowDecl : ConstructorUsingShadowDecl
+COMPLETION: ConstStmtIterator : ConstStmtIterator
+COMPLETION: ConstStmtVisitor : ConstStmtVisitor<<#typename ImplClass#>{#, <#typename RetTy#>, <#typename ParamTys#>#}>
+COMPLETION: ConsumableAttr : ConsumableAttr
+COMPLETION: ConsumableAutoCastAttr : ConsumableAutoCastAttr
+COMPLETION: ConsumableSetOnReadAttr : ConsumableSetOnReadAttr
+COMPLETION: consumed : consumed
+COMPLETION: ContinueStmt : ContinueStmt
+COMPLETION: ContinuousRangeMap : ContinuousRangeMap<<#typename Int#>, <#typename V#>, <#unsigned int InitialCapacity#>>
+COMPLETION: ConvergentAttr : ConvergentAttr
+COMPLETION: ConversionFixItGenerator : ConversionFixItGenerator
+COMPLETION: ConversionSequenceList : ConversionSequenceList
+COMPLETION: ConvertVectorExpr : ConvertVectorExpr
+COMPLETION: CoreturnStmt : CoreturnStmt
+COMPLETION: CoroutineBodyStmt : CoroutineBodyStmt
+COMPLETION: CoroutineSuspendExpr : CoroutineSuspendExpr
+COMPLETION: CorrectionCandidateCallback : CorrectionCandidateCallback
+COMPLETION: CoverageSourceInfo : CoverageSourceInfo
+COMPLETION: CoyieldExpr : CoyieldExpr
+COMPLETION: CR_Default : [#clang::CapturedRegionKind#]CR_Default
+COMPLETION: CR_OpenMP : [#clang::CapturedRegionKind#]CR_OpenMP
+COMPLETION: CreateASTDeclNodeLister : [#std::unique_ptr<ASTConsumer>#]CreateASTDeclNodeLister()
+COMPLETION: CreateASTDumper : [#std::unique_ptr<ASTConsumer>#]CreateASTDumper(<#StringRef FilterString#>, <#bool DumpDecls#>, <#bool Deserialize#>, <#bool DumpLookups#>)
+COMPLETION: CreateASTPrinter : [#std::unique_ptr<ASTConsumer>#]CreateASTPrinter(<#std::unique_ptr<raw_ostream> OS#>, <#StringRef FilterString#>)
+COMPLETION: CreateASTViewer : [#std::unique_ptr<ASTConsumer>#]CreateASTViewer()
+COMPLETION: createChainedIncludesSource : [#IntrusiveRefCntPtr<ExternalSemaSource>#]createChainedIncludesSource(<#CompilerInstance &CI#>, <#IntrusiveRefCntPtr<ExternalSemaSource> &Reader#>)
+COMPLETION: CreateDeclContextPrinter : [#std::unique_ptr<ASTConsumer>#]CreateDeclContextPrinter()
+COMPLETION: CreateHTMLPrinter : [#std::unique_ptr<ASTConsumer>#]CreateHTMLPrinter(<#std::unique_ptr<raw_ostream> OS#>, <#Preprocessor &PP#>{#, <#bool SyntaxHighlight = true#>{#, <#bool HighlightMacros = true#>#}#})
+COMPLETION: createInvocationFromCommandLine : [#std::unique_ptr<CompilerInvocation>#]createInvocationFromCommandLine(<#ArrayRef<const char *> Args#>{#, <#IntrusiveRefCntPtr<DiagnosticsEngine> Diags =
+        IntrusiveRefCntPtr<DiagnosticsEngine>()#>{#, <#IntrusiveRefCntPtr<vfs::FileSystem> VFS = nullptr#>#}#})
+COMPLETION: CreateLLVMCodeGen : [#CodeGenerator *#]CreateLLVMCodeGen(<#DiagnosticsEngine &Diags#>, <#llvm::StringRef ModuleName#>, <#const HeaderSearchOptions &HeaderSearchOpts#>, <#const PreprocessorOptions &PreprocessorOpts#>, <#const CodeGenOptions &CGO#>, <#llvm::LLVMContext &C#>{#, <#CoverageSourceInfo *CoverageInfo = nullptr#>#})
+COMPLETION: CreateModernObjCRewriter : [#std::unique_ptr<ASTConsumer>#]CreateModernObjCRewriter(<#const std::string &InFile#>, <#std::unique_ptr<raw_ostream> OS#>, <#DiagnosticsEngine &Diags#>, <#const LangOptions &LOpts#>, <#bool SilenceRewriteMacroWarning#>, <#bool LineInfo#>)
+COMPLETION: CreateObjCRewriter : [#std::unique_ptr<ASTConsumer>#]CreateObjCRewriter(<#const std::string &InFile#>, <#std::unique_ptr<raw_ostream> OS#>, <#DiagnosticsEngine &Diags#>, <#const LangOptions &LOpts#>, <#bool SilenceRewriteMacroWarning#>)
+COMPLETION: createVFSFromCompilerInvocation : [#IntrusiveRefCntPtr<vfs::FileSystem>#]createVFSFromCompilerInvocation(<#const CompilerInvocation &CI#>, <#DiagnosticsEngine &Diags#>)
+COMPLETION: createVFSFromCompilerInvocation : [#IntrusiveRefCntPtr<vfs::FileSystem>#]createVFSFromCompilerInvocation(<#const CompilerInvocation &CI#>, <#DiagnosticsEngine &Diags#>, <#IntrusiveRefCntPtr<vfs::FileSystem> BaseFS#>)
+COMPLETION: cross_tu : cross_tu
+COMPLETION: CStyleCastExpr : CStyleCastExpr
+COMPLETION: CT_Can : [#clang::CanThrowResult#]CT_Can
+COMPLETION: CT_Cannot : [#clang::CanThrowResult#]CT_Cannot
+COMPLETION: CT_Dependent : [#clang::CanThrowResult#]CT_Dependent
+COMPLETION: Ctor_Base : [#clang::CXXCtorType#]Ctor_Base
+COMPLETION: Ctor_Comdat : [#clang::CXXCtorType#]Ctor_Comdat
+COMPLETION: Ctor_Complete : [#clang::CXXCtorType#]Ctor_Complete
+COMPLETION: Ctor_CopyingClosure : [#clang::CXXCtorType#]Ctor_CopyingClosure
+COMPLETION: Ctor_DefaultClosure : [#clang::CXXCtorType#]Ctor_DefaultClosure
+COMPLETION: CudaArch : CudaArch
+COMPLETION: CudaArchToString : [#const char *#]CudaArchToString(<#CudaArch A#>)
+COMPLETION: CUDAConstantAttr : CUDAConstantAttr
+COMPLETION: CUDADeviceAttr : CUDADeviceAttr
+COMPLETION: CUDAGlobalAttr : CUDAGlobalAttr
+COMPLETION: CUDAHostAttr : CUDAHostAttr
+COMPLETION: CUDAInvalidTargetAttr : CUDAInvalidTargetAttr
+COMPLETION: CUDAKernelCallExpr : CUDAKernelCallExpr
+COMPLETION: CUDALaunchBoundsAttr : CUDALaunchBoundsAttr
+COMPLETION: CUDASharedAttr : CUDASharedAttr
+COMPLETION: CudaVersion : CudaVersion
+COMPLETION: CudaVersionToString : [#const char *#]CudaVersionToString(<#CudaVersion V#>)
+COMPLETION: CudaVirtualArch : CudaVirtualArch
+COMPLETION: CudaVirtualArchToString : [#const char *#]CudaVirtualArchToString(<#CudaVirtualArch A#>)
+COMPLETION: CXX11NoReturnAttr : CXX11NoReturnAttr
+COMPLETION: CXX_LANG : [#clang::LanguageID#]CXX_LANG
+COMPLETION: CXXABI : CXXABI
+COMPLETION: CXXBasePath : CXXBasePath
+COMPLETION: CXXBasePathElement : CXXBasePathElement
+COMPLETION: CXXBasePaths : CXXBasePaths
+COMPLETION: CXXBaseSpecifier : CXXBaseSpecifier
+COMPLETION: CXXBindTemporaryExpr : CXXBindTemporaryExpr
+COMPLETION: CXXBoolLiteralExpr : CXXBoolLiteralExpr
+COMPLETION: CXXCastPath : CXXCastPath
+COMPLETION: CXXCatchStmt : CXXCatchStmt
+COMPLETION: CXXConstCastExpr : CXXConstCastExpr
+COMPLETION: CXXConstructExpr : CXXConstructExpr
+COMPLETION: CXXConstructorDecl : CXXConstructorDecl
+COMPLETION: CXXConversionDecl : CXXConversionDecl
+COMPLETION: CXXCtorInitializer : CXXCtorInitializer
+COMPLETION: CXXCtorType : CXXCtorType
+COMPLETION: CXXDeductionGuideDecl : CXXDeductionGuideDecl
+COMPLETION: CXXDeductionGuideNameExtra : CXXDeductionGuideNameExtra
+COMPLETION: CXXDefaultArgExpr : CXXDefaultArgExpr
+COMPLETION: CXXDefaultInitExpr : CXXDefaultInitExpr
+COMPLETION: CXXDeleteExpr : CXXDeleteExpr
+COMPLETION: CXXDependentScopeMemberExpr : CXXDependentScopeMemberExpr
+COMPLETION: CXXDestructorDecl : CXXDestructorDecl
+COMPLETION: CXXDtorType : CXXDtorType
+COMPLETION: CXXDynamicCastExpr : CXXDynamicCastExpr
+COMPLETION: CXXFieldCollector : CXXFieldCollector
+COMPLETION: CXXFinalOverriderMap : CXXFinalOverriderMap
+COMPLETION: CXXFoldExpr : CXXFoldExpr
+COMPLETION: CXXForRangeStmt : CXXForRangeStmt
+COMPLETION: CXXFunctionalCastExpr : CXXFunctionalCastExpr
+COMPLETION: CXXIndirectPrimaryBaseSet : CXXIndirectPrimaryBaseSet
+COMPLETION: CXXInheritedCtorInitExpr : CXXInheritedCtorInitExpr
+COMPLETION: CXXInlineableMemberKind : CXXInlineableMemberKind
+COMPLETION: CXXLanguageLinkage : [#clang::LanguageLinkage#]CXXLanguageLinkage
+COMPLETION: CXXLiteralOperatorIdName : CXXLiteralOperatorIdName
+COMPLETION: CXXMemberCallExpr : CXXMemberCallExpr
+COMPLETION: CXXMethodDecl : CXXMethodDecl
+COMPLETION: CXXNamedCastExpr : CXXNamedCastExpr
+COMPLETION: CXXNewExpr : CXXNewExpr
+COMPLETION: CXXNoexceptExpr : CXXNoexceptExpr
+COMPLETION: CXXNullPtrLiteralExpr : CXXNullPtrLiteralExpr
+COMPLETION: CXXOperatorCallExpr : CXXOperatorCallExpr
+COMPLETION: CXXOperatorIdName : CXXOperatorIdName
+COMPLETION: CXXPseudoDestructorExpr : CXXPseudoDestructorExpr
+COMPLETION: CXXRecordDecl : CXXRecordDecl
+COMPLETION: CXXReinterpretCastExpr : CXXReinterpretCastExpr
+COMPLETION: CXXScalarValueInitExpr : CXXScalarValueInitExpr
+COMPLETION: CXXScopeSpec : CXXScopeSpec
+COMPLETION: CXXSpecialName : CXXSpecialName
+COMPLETION: CXXStaticCastExpr : CXXStaticCastExpr
+COMPLETION: CXXStdInitializerListExpr : CXXStdInitializerListExpr
+COMPLETION: CXXTemporary : CXXTemporary
+COMPLETION: CXXTemporaryObjectExpr : CXXTemporaryObjectExpr
+COMPLETION: CXXThisExpr : CXXThisExpr
+COMPLETION: CXXThrowExpr : CXXThrowExpr
+COMPLETION: CXXTryStmt : CXXTryStmt
+COMPLETION: CXXTypeidExpr : CXXTypeidExpr
+COMPLETION: CXXUnresolvedConstructExpr : CXXUnresolvedConstructExpr
+COMPLETION: CXXUuidofExpr : CXXUuidofExpr
+COMPLETION: data_collection : data_collection
+COMPLETION: dataflow : dataflow
+COMPLETION: DataflowValues : DataflowValues<<#typename ValueTypes#>{#, <#typename _AnalysisDirTag#>#}>
+COMPLETION: DecayedType : DecayedType
+COMPLETION: DecayedTypeLoc : DecayedTypeLoc
+COMPLETION: Decl : Decl
+COMPLETION: DeclAccessPair : DeclAccessPair
+COMPLETION: DeclarationName : DeclarationName
+COMPLETION: DeclarationNameExtra : DeclarationNameExtra
+COMPLETION: DeclarationNameInfo : DeclarationNameInfo
+COMPLETION: DeclarationNameLoc : DeclarationNameLoc
+COMPLETION: DeclarationNameTable : DeclarationNameTable
+COMPLETION: Declarator : Declarator
+COMPLETION: DeclaratorChunk : DeclaratorChunk
+COMPLETION: DeclaratorContext : DeclaratorContext
+COMPLETION: DeclaratorDecl : DeclaratorDecl
+COMPLETION: DeclaratorInfo : DeclaratorInfo
+COMPLETION: declaresSameEntity : [#bool#]declaresSameEntity(<#const Decl *D1#>, <#const Decl *D2#>)
+COMPLETION: DeclAttrsMatchCUDAMode : [#bool#]DeclAttrsMatchCUDAMode(<#const LangOptions &LangOpts#>, <#Decl *D#>)
+COMPLETION: DeclContext : DeclContext
+COMPLETION: DeclContextLookupResult : DeclContextLookupResult
+COMPLETION: DeclContextPrintAction : DeclContextPrintAction
+COMPLETION: DeclFilterCCC : DeclFilterCCC<<#class C#>>
+COMPLETION: DeclGroup : DeclGroup
+COMPLETION: DeclGroupRef : DeclGroupRef
+COMPLETION: DeclRefExpr : DeclRefExpr
+COMPLETION: DeclResult : DeclResult
+COMPLETION: DeclSpec : DeclSpec
+COMPLETION: DeclStmt : DeclStmt
+COMPLETION: DecltypeType : DecltypeType
+COMPLETION: DecltypeTypeLoc : DecltypeTypeLoc
+COMPLETION: DeclVisitor : DeclVisitor<<#typename ImplClass#>{#, <#typename RetTy#>#}>
+COMPLETION: declvisitor : declvisitor
+COMPLETION: DecompositionDecl : DecompositionDecl
+COMPLETION: DecompositionDeclarator : DecompositionDeclarator
+COMPLETION: DeducedPack : DeducedPack
+COMPLETION: DeducedTemplateArgument : DeducedTemplateArgument
+COMPLETION: DeducedTemplateSpecializationType : DeducedTemplateSpecializationType
+COMPLETION: DeducedTemplateSpecializationTypeLoc : DeducedTemplateSpecializationTypeLoc
+COMPLETION: DeducedType : DeducedType
+COMPLETION: DeducedTypeLoc : DeducedTypeLoc
+COMPLETION: DeductionFailureInfo : DeductionFailureInfo
+COMPLETION: DefaultArgStorage : DefaultArgStorage<<#typename ParmDecl#>, <#typename ArgType#>>
+COMPLETION: DefaultStmt : DefaultStmt
+COMPLETION: DefaultVisibility : [#clang::Visibility#]DefaultVisibility
+COMPLETION: DefMacroDirective : DefMacroDirective
+COMPLETION: DeltaTree : DeltaTree
+COMPLETION: DependencyCollector : DependencyCollector
+COMPLETION: DependencyFileGenerator : DependencyFileGenerator
+COMPLETION: DependencyOutputFormat : DependencyOutputFormat
+COMPLETION: DependencyOutputOptions : DependencyOutputOptions
+COMPLETION: DependentAddressSpaceLocInfo : DependentAddressSpaceLocInfo
+COMPLETION: DependentAddressSpaceType : DependentAddressSpaceType
+COMPLETION: DependentAddressSpaceTypeLoc : DependentAddressSpaceTypeLoc
+COMPLETION: DependentCoawaitExpr : DependentCoawaitExpr
+COMPLETION: DependentDecltypeType : DependentDecltypeType
+COMPLETION: DependentDiagnostic : DependentDiagnostic
+COMPLETION: DependentFunctionTemplateSpecializationInfo : DependentFunctionTemplateSpecializationInfo
+COMPLETION: DependentNameLocInfo : DependentNameLocInfo
+COMPLETION: DependentNameType : DependentNameType
+COMPLETION: DependentNameTypeLoc : DependentNameTypeLoc
+COMPLETION: DependentScopeDeclRefExpr : DependentScopeDeclRefExpr
+COMPLETION: DependentSizedArrayType : DependentSizedArrayType
+COMPLETION: DependentSizedArrayTypeLoc : DependentSizedArrayTypeLoc
+COMPLETION: DependentSizedExtVectorType : DependentSizedExtVectorType
+COMPLETION: DependentSizedExtVectorTypeLoc : DependentSizedExtVectorTypeLoc
+COMPLETION: DependentStoredDeclsMap : DependentStoredDeclsMap
+COMPLETION: DependentTemplateName : DependentTemplateName
+COMPLETION: DependentTemplateSpecializationLocInfo : DependentTemplateSpecializationLocInfo
+COMPLETION: DependentTemplateSpecializationType : DependentTemplateSpecializationType
+COMPLETION: DependentTemplateSpecializationTypeLoc : DependentTemplateSpecializationTypeLoc
+COMPLETION: DependentTypeOfExprType : DependentTypeOfExprType
+COMPLETION: DependentUnaryTransformType : DependentUnaryTransformType
+COMPLETION: DeprecatedAttr : DeprecatedAttr
+COMPLETION: DeprecatedSlot : [#AvailabilitySlot#]DeprecatedSlot
+COMPLETION: DesignatedInitExpr : DesignatedInitExpr
+COMPLETION: DesignatedInitUpdateExpr : DesignatedInitUpdateExpr
+COMPLETION: Designation : Designation
+COMPLETION: Designator : Designator
+COMPLETION: DestroyTemplateIdAnnotationsRAIIObj : DestroyTemplateIdAnnotationsRAIIObj
+COMPLETION: DestructorAttr : DestructorAttr
+COMPLETION: diag : diag
+COMPLETION: DiagnoseIfAttr : DiagnoseIfAttr
+COMPLETION: Diagnostic : Diagnostic
+COMPLETION: DiagnosticBuilder : DiagnosticBuilder
+COMPLETION: DiagnosticConsumer : DiagnosticConsumer
+COMPLETION: DiagnosticError : DiagnosticError
+COMPLETION: DiagnosticErrorTrap : DiagnosticErrorTrap
+COMPLETION: DiagnosticIDs : DiagnosticIDs
+COMPLETION: DiagnosticLevelMask : DiagnosticLevelMask
+COMPLETION: DiagnosticMapping : DiagnosticMapping
+COMPLETION: DiagnosticNoteRenderer : DiagnosticNoteRenderer
+COMPLETION: DiagnosticOptions : DiagnosticOptions
+COMPLETION: DiagnosticRenderer : DiagnosticRenderer
+COMPLETION: DiagnosticsEngine : DiagnosticsEngine
+COMPLETION: DiagNullabilityKind : DiagNullabilityKind
+COMPLETION: DiagOrStoredDiag : DiagOrStoredDiag
+COMPLETION: diff : diff
+COMPLETION: DirectoryEntry : DirectoryEntry
+COMPLETION: DirectoryLookup : DirectoryLookup
+COMPLETION: DisableTailCallsAttr : DisableTailCallsAttr
+COMPLETION: DLLExportAttr : DLLExportAttr
+COMPLETION: DLLImportAttr : DLLImportAttr
+COMPLETION: DominatorTree : DominatorTree
+COMPLETION: DomTreeNode : DomTreeNode
+COMPLETION: DoPrintPreprocessedInput : [#void#]DoPrintPreprocessedInput(<#Preprocessor &PP#>, <#raw_ostream *OS#>, <#const PreprocessorOutputOptions &Opts#>)
+COMPLETION: DoRewriteTest : [#void#]DoRewriteTest(<#Preprocessor &PP#>, <#raw_ostream *OS#>)
+COMPLETION: DoStmt : DoStmt
+COMPLETION: driver : driver
+COMPLETION: Dtor_Base : [#clang::CXXDtorType#]Dtor_Base
+COMPLETION: Dtor_Comdat : [#clang::CXXDtorType#]Dtor_Comdat
+COMPLETION: Dtor_Complete : [#clang::CXXDtorType#]Dtor_Complete
+COMPLETION: Dtor_Deleting : [#clang::CXXDtorType#]Dtor_Deleting
+COMPLETION: DumpModuleInfoAction : DumpModuleInfoAction
+COMPLETION: DumpRawTokensAction : DumpRawTokensAction
+COMPLETION: DumpTokensAction : DumpTokensAction
+COMPLETION: dyn_cast : [#typename std::enable_if<!is_simple_type<Y>::value, typename cast_retty<X, const Y>::ret_type>::type#]dyn_cast<<#class X#>>(<#const Y &Val#>)
+COMPLETION: dyn_cast : [#typename cast_retty<X, Y>::ret_type#]dyn_cast<<#class X#>>(<#Y &Val#>)
+COMPLETION: dyn_cast : [#typename cast_retty<X, Y *>::ret_type#]dyn_cast<<#class X#>>(<#Y *Val#>)
+COMPLETION: dyn_cast_or_null : [#typename std::enable_if<!is_simple_type<Y>::value, typename cast_retty<X, const Y>::ret_type>::type#]dyn_cast_or_null<<#class X#>>(<#const Y &Val#>)
+COMPLETION: dyn_cast_or_null : [#typename std::enable_if<!is_simple_type<Y>::value, typename cast_retty<X, Y>::ret_type>::type#]dyn_cast_or_null<<#class X#>>(<#Y &Val#>)
+COMPLETION: dyn_cast_or_null : [#typename cast_retty<X, Y *>::ret_type#]dyn_cast_or_null<<#class X#>>(<#Y *Val#>)
+COMPLETION: edit : edit
+COMPLETION: ElaboratedLocInfo : ElaboratedLocInfo
+COMPLETION: ElaboratedType : ElaboratedType
+COMPLETION: ElaboratedTypeKeyword : ElaboratedTypeKeyword
+COMPLETION: ElaboratedTypeLoc : ElaboratedTypeLoc
+COMPLETION: EmbedBitcode : [#void#]EmbedBitcode(<#llvm::Module *M#>, <#const CodeGenOptions &CGOpts#>, <#llvm::MemoryBufferRef Buf#>)
+COMPLETION: EmitAssemblyAction : EmitAssemblyAction
+COMPLETION: EmitBackendOutput : [#void#]EmitBackendOutput(<#DiagnosticsEngine &Diags#>, <#const HeaderSearchOptions &#>, <#const CodeGenOptions &CGOpts#>, <#const TargetOptions &TOpts#>, <#const LangOptions &LOpts#>, <#const llvm::DataLayout &TDesc#>, <#llvm::Module *M#>, <#BackendAction Action#>, <#std::unique_ptr<raw_pwrite_stream> OS#>)
+COMPLETION: EmitBCAction : EmitBCAction
+COMPLETION: EmitCodeGenOnlyAction : EmitCodeGenOnlyAction
+COMPLETION: EmitLLVMAction : EmitLLVMAction
+COMPLETION: EmitLLVMOnlyAction : EmitLLVMOnlyAction
+COMPLETION: EmitObjAction : EmitObjAction
+COMPLETION: EmptyBasesAttr : EmptyBasesAttr
+COMPLETION: EmptyDecl : EmptyDecl
+COMPLETION: EmptyPragmaHandler : EmptyPragmaHandler
+COMPLETION: EnableIfAttr : EnableIfAttr
+COMPLETION: EnterExpressionEvaluationContext : EnterExpressionEvaluationContext
+COMPLETION: ento : ento
+COMPLETION: EnumConstantDecl : EnumConstantDecl
+COMPLETION: EnumDecl : EnumDecl
+COMPLETION: EnumExtensibilityAttr : EnumExtensibilityAttr
+COMPLETION: EnumType : EnumType
+COMPLETION: EnumTypeLoc : EnumTypeLoc
+COMPLETION: EpsilonPoint : EpsilonPoint
+COMPLETION: EST_BasicNoexcept : [#clang::ExceptionSpecificationType#]EST_BasicNoexcept
+COMPLETION: EST_ComputedNoexcept : [#clang::ExceptionSpecificationType#]EST_ComputedNoexcept
+COMPLETION: EST_Dynamic : [#clang::ExceptionSpecificationType#]EST_Dynamic
+COMPLETION: EST_DynamicNone : [#clang::ExceptionSpecificationType#]EST_DynamicNone
+COMPLETION: EST_MSAny : [#clang::ExceptionSpecificationType#]EST_MSAny
+COMPLETION: EST_None : [#clang::ExceptionSpecificationType#]EST_None
+COMPLETION: EST_Unevaluated : [#clang::ExceptionSpecificationType#]EST_Unevaluated
+COMPLETION: EST_Uninstantiated : [#clang::ExceptionSpecificationType#]EST_Uninstantiated
+COMPLETION: EST_Unparsed : [#clang::ExceptionSpecificationType#]EST_Unparsed
+COMPLETION: ET_IsLValueExpr : [#clang::ExpressionTrait#]ET_IsLValueExpr
+COMPLETION: ET_IsRValueExpr : [#clang::ExpressionTrait#]ET_IsRValueExpr
+COMPLETION: ETK_Class : [#clang::ElaboratedTypeKeyword#]ETK_Class
+COMPLETION: ETK_Enum : [#clang::ElaboratedTypeKeyword#]ETK_Enum
+COMPLETION: ETK_Interface : [#clang::ElaboratedTypeKeyword#]ETK_Interface
+COMPLETION: ETK_None : [#clang::ElaboratedTypeKeyword#]ETK_None
+COMPLETION: ETK_Struct : [#clang::ElaboratedTypeKeyword#]ETK_Struct
+COMPLETION: ETK_Typename : [#clang::ElaboratedTypeKeyword#]ETK_Typename
+COMPLETION: ETK_Union : [#clang::ElaboratedTypeKeyword#]ETK_Union
+COMPLETION: EvaluatedExprVisitor : EvaluatedExprVisitor<<#typename ImplClass#>>
+COMPLETION: EvaluatedExprVisitorBase : EvaluatedExprVisitorBase<<#template<...> class Ptr#>, <#typename ImplClass#>>
+COMPLETION: EvaluatedStmt : EvaluatedStmt
+COMPLETION: ExceptionSpecificationType : ExceptionSpecificationType
+COMPLETION: ExclusiveTrylockFunctionAttr : ExclusiveTrylockFunctionAttr
+COMPLETION: ExecuteCompilerInvocation : [#bool#]ExecuteCompilerInvocation(<#CompilerInstance *Clang#>)
+COMPLETION: expandSanitizerGroups : [#SanitizerMask#]expandSanitizerGroups(<#SanitizerMask Kinds#>)
+COMPLETION: expandUCNs : [#void#]expandUCNs(<#SmallVectorImpl<char> &Buf#>, <#StringRef Input#>)
+COMPLETION: Expected : Expected<<#class T#>>
+COMPLETION: ExpectedForMaybeUnused : [#clang::AttributeDeclKind#]ExpectedForMaybeUnused
+COMPLETION: ExpectedFunction : [#clang::AttributeDeclKind#]ExpectedFunction
+COMPLETION: ExpectedFunctionMethodOrBlock : [#clang::AttributeDeclKind#]ExpectedFunctionMethodOrBlock
+COMPLETION: ExpectedFunctionMethodOrParameter : [#clang::AttributeDeclKind#]ExpectedFunctionMethodOrParameter
+COMPLETION: ExpectedFunctionOrMethod : [#clang::AttributeDeclKind#]ExpectedFunctionOrMethod
+COMPLETION: ExpectedFunctionVariableOrClass : [#clang::AttributeDeclKind#]ExpectedFunctionVariableOrClass
+COMPLETION: ExpectedFunctionWithProtoType : [#clang::AttributeDeclKind#]ExpectedFunctionWithProtoType
+COMPLETION: ExpectedKernelFunction : [#clang::AttributeDeclKind#]ExpectedKernelFunction
+COMPLETION: ExpectedTypeOrNamespace : [#clang::AttributeDeclKind#]ExpectedTypeOrNamespace
+COMPLETION: ExpectedUnion : [#clang::AttributeDeclKind#]ExpectedUnion
+COMPLETION: ExpectedVariable : [#clang::AttributeDeclKind#]ExpectedVariable
+COMPLETION: ExpectedVariableFieldOrTag : [#clang::AttributeDeclKind#]ExpectedVariableFieldOrTag
+COMPLETION: ExpectedVariableOrField : [#clang::AttributeDeclKind#]ExpectedVariableOrField
+COMPLETION: ExpectedVariableOrFunction : [#clang::AttributeDeclKind#]ExpectedVariableOrFunction
+COMPLETION: ExplicitCastExpr : ExplicitCastExpr
+COMPLETION: ExportDecl : ExportDecl
+COMPLETION: Expr : Expr
+COMPLETION: ExprEmpty : [#ExprResult#]ExprEmpty()
+COMPLETION: ExprError : [#ExprResult#]ExprError()
+COMPLETION: ExprError : [#ExprResult#]ExprError(<#const DiagnosticBuilder &#>)
+COMPLETION: ExpressionTrait : ExpressionTrait
+COMPLETION: ExpressionTraitExpr : ExpressionTraitExpr
+COMPLETION: ExprObjectKind : ExprObjectKind
+COMPLETION: ExprResult : ExprResult
+COMPLETION: ExprValueKind : ExprValueKind
+COMPLETION: ExprWithCleanups : ExprWithCleanups
+COMPLETION: ExtensionRAIIObject : ExtensionRAIIObject
+COMPLETION: ExternalASTMerger : ExternalASTMerger
+COMPLETION: ExternalASTSource : ExternalASTSource
+COMPLETION: ExternalHeaderFileInfoSource : ExternalHeaderFileInfoSource
+COMPLETION: ExternalLinkage : [#clang::Linkage#]ExternalLinkage
+COMPLETION: ExternalPreprocessingRecordSource : ExternalPreprocessingRecordSource
+COMPLETION: ExternalPreprocessorSource : ExternalPreprocessorSource
+COMPLETION: ExternalSemaSource : ExternalSemaSource
+COMPLETION: ExternalSLocEntrySource : ExternalSLocEntrySource
+COMPLETION: ExternalSourceSymbolAttr : ExternalSourceSymbolAttr
+COMPLETION: ExternalVTableUse : ExternalVTableUse
+COMPLETION: ExternCContextDecl : ExternCContextDecl
+COMPLETION: ExtQuals : ExtQuals
+COMPLETION: ExtQualsTypeCommonBase : ExtQualsTypeCommonBase
+COMPLETION: ExtVectorElementExpr : ExtVectorElementExpr
+COMPLETION: ExtVectorType : ExtVectorType
+COMPLETION: ExtVectorTypeLoc : ExtVectorTypeLoc
+COMPLETION: FallThroughAttr : FallThroughAttr
+COMPLETION: FastCallAttr : FastCallAttr
+COMPLETION: FDK_Declaration : [#clang::FunctionDefinitionKind#]FDK_Declaration
+COMPLETION: FDK_Defaulted : [#clang::FunctionDefinitionKind#]FDK_Defaulted
+COMPLETION: FDK_Definition : [#clang::FunctionDefinitionKind#]FDK_Definition
+COMPLETION: FDK_Deleted : [#clang::FunctionDefinitionKind#]FDK_Deleted
+COMPLETION: FieldDecl : FieldDecl
+COMPLETION: FieldDeclarator : FieldDeclarator
+COMPLETION: FileData : FileData
+COMPLETION: FileEntry : FileEntry
+COMPLETION: FileID : FileID
+COMPLETION: FileManager : FileManager
+COMPLETION: FilenamePatternConstraint : FilenamePatternConstraint
+COMPLETION: FileNullability : FileNullability
+COMPLETION: FileNullabilityMap : FileNullabilityMap
+COMPLETION: FileScopeAsmDecl : FileScopeAsmDecl
+COMPLETION: FileSystemOptions : FileSystemOptions
+COMPLETION: FileSystemStatCache : FileSystemStatCache
+COMPLETION: FinalAttr : FinalAttr
+COMPLETION: FindThinLTOModule : [#llvm::Expected<llvm::BitcodeModule>#]FindThinLTOModule(<#llvm::MemoryBufferRef MBRef#>)
+COMPLETION: FixedSizeTemplateParameterListStorage : FixedSizeTemplateParameterListStorage<<#size_t N#>, <#bool HasRequiresClause#>>
+COMPLETION: FixItAction : FixItAction
+COMPLETION: FixItHint : FixItHint
+COMPLETION: FixItOptions : FixItOptions
+COMPLETION: FixItRecompile : FixItRecompile
+COMPLETION: FixItRewriter : FixItRewriter
+COMPLETION: FlagEnumAttr : FlagEnumAttr
+COMPLETION: FlattenAttr : FlattenAttr
+COMPLETION: FloatingLiteral : FloatingLiteral
+COMPLETION: format : format
+COMPLETION: FormatArgAttr : FormatArgAttr
+COMPLETION: FormatASTNodeDiagnosticArgument : [#void#]FormatASTNodeDiagnosticArgument(<#DiagnosticsEngine::ArgumentKind Kind#>, <#intptr_t Val#>, <#StringRef Modifier#>, <#StringRef Argument#>, <#ArrayRef<DiagnosticsEngine::ArgumentValue> PrevArgs#>, <#SmallVectorImpl<char> &Output#>, <#void *Cookie#>, <#ArrayRef<intptr_t> QualTypeVals#>)
+COMPLETION: FormatAttr : FormatAttr
+COMPLETION: ForStmt : ForStmt
+COMPLETION: ForwardingDiagnosticConsumer : ForwardingDiagnosticConsumer
+COMPLETION: FPOptions : FPOptions
+COMPLETION: FriendDecl : FriendDecl
+COMPLETION: FriendTemplateDecl : FriendTemplateDecl
+COMPLETION: frontend : frontend
+COMPLETION: FrontendAction : FrontendAction
+COMPLETION: FrontendInputFile : FrontendInputFile
+COMPLETION: FrontendOptions : FrontendOptions
+COMPLETION: FrontendPluginRegistry : FrontendPluginRegistry
+COMPLETION: FTIHasNonVoidParameters : [#bool#]FTIHasNonVoidParameters(<#const DeclaratorChunk::FunctionTypeInfo &FTI#>)
+COMPLETION: FTIHasSingleVoidParameter : [#bool#]FTIHasSingleVoidParameter(<#const DeclaratorChunk::FunctionTypeInfo &FTI#>)
+COMPLETION: FullSourceLoc : FullSourceLoc
+COMPLETION: FunctionCallFilterCCC : FunctionCallFilterCCC
+COMPLETION: FunctionDecl : FunctionDecl
+COMPLETION: FunctionDefinitionKind : FunctionDefinitionKind
+COMPLETION: FunctionLocInfo : FunctionLocInfo
+COMPLETION: FunctionNoProtoType : FunctionNoProtoType
+COMPLETION: FunctionNoProtoTypeLoc : FunctionNoProtoTypeLoc
+COMPLETION: FunctionParmPackExpr : FunctionParmPackExpr
+COMPLETION: FunctionProtoType : FunctionProtoType
+COMPLETION: FunctionProtoTypeLoc : FunctionProtoTypeLoc
+COMPLETION: FunctionTemplateDecl : FunctionTemplateDecl
+COMPLETION: FunctionTemplateSpecializationInfo : FunctionTemplateSpecializationInfo
+COMPLETION: FunctionType : FunctionType
+COMPLETION: FunctionTypeLoc : FunctionTypeLoc
+COMPLETION: GCCAsmStmt : GCCAsmStmt
+COMPLETION: GenerateModuleAction : GenerateModuleAction
+COMPLETION: GenerateModuleFromModuleMapAction : GenerateModuleFromModuleMapAction
+COMPLETION: GenerateModuleInterfaceAction : GenerateModuleInterfaceAction
+COMPLETION: GeneratePCHAction : GeneratePCHAction
+COMPLETION: GeneratePTHAction : GeneratePTHAction
+COMPLETION: GenericSelectionExpr : GenericSelectionExpr
+COMPLETION: getAsNamedDecl : [#NamedDecl *#]getAsNamedDecl(<#TemplateParameter P#>)
+COMPLETION: getAsString : [#llvm::StringRef#]getAsString(<#SyncScope S#>)
+COMPLETION: getAsTypeTemplateDecl : [#TemplateDecl *#]getAsTypeTemplateDecl(<#Decl *D#>)
+COMPLETION: getBinOpPrecedence : [#prec::Level#]getBinOpPrecedence(<#tok::TokenKind Kind#>, <#bool GreaterThanIsOperator#>, <#bool CPlusPlus11#>)
+COMPLETION: getClangFullCPPVersion : [#std::string#]getClangFullCPPVersion()
+COMPLETION: getClangFullRepositoryVersion : [#std::string#]getClangFullRepositoryVersion()
+COMPLETION: getClangFullVersion : [#std::string#]getClangFullVersion()
+COMPLETION: getClangRepositoryPath : [#std::string#]getClangRepositoryPath()
+COMPLETION: getClangRevision : [#std::string#]getClangRevision()
+COMPLETION: getClangToolFullVersion : [#std::string#]getClangToolFullVersion(<#llvm::StringRef ToolName#>)
+COMPLETION: getConstructorInfo : [#ConstructorInfo#]getConstructorInfo(<#NamedDecl *ND#>)
+COMPLETION: GetConversionRank : [#ImplicitConversionRank#]GetConversionRank(<#ImplicitConversionKind Kind#>)
+COMPLETION: getCursorKindForDecl : [#CXCursorKind#]getCursorKindForDecl(<#const Decl *D#>)
+COMPLETION: getDeclUsageType : [#QualType#]getDeclUsageType(<#ASTContext &C#>, <#const NamedDecl *ND#>)
+COMPLETION: getDLLAttr : [#InheritableAttr *#]getDLLAttr(<#Decl *D#>)
+COMPLETION: getFormalLinkage : [#Linkage#]getFormalLinkage(<#Linkage L#>)
+COMPLETION: getFunctionExtInfo : [#FunctionType::ExtInfo#]getFunctionExtInfo(<#const Type &t#>)
+COMPLETION: getFunctionExtInfo : [#FunctionType::ExtInfo#]getFunctionExtInfo(<#QualType t#>)
+COMPLETION: GetIssueHash : [#llvm::SmallString<32>#]GetIssueHash(<#const SourceManager &SM#>, <#FullSourceLoc &IssueLoc#>, <#llvm::StringRef CheckerName#>, <#llvm::StringRef BugType#>, <#const Decl *D#>, <#const LangOptions &LangOpts#>)
+COMPLETION: GetIssueString : [#std::string#]GetIssueString(<#const SourceManager &SM#>, <#FullSourceLoc &IssueLoc#>, <#llvm::StringRef CheckerName#>, <#llvm::StringRef BugType#>, <#const Decl *D#>, <#const LangOptions &LangOpts#>)
+COMPLETION: getLambdaAwareParentOfDeclContext : [#DeclContext *#]getLambdaAwareParentOfDeclContext(<#DeclContext *DC#>)
+COMPLETION: getLambdaStaticInvokerName : [#StringRef#]getLambdaStaticInvokerName()
+COMPLETION: getLangASFromTargetAS : [#LangAS#]getLangASFromTargetAS(<#unsigned int TargetAS#>)
+COMPLETION: getLastArgIntValue : [#int#]getLastArgIntValue(<#const llvm::opt::ArgList &Args#>, <#llvm::opt::OptSpecifier Id#>, <#int Default#>{#, <#DiagnosticsEngine *Diags = nullptr#>#})
+COMPLETION: getLastArgIntValue : [#int#]getLastArgIntValue(<#const llvm::opt::ArgList &Args#>, <#llvm::opt::OptSpecifier Id#>, <#int Default#>, <#DiagnosticsEngine &Diags#>)
+COMPLETION: getLastArgUInt64Value : [#uint64_t#]getLastArgUInt64Value(<#const llvm::opt::ArgList &Args#>, <#llvm::opt::OptSpecifier Id#>, <#uint64_t Default#>{#, <#DiagnosticsEngine *Diags = nullptr#>#})
+COMPLETION: getLastArgUInt64Value : [#uint64_t#]getLastArgUInt64Value(<#const llvm::opt::ArgList &Args#>, <#llvm::opt::OptSpecifier Id#>, <#uint64_t Default#>, <#DiagnosticsEngine &Diags#>)
+COMPLETION: getLLVMRepositoryPath : [#std::string#]getLLVMRepositoryPath()
+COMPLETION: getLLVMRevision : [#std::string#]getLLVMRevision()
+COMPLETION: getMacroUsagePriority : [#unsigned int#]getMacroUsagePriority(<#StringRef MacroName#>, <#const LangOptions &LangOpts#>{#, <#bool PreferredTypeIsPointer = false#>#})
+COMPLETION: getNullabilitySpelling : [#llvm::StringRef#]getNullabilitySpelling(<#NullabilityKind kind#>{#, <#bool isContextSensitive = false#>#})
+COMPLETION: GetNullarySelector : [#Selector#]GetNullarySelector(<#StringRef name#>, <#ASTContext &Ctx#>)
+COMPLETION: getOpenMPCaptureRegions : [#void#]getOpenMPCaptureRegions(<#llvm::SmallVectorImpl<OpenMPDirectiveKind> &CaptureRegions#>, <#OpenMPDirectiveKind DKind#>)
+COMPLETION: getOpenMPClauseKind : [#OpenMPClauseKind#]getOpenMPClauseKind(<#llvm::StringRef Str#>)
+COMPLETION: getOpenMPClauseName : [#const char *#]getOpenMPClauseName(<#OpenMPClauseKind Kind#>)
+COMPLETION: getOpenMPDirectiveKind : [#OpenMPDirectiveKind#]getOpenMPDirectiveKind(<#llvm::StringRef Str#>)
+COMPLETION: getOpenMPDirectiveName : [#const char *#]getOpenMPDirectiveName(<#OpenMPDirectiveKind Kind#>)
+COMPLETION: getOpenMPSimpleClauseType : [#unsigned int#]getOpenMPSimpleClauseType(<#OpenMPClauseKind Kind#>, <#llvm::StringRef Str#>)
+COMPLETION: getOpenMPSimpleClauseTypeName : [#const char *#]getOpenMPSimpleClauseTypeName(<#OpenMPClauseKind Kind#>, <#unsigned int Type#>)
+COMPLETION: getOperatorSpelling : [#const char *#]getOperatorSpelling(<#OverloadedOperatorKind Operator#>)
+COMPLETION: getParameterABISpelling : [#llvm::StringRef#]getParameterABISpelling(<#ParameterABI kind#>)
+COMPLETION: getPPTransparentSanitizers : [#SanitizerMask#]getPPTransparentSanitizers()
+COMPLETION: getPrimaryMergedDecl : [#Decl *#]getPrimaryMergedDecl(<#Decl *D#>)
+COMPLETION: getSimplifiedTypeClass : [#SimplifiedTypeClass#]getSimplifiedTypeClass(<#CanQualType T#>)
+COMPLETION: getSpecificAttr : [#SpecificAttr *#]getSpecificAttr<<#typename SpecificAttr#>>(<#const Container &container#>)
+COMPLETION: getStackIndexOfNearestEnclosingCaptureCapableLambda : [#Optional<unsigned int>#]getStackIndexOfNearestEnclosingCaptureCapableLambda(<#ArrayRef<const sema::FunctionScopeInfo *> FunctionScopes#>, <#VarDecl *VarToCapture#>, <#Sema &S#>)
+COMPLETION: getStandardSelectorLoc : [#SourceLocation#]getStandardSelectorLoc(<#unsigned int Index#>, <#Selector Sel#>, <#bool WithArgSpace#>, <#ArrayRef<Expr *> Args#>, <#SourceLocation EndLoc#>)
+COMPLETION: getStandardSelectorLoc : [#SourceLocation#]getStandardSelectorLoc(<#unsigned int Index#>, <#Selector Sel#>, <#bool WithArgSpace#>, <#ArrayRef<ParmVarDecl *> Args#>, <#SourceLocation EndLoc#>)
+COMPLETION: getTemplateParamsRange : [#SourceRange#]getTemplateParamsRange(<#const TemplateParameterList *const *Params#>, <#unsigned int NumParams#>)
+COMPLETION: GetUnarySelector : [#Selector#]GetUnarySelector(<#StringRef name#>, <#ASTContext &Ctx#>)
+COMPLETION: GlobalCodeCompletionAllocator : GlobalCodeCompletionAllocator
+COMPLETION: GlobalDecl : GlobalDecl
+COMPLETION: GlobalModuleIndex : GlobalModuleIndex
+COMPLETION: GNU_LANG : [#clang::LanguageID#]GNU_LANG
+COMPLETION: GNUInlineAttr : GNUInlineAttr
+COMPLETION: GNUNullExpr : GNUNullExpr
+COMPLETION: GotoStmt : GotoStmt
+COMPLETION: GreaterThanIsOperatorScope : GreaterThanIsOperatorScope
+COMPLETION: GuardedByAttr : GuardedByAttr
+COMPLETION: GuardedVarAttr : GuardedVarAttr
+COMPLETION: GVA_AvailableExternally : [#clang::GVALinkage#]GVA_AvailableExternally
+COMPLETION: GVA_DiscardableODR : [#clang::GVALinkage#]GVA_DiscardableODR
+COMPLETION: GVA_Internal : [#clang::GVALinkage#]GVA_Internal
+COMPLETION: GVA_StrongExternal : [#clang::GVALinkage#]GVA_StrongExternal
+COMPLETION: GVA_StrongODR : [#clang::GVALinkage#]GVA_StrongODR
+COMPLETION: GVALinkage : GVALinkage
+COMPLETION: hasAttribute : [#int#]hasAttribute(<#AttrSyntax Syntax#>, <#const IdentifierInfo *Scope#>, <#const IdentifierInfo *Attr#>, <#const TargetInfo &Target#>, <#const LangOptions &LangOpts#>)
+COMPLETION: hasSpecificAttr : [#bool#]hasSpecificAttr<<#typename SpecificAttr#>>(<#const Container &container#>)
+COMPLETION: hasStandardSelectorLocs : [#SelectorLocationsKind#]hasStandardSelectorLocs(<#Selector Sel#>, <#ArrayRef<SourceLocation> SelLocs#>, <#ArrayRef<Expr *> Args#>, <#SourceLocation EndLoc#>)
+COMPLETION: hasStandardSelectorLocs : [#SelectorLocationsKind#]hasStandardSelectorLocs(<#Selector Sel#>, <#ArrayRef<SourceLocation> SelLocs#>, <#ArrayRef<ParmVarDecl *> Args#>, <#SourceLocation EndLoc#>)
+COMPLETION: HeaderFileInfo : HeaderFileInfo
+COMPLETION: HeaderMap : HeaderMap
+COMPLETION: HeaderMapImpl : HeaderMapImpl
+COMPLETION: HeaderSearch : HeaderSearch
+COMPLETION: HeaderSearchOptions : HeaderSearchOptions
+COMPLETION: Hexagon : Hexagon
+COMPLETION: HiddenVisibility : [#clang::Visibility#]HiddenVisibility
+COMPLETION: HMAP_EmptyBucketKey : [#clang::(anonymous)#]HMAP_EmptyBucketKey
+COMPLETION: HMAP_HeaderMagicNumber : [#clang::(anonymous)#]HMAP_HeaderMagicNumber
+COMPLETION: HMAP_HeaderVersion : [#clang::(anonymous)#]HMAP_HeaderVersion
+COMPLETION: HMapBucket : HMapBucket
+COMPLETION: HMapHeader : HMapHeader
+COMPLETION: HotAttr : HotAttr
+COMPLETION: html : html
+COMPLETION: HTMLPrintAction : HTMLPrintAction
+COMPLETION: IBActionAttr : IBActionAttr
+COMPLETION: IBOutletAttr : IBOutletAttr
+COMPLETION: IBOutletCollectionAttr : IBOutletCollectionAttr
+COMPLETION: ICIS_CopyInit : [#clang::InClassInitStyle#]ICIS_CopyInit
+COMPLETION: ICIS_ListInit : [#clang::InClassInitStyle#]ICIS_ListInit
+COMPLETION: ICIS_NoInit : [#clang::InClassInitStyle#]ICIS_NoInit
+COMPLETION: ICK_Array_To_Pointer : [#clang::ImplicitConversionKind#]ICK_Array_To_Pointer
+COMPLETION: ICK_Block_Pointer_Conversion : [#clang::ImplicitConversionKind#]ICK_Block_Pointer_Conversion
+COMPLETION: ICK_Boolean_Conversion : [#clang::ImplicitConversionKind#]ICK_Boolean_Conversion
+COMPLETION: ICK_C_Only_Conversion : [#clang::ImplicitConversionKind#]ICK_C_Only_Conversion
+COMPLETION: ICK_Compatible_Conversion : [#clang::ImplicitConversionKind#]ICK_Compatible_Conversion
+COMPLETION: ICK_Complex_Conversion : [#clang::ImplicitConversionKind#]ICK_Complex_Conversion
+COMPLETION: ICK_Complex_Promotion : [#clang::ImplicitConversionKind#]ICK_Complex_Promotion
+COMPLETION: ICK_Complex_Real : [#clang::ImplicitConversionKind#]ICK_Complex_Real
+COMPLETION: ICK_Derived_To_Base : [#clang::ImplicitConversionKind#]ICK_Derived_To_Base
+COMPLETION: ICK_Floating_Conversion : [#clang::ImplicitConversionKind#]ICK_Floating_Conversion
+COMPLETION: ICK_Floating_Integral : [#clang::ImplicitConversionKind#]ICK_Floating_Integral
+COMPLETION: ICK_Floating_Promotion : [#clang::ImplicitConversionKind#]ICK_Floating_Promotion
+COMPLETION: ICK_Function_Conversion : [#clang::ImplicitConversionKind#]ICK_Function_Conversion
+COMPLETION: ICK_Function_To_Pointer : [#clang::ImplicitConversionKind#]ICK_Function_To_Pointer
+COMPLETION: ICK_Identity : [#clang::ImplicitConversionKind#]ICK_Identity
+COMPLETION: ICK_Incompatible_Pointer_Conversion : [#clang::ImplicitConversionKind#]ICK_Incompatible_Pointer_Conversion
+COMPLETION: ICK_Integral_Conversion : [#clang::ImplicitConversionKind#]ICK_Integral_Conversion
+COMPLETION: ICK_Integral_Promotion : [#clang::ImplicitConversionKind#]ICK_Integral_Promotion
+COMPLETION: ICK_Lvalue_To_Rvalue : [#clang::ImplicitConversionKind#]ICK_Lvalue_To_Rvalue
+COMPLETION: ICK_Num_Conversion_Kinds : [#clang::ImplicitConversionKind#]ICK_Num_Conversion_Kinds
+COMPLETION: ICK_Pointer_Conversion : [#clang::ImplicitConversionKind#]ICK_Pointer_Conversion
+COMPLETION: ICK_Pointer_Member : [#clang::ImplicitConversionKind#]ICK_Pointer_Member
+COMPLETION: ICK_Qualification : [#clang::ImplicitConversionKind#]ICK_Qualification
+COMPLETION: ICK_TransparentUnionConversion : [#clang::ImplicitConversionKind#]ICK_TransparentUnionConversion
+COMPLETION: ICK_Vector_Conversion : [#clang::ImplicitConversionKind#]ICK_Vector_Conversion
+COMPLETION: ICK_Vector_Splat : [#clang::ImplicitConversionKind#]ICK_Vector_Splat
+COMPLETION: ICK_Writeback_Conversion : [#clang::ImplicitConversionKind#]ICK_Writeback_Conversion
+COMPLETION: ICK_Zero_Event_Conversion : [#clang::ImplicitConversionKind#]ICK_Zero_Event_Conversion
+COMPLETION: ICK_Zero_Queue_Conversion : [#clang::ImplicitConversionKind#]ICK_Zero_Queue_Conversion
+COMPLETION: ICR_C_Conversion : [#clang::ImplicitConversionRank#]ICR_C_Conversion
+COMPLETION: ICR_C_Conversion_Extension : [#clang::ImplicitConversionRank#]ICR_C_Conversion_Extension
+COMPLETION: ICR_Complex_Real_Conversion : [#clang::ImplicitConversionRank#]ICR_Complex_Real_Conversion
+COMPLETION: ICR_Conversion : [#clang::ImplicitConversionRank#]ICR_Conversion
+COMPLETION: ICR_Exact_Match : [#clang::ImplicitConversionRank#]ICR_Exact_Match
+COMPLETION: ICR_OCL_Scalar_Widening : [#clang::ImplicitConversionRank#]ICR_OCL_Scalar_Widening
+COMPLETION: ICR_Promotion : [#clang::ImplicitConversionRank#]ICR_Promotion
+COMPLETION: ICR_Writeback_Conversion : [#clang::ImplicitConversionRank#]ICR_Writeback_Conversion
+COMPLETION: IdentifierInfo : IdentifierInfo
+COMPLETION: IdentifierInfoLookup : IdentifierInfoLookup
+COMPLETION: IdentifierIterator : IdentifierIterator
+COMPLETION: IdentifierLoc : IdentifierLoc
+COMPLETION: IdentifierLocPair : IdentifierLocPair
+COMPLETION: IdentifierResolver : IdentifierResolver
+COMPLETION: IdentifierTable : IdentifierTable
+COMPLETION: idx : idx
+COMPLETION: IfStmt : IfStmt
+COMPLETION: IFuncAttr : IFuncAttr
+COMPLETION: IgnoringDiagConsumer : IgnoringDiagConsumer
+COMPLETION: ImaginaryLiteral : ImaginaryLiteral
+COMPLETION: ImplicitCallPoint : ImplicitCallPoint
+COMPLETION: ImplicitCastExpr : ImplicitCastExpr
+COMPLETION: ImplicitConversionKind : ImplicitConversionKind
+COMPLETION: ImplicitConversionRank : ImplicitConversionRank
+COMPLETION: ImplicitConversionSequence : ImplicitConversionSequence
+COMPLETION: ImplicitParamDecl : ImplicitParamDecl
+COMPLETION: ImplicitValueInitExpr : ImplicitValueInitExpr
+COMPLETION: ImportDecl : ImportDecl
+COMPLETION: InBeforeInTUCacheEntry : InBeforeInTUCacheEntry
+COMPLETION: InClassInitStyle : InClassInitStyle
+COMPLETION: InclusionDirective : InclusionDirective
+COMPLETION: IncompleteArrayType : IncompleteArrayType
+COMPLETION: IncompleteArrayTypeLoc : IncompleteArrayTypeLoc
+COMPLETION: index : index
+COMPLETION: IndirectFieldDecl : IndirectFieldDecl
+COMPLETION: IndirectGotoStmt : IndirectGotoStmt
+COMPLETION: InheritableAttr : InheritableAttr
+COMPLETION: InheritableParamAttr : InheritableParamAttr
+COMPLETION: InheritedConstructor : InheritedConstructor
+COMPLETION: InheritingConcreteTypeLoc : InheritingConcreteTypeLoc<<#class Base#>, <#class Derived#>, <#class TypeClass#>>
+COMPLETION: InitializationKind : InitializationKind
+COMPLETION: InitializationSequence : InitializationSequence
+COMPLETION: InitializedEntity : InitializedEntity
+COMPLETION: InitializePreprocessor : [#void#]InitializePreprocessor(<#Preprocessor &PP#>, <#const PreprocessorOptions &PPOpts#>, <#const PCHContainerReader &PCHContainerRdr#>, <#const FrontendOptions &FEOpts#>)
+COMPLETION: InitListExpr : InitListExpr
+COMPLETION: InitOnlyAction : InitOnlyAction
+COMPLETION: InitPriorityAttr : InitPriorityAttr
+COMPLETION: InitSegAttr : InitSegAttr
+COMPLETION: InjectedClassNameType : InjectedClassNameType
+COMPLETION: InjectedClassNameTypeLoc : InjectedClassNameTypeLoc
+COMPLETION: InMessageExpressionRAIIObject : InMessageExpressionRAIIObject
+COMPLETION: InputKind : InputKind
+COMPLETION: IntegerLiteral : IntegerLiteral
+COMPLETION: IntelOclBiccAttr : IntelOclBiccAttr
+COMPLETION: InternalLinkage : [#clang::Linkage#]InternalLinkage
+COMPLETION: InternalLinkageAttr : InternalLinkageAttr
+COMPLETION: IntroducedSlot : [#AvailabilitySlot#]IntroducedSlot
+COMPLETION: IntrusiveRefCntPtr : IntrusiveRefCntPtr<<#typename T#>>
+COMPLETION: IntrusiveRefCntPtrInfo : IntrusiveRefCntPtrInfo<<#typename T#>>
+COMPLETION: InvalidObjCMethodFamily : [#clang::(anonymous)#]InvalidObjCMethodFamily
+COMPLETION: IPAK_BasicInlining : [#clang::IPAKind#]IPAK_BasicInlining
+COMPLETION: IPAK_DynamicDispatch : [#clang::IPAKind#]IPAK_DynamicDispatch
+COMPLETION: IPAK_DynamicDispatchBifurcate : [#clang::IPAKind#]IPAK_DynamicDispatchBifurcate
+COMPLETION: IPAK_Inlining : [#clang::IPAKind#]IPAK_Inlining
+COMPLETION: IPAK_None : [#clang::IPAKind#]IPAK_None
+COMPLETION: IPAK_NotSet : [#clang::IPAKind#]IPAK_NotSet
+COMPLETION: IPAKind : IPAKind
+COMPLETION: isa : [#bool#]isa<<#class X#>>(<#const Y &Val#>)
+COMPLETION: isAllowedClauseForDirective : [#bool#]isAllowedClauseForDirective(<#OpenMPDirectiveKind DKind#>, <#OpenMPClauseKind CKind#>)
+COMPLETION: isAlphanumeric : [#bool#]isAlphanumeric(<#unsigned char c#>)
+COMPLETION: isASCII : [#bool#]isASCII(<#char c#>)
+COMPLETION: isBetterOverloadCandidate : [#bool#]isBetterOverloadCandidate(<#Sema &S#>, <#const OverloadCandidate &Cand1#>, <#const OverloadCandidate &Cand2#>, <#SourceLocation Loc#>, <#OverloadCandidateSet::CandidateSetKind Kind#>)
+COMPLETION: isDigit : [#bool#]isDigit(<#unsigned char c#>)
+COMPLETION: isDiscardableGVALinkage : [#bool#]isDiscardableGVALinkage(<#GVALinkage L#>)
+COMPLETION: isDynamicExceptionSpec : [#bool#]isDynamicExceptionSpec(<#ExceptionSpecificationType ESpecType#>)
+COMPLETION: IsEnumDeclComplete : [#bool#]IsEnumDeclComplete(<#EnumDecl *ED#>)
+COMPLETION: IsEnumDeclScoped : [#bool#]IsEnumDeclScoped(<#EnumDecl *ED#>)
+COMPLETION: isExternalFormalLinkage : [#bool#]isExternalFormalLinkage(<#Linkage L#>)
+COMPLETION: isExternallyVisible : [#bool#]isExternallyVisible(<#Linkage L#>)
+COMPLETION: isGenericLambdaCallOperatorSpecialization : [#bool#]isGenericLambdaCallOperatorSpecialization(<#const CXXMethodDecl *MD#>)
+COMPLETION: isGenericLambdaCallOperatorSpecialization : [#bool#]isGenericLambdaCallOperatorSpecialization(<#DeclContext *DC#>)
+COMPLETION: isHexDigit : [#bool#]isHexDigit(<#unsigned char c#>)
+COMPLETION: isHorizontalWhitespace : [#bool#]isHorizontalWhitespace(<#unsigned char c#>)
+COMPLETION: isIdentifierBody : [#bool#]isIdentifierBody(<#unsigned char c#>{#, <#bool AllowDollar = false#>#})
+COMPLETION: isIdentifierHead : [#bool#]isIdentifierHead(<#unsigned char c#>{#, <#bool AllowDollar = false#>#})
+COMPLETION: isLambdaCallOperator : [#bool#]isLambdaCallOperator(<#const CXXMethodDecl *MD#>)
+COMPLETION: isLambdaCallOperator : [#bool#]isLambdaCallOperator(<#const DeclContext *DC#>)
+COMPLETION: isLambdaConversionOperator : [#bool#]isLambdaConversionOperator(<#CXXConversionDecl *C#>)
+COMPLETION: isLambdaConversionOperator : [#bool#]isLambdaConversionOperator(<#Decl *D#>)
+COMPLETION: isLegalForFunction : [#bool#]isLegalForFunction(<#StorageClass SC#>)
+COMPLETION: isLegalForVariable : [#bool#]isLegalForVariable(<#StorageClass SC#>)
+COMPLETION: isLetter : [#bool#]isLetter(<#unsigned char c#>)
+COMPLETION: isLowercase : [#bool#]isLowercase(<#unsigned char c#>)
+COMPLETION: isNoexceptExceptionSpec : [#bool#]isNoexceptExceptionSpec(<#ExceptionSpecificationType ESpecType#>)
+COMPLETION: isOpenMPDistributeDirective : [#bool#]isOpenMPDistributeDirective(<#OpenMPDirectiveKind DKind#>)
+COMPLETION: isOpenMPLoopBoundSharingDirective : [#bool#]isOpenMPLoopBoundSharingDirective(<#OpenMPDirectiveKind Kind#>)
+COMPLETION: isOpenMPLoopDirective : [#bool#]isOpenMPLoopDirective(<#OpenMPDirectiveKind DKind#>)
+COMPLETION: isOpenMPNestingDistributeDirective : [#bool#]isOpenMPNestingDistributeDirective(<#OpenMPDirectiveKind DKind#>)
+COMPLETION: isOpenMPNestingTeamsDirective : [#bool#]isOpenMPNestingTeamsDirective(<#OpenMPDirectiveKind DKind#>)
+COMPLETION: isOpenMPParallelDirective : [#bool#]isOpenMPParallelDirective(<#OpenMPDirectiveKind DKind#>)
+COMPLETION: isOpenMPPrivate : [#bool#]isOpenMPPrivate(<#OpenMPClauseKind Kind#>)
+COMPLETION: isOpenMPSimdDirective : [#bool#]isOpenMPSimdDirective(<#OpenMPDirectiveKind DKind#>)
+COMPLETION: isOpenMPTargetDataManagementDirective : [#bool#]isOpenMPTargetDataManagementDirective(<#OpenMPDirectiveKind DKind#>)
+COMPLETION: isOpenMPTargetExecutionDirective : [#bool#]isOpenMPTargetExecutionDirective(<#OpenMPDirectiveKind DKind#>)
+COMPLETION: isOpenMPTaskingDirective : [#bool#]isOpenMPTaskingDirective(<#OpenMPDirectiveKind Kind#>)
+COMPLETION: isOpenMPTaskLoopDirective : [#bool#]isOpenMPTaskLoopDirective(<#OpenMPDirectiveKind DKind#>)
+COMPLETION: isOpenMPTeamsDirective : [#bool#]isOpenMPTeamsDirective(<#OpenMPDirectiveKind DKind#>)
+COMPLETION: isOpenMPThreadPrivate : [#bool#]isOpenMPThreadPrivate(<#OpenMPClauseKind Kind#>)
+COMPLETION: isOpenMPWorksharingDirective : [#bool#]isOpenMPWorksharingDirective(<#OpenMPDirectiveKind DKind#>)
+COMPLETION: isPreprocessingNumberBody : [#bool#]isPreprocessingNumberBody(<#unsigned char c#>)
+COMPLETION: isPrintable : [#bool#]isPrintable(<#unsigned char c#>)
+COMPLETION: isPunctuation : [#bool#]isPunctuation(<#unsigned char c#>)
+COMPLETION: isRawStringDelimBody : [#bool#]isRawStringDelimBody(<#unsigned char c#>)
+COMPLETION: IsResultPtrLowBitFree : IsResultPtrLowBitFree<<#class Ptr#>>
+COMPLETION: isTargetAddressSpace : [#bool#]isTargetAddressSpace(<#LangAS AS#>)
+COMPLETION: isTemplateExplicitInstantiationOrSpecialization : [#bool#]isTemplateExplicitInstantiationOrSpecialization(<#TemplateSpecializationKind Kind#>)
+COMPLETION: isTemplateInstantiation : [#bool#]isTemplateInstantiation(<#TemplateSpecializationKind Kind#>)
+COMPLETION: isUnresolvedExceptionSpec : [#bool#]isUnresolvedExceptionSpec(<#ExceptionSpecificationType ESpecType#>)
+COMPLETION: isUppercase : [#bool#]isUppercase(<#unsigned char c#>)
+COMPLETION: isValidIdentifier : [#bool#]isValidIdentifier(<#StringRef S#>)
+COMPLETION: IsVariableAConstantExpression : [#bool#]IsVariableAConstantExpression(<#VarDecl *Var#>, <#ASTContext &Context#>)
+COMPLETION: isVerticalWhitespace : [#bool#]isVerticalWhitespace(<#unsigned char c#>)
+COMPLETION: isWhitespace : [#bool#]isWhitespace(<#unsigned char c#>)
+COMPLETION: ItaniumMangleContext : ItaniumMangleContext
+COMPLETION: ItaniumVTableContext : ItaniumVTableContext
+COMPLETION: LabelDecl : LabelDecl
+COMPLETION: LabelStmt : LabelStmt
+COMPLETION: LambdaCapture : LambdaCapture
+COMPLETION: LambdaCaptureDefault : LambdaCaptureDefault
+COMPLETION: LambdaCaptureInitKind : LambdaCaptureInitKind
+COMPLETION: LambdaCaptureKind : LambdaCaptureKind
+COMPLETION: LambdaExpr : LambdaExpr
+COMPLETION: LambdaIntroducer : LambdaIntroducer
+COMPLETION: LangAS : LangAS
+COMPLETION: LangASMap : LangASMap
+COMPLETION: LangOptions : LangOptions
+COMPLETION: LangOptionsBase : LangOptionsBase
+COMPLETION: LangStandard : LangStandard
+COMPLETION: LanguageID : LanguageID
+COMPLETION: LanguageLinkage : LanguageLinkage
+COMPLETION: LateParsedTemplate : LateParsedTemplate
+COMPLETION: LayoutOverrideSource : LayoutOverrideSource
+COMPLETION: LayoutVersionAttr : LayoutVersionAttr
+COMPLETION: LazyASTUnresolvedSet : LazyASTUnresolvedSet
+COMPLETION: LazyCXXBaseSpecifiersPtr : LazyCXXBaseSpecifiersPtr
+COMPLETION: LazyCXXCtorInitializersPtr : LazyCXXCtorInitializersPtr
+COMPLETION: LazyDeclPtr : LazyDeclPtr
+COMPLETION: LazyDeclStmtPtr : LazyDeclStmtPtr
+COMPLETION: LazyGenerationalUpdatePtr : LazyGenerationalUpdatePtr<<#typename Owner#>, <#typename T#>, <#void (ExternalASTSource::*Update)(Owner)#>>
+COMPLETION: LazyOffsetPtr : LazyOffsetPtr<<#typename T#>, <#typename OffsT#>, <#T *(ExternalASTSource::*Get)(OffsT)#>>
+COMPLETION: LazyVector : LazyVector<<#typename T#>, <#typename Source#>, <#void (Source::*Loader)(SmallVectorImpl<T> &)#>{#, <#unsigned int LoadedStorage#>{#, <#unsigned int LocalStorage#>#}#}>
+COMPLETION: LCD_ByCopy : [#clang::LambdaCaptureDefault#]LCD_ByCopy
+COMPLETION: LCD_ByRef : [#clang::LambdaCaptureDefault#]LCD_ByRef
+COMPLETION: LCD_None : [#clang::LambdaCaptureDefault#]LCD_None
+COMPLETION: LCK_ByCopy : [#clang::LambdaCaptureKind#]LCK_ByCopy
+COMPLETION: LCK_ByRef : [#clang::LambdaCaptureKind#]LCK_ByRef
+COMPLETION: LCK_StarThis : [#clang::LambdaCaptureKind#]LCK_StarThis
+COMPLETION: LCK_This : [#clang::LambdaCaptureKind#]LCK_This
+COMPLETION: LCK_VLAType : [#clang::LambdaCaptureKind#]LCK_VLAType
+COMPLETION: Le64 : Le64
+COMPLETION: Lexer : Lexer
+COMPLETION: LexicallyOrderedRecursiveASTVisitor : LexicallyOrderedRecursiveASTVisitor<<#typename Derived#>>
+COMPLETION: LineEntry : LineEntry
+COMPLETION: LineTableInfo : LineTableInfo
+COMPLETION: Linkage : Linkage
+COMPLETION: LinkageInfo : LinkageInfo
+COMPLETION: LinkageSpecDecl : LinkageSpecDecl
+COMPLETION: LiveVariables : LiveVariables
+COMPLETION: LocalInstantiationScope : LocalInstantiationScope
+COMPLETION: LocationCheck : LocationCheck
+COMPLETION: LocationContext : LocationContext
+COMPLETION: LocationContextManager : LocationContextManager
+COMPLETION: LocInfoType : LocInfoType
+COMPLETION: LockReturnedAttr : LockReturnedAttr
+COMPLETION: LocksExcludedAttr : LocksExcludedAttr
+COMPLETION: LogDiagnosticPrinter : LogDiagnosticPrinter
+COMPLETION: LookupResult : LookupResult
+COMPLETION: LoopExit : LoopExit
+COMPLETION: LoopHint : LoopHint
+COMPLETION: LoopHintAttr : LoopHintAttr
+COMPLETION: LTOVisibilityPublicAttr : LTOVisibilityPublicAttr
+COMPLETION: LValueReferenceType : LValueReferenceType
+COMPLETION: LValueReferenceTypeLoc : LValueReferenceTypeLoc
+COMPLETION: MacroArgs : MacroArgs
+COMPLETION: MacroBuilder : MacroBuilder
+COMPLETION: MacroDefinition : MacroDefinition
+COMPLETION: MacroDefinitionRecord : MacroDefinitionRecord
+COMPLETION: MacroDirective : MacroDirective
+COMPLETION: MacroExpansion : MacroExpansion
+COMPLETION: MacroInfo : MacroInfo
+COMPLETION: MacroUse : MacroUse
+COMPLETION: make_const_ptr : make_const_ptr<<#typename T#>>
+COMPLETION: make_error_code : [#std::error_code#]make_error_code(<#BuildPreambleError Error#>)
+COMPLETION: make_ptr : make_ptr<<#typename T#>>
+COMPLETION: MakeDeductionFailureInfo : [#DeductionFailureInfo#]MakeDeductionFailureInfo(<#ASTContext &Context#>, <#Sema::TemplateDeductionResult TDK#>, <#sema::TemplateDeductionInfo &Info#>)
+COMPLETION: ManagedAnalysis : ManagedAnalysis
+COMPLETION: MangleContext : MangleContext
+COMPLETION: MangleNumberingContext : MangleNumberingContext
+COMPLETION: markup : markup
+COMPLETION: MarkVarDeclODRUsed : [#void#]MarkVarDeclODRUsed(<#VarDecl *Var#>, <#SourceLocation Loc#>, <#Sema &SemaRef#>, <#const unsigned int *const FunctionScopeIndexToStopAt#>)
+COMPLETION: MatchingVariablePatternConstraint : MatchingVariablePatternConstraint
+COMPLETION: MaterializeTemporaryExpr : MaterializeTemporaryExpr
+COMPLETION: MaxFieldAlignmentAttr : MaxFieldAlignmentAttr
+COMPLETION: MaxVersionForCudaArch : [#CudaVersion#]MaxVersionForCudaArch(<#CudaArch A#>)
+COMPLETION: MayAliasAttr : MayAliasAttr
+COMPLETION: MemberExpr : MemberExpr
+COMPLETION: MemberExprNameQualifier : MemberExprNameQualifier
+COMPLETION: MemberPointerLocInfo : MemberPointerLocInfo
+COMPLETION: MemberPointerType : MemberPointerType
+COMPLETION: MemberPointerTypeLoc : MemberPointerTypeLoc
+COMPLETION: MemberSpecializationInfo : MemberSpecializationInfo
+COMPLETION: MemInitResult : MemInitResult
+COMPLETION: MemorizeStatCalls : MemorizeStatCalls
+COMPLETION: MemoryBufferCache : MemoryBufferCache
+COMPLETION: Mergeable : Mergeable<<#typename decl_type#>>
+COMPLETION: mergeCanThrow : [#CanThrowResult#]mergeCanThrow(<#CanThrowResult CT1#>, <#CanThrowResult CT2#>)
+COMPLETION: MicroMipsAttr : MicroMipsAttr
+COMPLETION: MicrosoftMangleContext : MicrosoftMangleContext
+COMPLETION: MicrosoftVTableContext : MicrosoftVTableContext
+COMPLETION: MigratorOptions : MigratorOptions
+COMPLETION: MinComplexityConstraint : MinComplexityConstraint
+COMPLETION: MinGroupSizeConstraint : MinGroupSizeConstraint
+COMPLETION: minLinkage : [#Linkage#]minLinkage(<#Linkage L1#>, <#Linkage L2#>)
+COMPLETION: MinSizeAttr : MinSizeAttr
+COMPLETION: MinVersionForCudaArch : [#CudaVersion#]MinVersionForCudaArch(<#CudaArch A#>)
+COMPLETION: minVisibility : [#Visibility#]minVisibility(<#Visibility L#>, <#Visibility R#>)
+COMPLETION: Mips : Mips
+COMPLETION: Mips16Attr : Mips16Attr
+COMPLETION: MipsInterruptAttr : MipsInterruptAttr
+COMPLETION: MipsLongCallAttr : MipsLongCallAttr
+COMPLETION: MipsShortCallAttr : MipsShortCallAttr
+COMPLETION: ModeAttr : ModeAttr
+COMPLETION: Module : Module
+COMPLETION: ModuleBuildStack : ModuleBuildStack
+COMPLETION: ModuleDependencyCollector : ModuleDependencyCollector
+COMPLETION: ModuleFile : ModuleFile
+COMPLETION: ModuleFileExtension : ModuleFileExtension
+COMPLETION: ModuleFileExtensionMetadata : ModuleFileExtensionMetadata
+COMPLETION: ModuleFileExtensionReader : ModuleFileExtensionReader
+COMPLETION: ModuleFileExtensionWriter : ModuleFileExtensionWriter
+COMPLETION: ModuleId : ModuleId
+COMPLETION: ModuleIdPath : ModuleIdPath
+COMPLETION: ModuleInternalLinkage : [#clang::Linkage#]ModuleInternalLinkage
+COMPLETION: ModuleLinkage : [#clang::Linkage#]ModuleLinkage
+COMPLETION: ModuleLoader : ModuleLoader
+COMPLETION: ModuleLoadResult : ModuleLoadResult
+COMPLETION: ModuleMacro : ModuleMacro
+COMPLETION: ModuleMap : ModuleMap
+COMPLETION: ModuleMapCallbacks : ModuleMapCallbacks
+COMPLETION: MS_LANG : [#clang::LanguageID#]MS_LANG
+COMPLETION: MSABIAttr : MSABIAttr
+COMPLETION: MSAsmStmt : MSAsmStmt
+COMPLETION: MSDependentExistsStmt : MSDependentExistsStmt
+COMPLETION: MSInheritanceAttr : MSInheritanceAttr
+COMPLETION: MSNoVTableAttr : MSNoVTableAttr
+COMPLETION: MSP430InterruptAttr : MSP430InterruptAttr
+COMPLETION: MSPropertyDecl : MSPropertyDecl
+COMPLETION: MSPropertyRefExpr : MSPropertyRefExpr
+COMPLETION: MSPropertySubscriptExpr : MSPropertySubscriptExpr
+COMPLETION: MSStructAttr : MSStructAttr
+COMPLETION: MSVtorDispAttr : MSVtorDispAttr
+COMPLETION: MU_Define : [#clang::MacroUse#]MU_Define
+COMPLETION: MU_Other : [#clang::MacroUse#]MU_Other
+COMPLETION: MU_Undef : [#clang::MacroUse#]MU_Undef
+COMPLETION: MultiExprArg : MultiExprArg
+COMPLETION: MultiKeywordSelector : MultiKeywordSelector
+COMPLETION: MultiLevelTemplateArgumentList : MultiLevelTemplateArgumentList
+COMPLETION: MultipleIncludeOpt : MultipleIncludeOpt
+COMPLETION: MultiplexASTDeserializationListener : MultiplexASTDeserializationListener
+COMPLETION: MultiplexASTMutationListener : MultiplexASTMutationListener
+COMPLETION: MultiplexConsumer : MultiplexConsumer
+COMPLETION: MultiplexExternalSemaSource : MultiplexExternalSemaSource
+COMPLETION: MultiStmtArg : MultiStmtArg
+COMPLETION: MultiTemplateParamsArg : MultiTemplateParamsArg
+COMPLETION: MultiTypeArg : MultiTypeArg
+COMPLETION: MutableArrayRef : MutableArrayRef<<#typename T#>>
+COMPLETION: NakedAttr : NakedAttr
+COMPLETION: NamedDecl : NamedDecl
+COMPLETION: NamespaceAliasDecl : NamespaceAliasDecl
+COMPLETION: NamespaceDecl : NamespaceDecl
+COMPLETION: NarrowingKind : NarrowingKind
+COMPLETION: NEON : NEON
+COMPLETION: NeonTypeFlags : NeonTypeFlags
+COMPLETION: NestedNameSpecifier : NestedNameSpecifier
+COMPLETION: NestedNameSpecifierLoc : NestedNameSpecifierLoc
+COMPLETION: NestedNameSpecifierLocBuilder : NestedNameSpecifierLocBuilder
+COMPLETION: Nios2 : Nios2
+COMPLETION: NK_Constant_Narrowing : [#clang::NarrowingKind#]NK_Constant_Narrowing
+COMPLETION: NK_Dependent_Narrowing : [#clang::NarrowingKind#]NK_Dependent_Narrowing
+COMPLETION: NK_Not_Narrowing : [#clang::NarrowingKind#]NK_Not_Narrowing
+COMPLETION: NK_Type_Narrowing : [#clang::NarrowingKind#]NK_Type_Narrowing
+COMPLETION: NK_Variable_Narrowing : [#clang::NarrowingKind#]NK_Variable_Narrowing
+COMPLETION: NoAliasAttr : NoAliasAttr
+COMPLETION: NoCommonAttr : NoCommonAttr
+COMPLETION: NoDebugAttr : NoDebugAttr
+COMPLETION: NoDuplicateAttr : NoDuplicateAttr
+COMPLETION: NoEscapeAttr : NoEscapeAttr
+COMPLETION: NoInitExpr : NoInitExpr
+COMPLETION: NoInlineAttr : NoInlineAttr
+COMPLETION: NoInstrumentFunctionAttr : NoInstrumentFunctionAttr
+COMPLETION: NoLanguageLinkage : [#clang::LanguageLinkage#]NoLanguageLinkage
+COMPLETION: NoLinkage : [#clang::Linkage#]NoLinkage
+COMPLETION: NoMicroMipsAttr : NoMicroMipsAttr
+COMPLETION: NoMips16Attr : NoMips16Attr
+COMPLETION: None : [#const NoneType#]None
+COMPLETION: NonNullAttr : NonNullAttr
+COMPLETION: NonTypeTemplateParmDecl : NonTypeTemplateParmDecl
+COMPLETION: NoRedundancy : [#clang::AnalysisInliningMode#]NoRedundancy
+COMPLETION: NoReturnAttr : NoReturnAttr
+COMPLETION: NoSanitizeAttr : NoSanitizeAttr
+COMPLETION: NoSplitStackAttr : NoSplitStackAttr
+COMPLETION: NoThreadSafetyAnalysisAttr : NoThreadSafetyAnalysisAttr
+COMPLETION: NoThrowAttr : NoThrowAttr
+COMPLETION: NotTailCalledAttr : NotTailCalledAttr
+COMPLETION: NoTypoCorrectionCCC : NoTypoCorrectionCCC
+COMPLETION: NSAPI : NSAPI
+COMPLETION: NSConsumedAttr : NSConsumedAttr
+COMPLETION: NSConsumesSelfAttr : NSConsumesSelfAttr
+COMPLETION: NSReturnsAutoreleasedAttr : NSReturnsAutoreleasedAttr
+COMPLETION: NSReturnsNotRetainedAttr : NSReturnsNotRetainedAttr
+COMPLETION: NSReturnsRetainedAttr : NSReturnsRetainedAttr
+COMPLETION: NullabilityKind : NullabilityKind
+COMPLETION: NullStmt : NullStmt
+COMPLETION: NUM_ANALYSIS_DIAG_CLIENTS : [#clang::AnalysisDiagClients#]NUM_ANALYSIS_DIAG_CLIENTS
+COMPLETION: NUM_OVERLOADED_OPERATORS : [#clang::OverloadedOperatorKind#]NUM_OVERLOADED_OPERATORS
+COMPLETION: NumAnalyses : [#clang::Analyses#]NumAnalyses
+COMPLETION: NumAvailabilitySlots : [#AvailabilitySlot#]NumAvailabilitySlots
+COMPLETION: NumConstraints : [#clang::AnalysisConstraints#]NumConstraints
+COMPLETION: NumericLiteralParser : NumericLiteralParser
+COMPLETION: NumInliningModes : [#clang::AnalysisInliningMode#]NumInliningModes
+COMPLETION: NumPurgeModes : [#clang::AnalysisPurgeMode#]NumPurgeModes
+COMPLETION: NumStores : [#clang::AnalysisStores#]NumStores
+COMPLETION: NVPTX : NVPTX
+COMPLETION: OBC_Bridge : [#clang::ObjCBridgeCastKind#]OBC_Bridge
+COMPLETION: OBC_BridgeRetained : [#clang::ObjCBridgeCastKind#]OBC_BridgeRetained
+COMPLETION: OBC_BridgeTransfer : [#clang::ObjCBridgeCastKind#]OBC_BridgeTransfer
+COMPLETION: OBJC_LANG : [#clang::LanguageID#]OBJC_LANG
+COMPLETION: ObjCArrayLiteral : ObjCArrayLiteral
+COMPLETION: ObjCAtCatchStmt : ObjCAtCatchStmt
+COMPLETION: ObjCAtDefsFieldDecl : ObjCAtDefsFieldDecl
+COMPLETION: ObjCAtFinallyStmt : ObjCAtFinallyStmt
+COMPLETION: ObjCAtSynchronizedStmt : ObjCAtSynchronizedStmt
+COMPLETION: ObjCAtThrowStmt : ObjCAtThrowStmt
+COMPLETION: ObjCAtTryStmt : ObjCAtTryStmt
+COMPLETION: ObjCAutoreleasePoolStmt : ObjCAutoreleasePoolStmt
+COMPLETION: ObjCAvailabilityCheckExpr : ObjCAvailabilityCheckExpr
+COMPLETION: ObjCBoolLiteralExpr : ObjCBoolLiteralExpr
+COMPLETION: ObjCBoxableAttr : ObjCBoxableAttr
+COMPLETION: ObjCBoxedExpr : ObjCBoxedExpr
+COMPLETION: ObjCBridgeAttr : ObjCBridgeAttr
+COMPLETION: ObjCBridgeCastKind : ObjCBridgeCastKind
+COMPLETION: ObjCBridgedCastExpr : ObjCBridgedCastExpr
+COMPLETION: ObjCBridgeMutableAttr : ObjCBridgeMutableAttr
+COMPLETION: ObjCBridgeRelatedAttr : ObjCBridgeRelatedAttr
+COMPLETION: ObjCCategoryDecl : ObjCCategoryDecl
+COMPLETION: ObjCCategoryImplDecl : ObjCCategoryImplDecl
+COMPLETION: ObjCCompatibleAliasDecl : ObjCCompatibleAliasDecl
+COMPLETION: ObjCContainerDecl : ObjCContainerDecl
+COMPLETION: ObjCDeclSpec : ObjCDeclSpec
+COMPLETION: ObjCDesignatedInitializerAttr : ObjCDesignatedInitializerAttr
+COMPLETION: ObjCDictionaryElement : ObjCDictionaryElement
+COMPLETION: ObjCDictionaryLiteral : ObjCDictionaryLiteral
+COMPLETION: ObjCDictionaryLiteral_ExpansionData : ObjCDictionaryLiteral_ExpansionData
+COMPLETION: ObjCDictionaryLiteral_KeyValuePair : ObjCDictionaryLiteral_KeyValuePair
+COMPLETION: ObjCEncodeExpr : ObjCEncodeExpr
+COMPLETION: ObjCExceptionAttr : ObjCExceptionAttr
+COMPLETION: ObjCExplicitProtocolImplAttr : ObjCExplicitProtocolImplAttr
+COMPLETION: ObjCForCollectionStmt : ObjCForCollectionStmt
+COMPLETION: ObjCImplDecl : ObjCImplDecl
+COMPLETION: ObjCImplementationDecl : ObjCImplementationDecl
+COMPLETION: ObjCIndependentClassAttr : ObjCIndependentClassAttr
+COMPLETION: ObjCIndirectCopyRestoreExpr : ObjCIndirectCopyRestoreExpr
+COMPLETION: ObjCInstanceTypeFamily : ObjCInstanceTypeFamily
+COMPLETION: ObjCInterfaceDecl : ObjCInterfaceDecl
+COMPLETION: ObjCInterfaceLocInfo : ObjCInterfaceLocInfo
+COMPLETION: ObjCInterfaceType : ObjCInterfaceType
+COMPLETION: ObjCInterfaceTypeLoc : ObjCInterfaceTypeLoc
+COMPLETION: ObjCIsaExpr : ObjCIsaExpr
+COMPLETION: ObjCIvarDecl : ObjCIvarDecl
+COMPLETION: ObjCIvarRefExpr : ObjCIvarRefExpr
+COMPLETION: ObjCList : ObjCList<<#typename T#>>
+COMPLETION: ObjCListBase : ObjCListBase
+COMPLETION: ObjCMessageExpr : ObjCMessageExpr
+COMPLETION: ObjCMethodDecl : ObjCMethodDecl
+COMPLETION: ObjCMethodFamily : ObjCMethodFamily
+COMPLETION: ObjCMethodFamilyAttr : ObjCMethodFamilyAttr
+COMPLETION: ObjCMethodFamilyBitWidth : [#clang::(anonymous)#]ObjCMethodFamilyBitWidth
+COMPLETION: ObjCMethodList : ObjCMethodList
+COMPLETION: ObjCNoReturn : ObjCNoReturn
+COMPLETION: ObjCNSObjectAttr : ObjCNSObjectAttr
+COMPLETION: ObjCObjectPointerType : ObjCObjectPointerType
+COMPLETION: ObjCObjectPointerTypeLoc : ObjCObjectPointerTypeLoc
+COMPLETION: ObjCObjectType : ObjCObjectType
+COMPLETION: ObjCObjectTypeImpl : ObjCObjectTypeImpl
+COMPLETION: ObjCObjectTypeLoc : ObjCObjectTypeLoc
+COMPLETION: ObjCObjectTypeLocInfo : ObjCObjectTypeLocInfo
+COMPLETION: ObjCPreciseLifetimeAttr : ObjCPreciseLifetimeAttr
+COMPLETION: ObjCPropertyDecl : ObjCPropertyDecl
+COMPLETION: ObjCPropertyImplDecl : ObjCPropertyImplDecl
+COMPLETION: ObjCPropertyQueryKind : ObjCPropertyQueryKind
+COMPLETION: ObjCPropertyRefExpr : ObjCPropertyRefExpr
+COMPLETION: ObjCProtocolDecl : ObjCProtocolDecl
+COMPLETION: ObjCProtocolExpr : ObjCProtocolExpr
+COMPLETION: ObjCProtocolList : ObjCProtocolList
+COMPLETION: ObjCProtocolQualifiers : ObjCProtocolQualifiers<<#class T#>>
+COMPLETION: ObjCRequiresPropertyDefsAttr : ObjCRequiresPropertyDefsAttr
+COMPLETION: ObjCRequiresSuperAttr : ObjCRequiresSuperAttr
+COMPLETION: ObjCReturnsInnerPointerAttr : ObjCReturnsInnerPointerAttr
+COMPLETION: ObjCRootClassAttr : ObjCRootClassAttr
+COMPLETION: ObjCRuntime : ObjCRuntime
+COMPLETION: ObjCRuntimeNameAttr : ObjCRuntimeNameAttr
+COMPLETION: ObjCRuntimeVisibleAttr : ObjCRuntimeVisibleAttr
+COMPLETION: ObjCSelectorExpr : ObjCSelectorExpr
+COMPLETION: ObjCStringFormatFamily : ObjCStringFormatFamily
+COMPLETION: ObjCStringLiteral : ObjCStringLiteral
+COMPLETION: ObjCSubclassingRestrictedAttr : ObjCSubclassingRestrictedAttr
+COMPLETION: ObjCSubscriptRefExpr : ObjCSubscriptRefExpr
+COMPLETION: ObjCSubstitutionContext : ObjCSubstitutionContext
+COMPLETION: ObjCTypeParamDecl : ObjCTypeParamDecl
+COMPLETION: ObjCTypeParameter : ObjCTypeParameter
+COMPLETION: ObjCTypeParamList : ObjCTypeParamList
+COMPLETION: ObjCTypeParamType : ObjCTypeParamType
+COMPLETION: ObjCTypeParamTypeLoc : ObjCTypeParamTypeLoc
+COMPLETION: ObjCTypeParamTypeLocInfo : ObjCTypeParamTypeLocInfo
+COMPLETION: ObjCTypeParamVariance : ObjCTypeParamVariance
+COMPLETION: ObjCXXARCStandardLibraryKind : ObjCXXARCStandardLibraryKind
+COMPLETION: ObjectFilePCHContainerReader : ObjectFilePCHContainerReader
+COMPLETION: ObjectFilePCHContainerWriter : ObjectFilePCHContainerWriter
+COMPLETION: ObsoletedSlot : [#AvailabilitySlot#]ObsoletedSlot
+COMPLETION: OCD_AllCandidates : [#clang::OverloadCandidateDisplayKind#]OCD_AllCandidates
+COMPLETION: OCD_ViableCandidates : [#clang::OverloadCandidateDisplayKind#]OCD_ViableCandidates
+COMPLETION: OCLC1X_LANG : [#clang::LanguageID#]OCLC1X_LANG
+COMPLETION: OCLC20_LANG : [#clang::LanguageID#]OCLC20_LANG
+COMPLETION: ODRHash : ODRHash
+COMPLETION: OffsetOfExpr : OffsetOfExpr
+COMPLETION: OffsetOfNode : OffsetOfNode
+COMPLETION: OFIK_Dereference : [#clang::OverloadFixItKind#]OFIK_Dereference
+COMPLETION: OFIK_RemoveDereference : [#clang::OverloadFixItKind#]OFIK_RemoveDereference
+COMPLETION: OFIK_RemoveTakeAddress : [#clang::OverloadFixItKind#]OFIK_RemoveTakeAddress
+COMPLETION: OFIK_TakeAddress : [#clang::OverloadFixItKind#]OFIK_TakeAddress
+COMPLETION: OFIK_Undefined : [#clang::OverloadFixItKind#]OFIK_Undefined
+COMPLETION: OIT_Array : [#clang::ObjCInstanceTypeFamily#]OIT_Array
+COMPLETION: OIT_Dictionary : [#clang::ObjCInstanceTypeFamily#]OIT_Dictionary
+COMPLETION: OIT_Init : [#clang::ObjCInstanceTypeFamily#]OIT_Init
+COMPLETION: OIT_None : [#clang::ObjCInstanceTypeFamily#]OIT_None
+COMPLETION: OIT_ReturnsSelf : [#clang::ObjCInstanceTypeFamily#]OIT_ReturnsSelf
+COMPLETION: OIT_Singleton : [#clang::ObjCInstanceTypeFamily#]OIT_Singleton
+COMPLETION: OK_BitField : [#clang::ExprObjectKind#]OK_BitField
+COMPLETION: OK_ObjCProperty : [#clang::ExprObjectKind#]OK_ObjCProperty
+COMPLETION: OK_ObjCSubscript : [#clang::ExprObjectKind#]OK_ObjCSubscript
+COMPLETION: OK_Ordinary : [#clang::ExprObjectKind#]OK_Ordinary
+COMPLETION: OK_VectorComponent : [#clang::ExprObjectKind#]OK_VectorComponent
+COMPLETION: OMF_alloc : [#clang::ObjCMethodFamily#]OMF_alloc
+COMPLETION: OMF_autorelease : [#clang::ObjCMethodFamily#]OMF_autorelease
+COMPLETION: OMF_copy : [#clang::ObjCMethodFamily#]OMF_copy
+COMPLETION: OMF_dealloc : [#clang::ObjCMethodFamily#]OMF_dealloc
+COMPLETION: OMF_finalize : [#clang::ObjCMethodFamily#]OMF_finalize
+COMPLETION: OMF_init : [#clang::ObjCMethodFamily#]OMF_init
+COMPLETION: OMF_initialize : [#clang::ObjCMethodFamily#]OMF_initialize
+COMPLETION: OMF_mutableCopy : [#clang::ObjCMethodFamily#]OMF_mutableCopy
+COMPLETION: OMF_new : [#clang::ObjCMethodFamily#]OMF_new
+COMPLETION: OMF_None : [#clang::ObjCMethodFamily#]OMF_None
+COMPLETION: OMF_performSelector : [#clang::ObjCMethodFamily#]OMF_performSelector
+COMPLETION: OMF_release : [#clang::ObjCMethodFamily#]OMF_release
+COMPLETION: OMF_retain : [#clang::ObjCMethodFamily#]OMF_retain
+COMPLETION: OMF_retainCount : [#clang::ObjCMethodFamily#]OMF_retainCount
+COMPLETION: OMF_self : [#clang::ObjCMethodFamily#]OMF_self
+COMPLETION: OMP_LANG : [#clang::LanguageID#]OMP_LANG
+COMPLETION: OMPAlignedClause : OMPAlignedClause
+COMPLETION: OMPArraySectionExpr : OMPArraySectionExpr
+COMPLETION: OMPAtomicDirective : OMPAtomicDirective
+COMPLETION: OMPBarrierDirective : OMPBarrierDirective
+COMPLETION: OMPC_aligned : [#clang::OpenMPClauseKind#]OMPC_aligned
+COMPLETION: OMPC_capture : [#clang::OpenMPClauseKind#]OMPC_capture
+COMPLETION: OMPC_collapse : [#clang::OpenMPClauseKind#]OMPC_collapse
+COMPLETION: OMPC_copyin : [#clang::OpenMPClauseKind#]OMPC_copyin
+COMPLETION: OMPC_copyprivate : [#clang::OpenMPClauseKind#]OMPC_copyprivate
+COMPLETION: OMPC_default : [#clang::OpenMPClauseKind#]OMPC_default
+COMPLETION: OMPC_DEFAULT_none : [#clang::OpenMPDefaultClauseKind#]OMPC_DEFAULT_none
+COMPLETION: OMPC_DEFAULT_shared : [#clang::OpenMPDefaultClauseKind#]OMPC_DEFAULT_shared
+COMPLETION: OMPC_DEFAULT_unknown : [#clang::OpenMPDefaultClauseKind#]OMPC_DEFAULT_unknown
+COMPLETION: OMPC_defaultmap : [#clang::OpenMPClauseKind#]OMPC_defaultmap
+COMPLETION: OMPC_DEFAULTMAP_MODIFIER_last : [#clang::OpenMPDefaultmapClauseModifier#]OMPC_DEFAULTMAP_MODIFIER_last
+COMPLETION: OMPC_DEFAULTMAP_MODIFIER_tofrom : [#clang::OpenMPDefaultmapClauseModifier#]OMPC_DEFAULTMAP_MODIFIER_tofrom
+COMPLETION: OMPC_DEFAULTMAP_MODIFIER_unknown : [#clang::OpenMPDefaultmapClauseModifier#]OMPC_DEFAULTMAP_MODIFIER_unknown
+COMPLETION: OMPC_DEFAULTMAP_scalar : [#clang::OpenMPDefaultmapClauseKind#]OMPC_DEFAULTMAP_scalar
+COMPLETION: OMPC_DEFAULTMAP_unknown : [#clang::OpenMPDefaultmapClauseKind#]OMPC_DEFAULTMAP_unknown
+COMPLETION: OMPC_depend : [#clang::OpenMPClauseKind#]OMPC_depend
+COMPLETION: OMPC_DEPEND_in : [#clang::OpenMPDependClauseKind#]OMPC_DEPEND_in
+COMPLETION: OMPC_DEPEND_inout : [#clang::OpenMPDependClauseKind#]OMPC_DEPEND_inout
+COMPLETION: OMPC_DEPEND_out : [#clang::OpenMPDependClauseKind#]OMPC_DEPEND_out
+COMPLETION: OMPC_DEPEND_sink : [#clang::OpenMPDependClauseKind#]OMPC_DEPEND_sink
+COMPLETION: OMPC_DEPEND_source : [#clang::OpenMPDependClauseKind#]OMPC_DEPEND_source
+COMPLETION: OMPC_DEPEND_unknown : [#clang::OpenMPDependClauseKind#]OMPC_DEPEND_unknown
+COMPLETION: OMPC_device : [#clang::OpenMPClauseKind#]OMPC_device
+COMPLETION: OMPC_dist_schedule : [#clang::OpenMPClauseKind#]OMPC_dist_schedule
+COMPLETION: OMPC_DIST_SCHEDULE_static : [#clang::OpenMPDistScheduleClauseKind#]OMPC_DIST_SCHEDULE_static
+COMPLETION: OMPC_DIST_SCHEDULE_unknown : [#clang::OpenMPDistScheduleClauseKind#]OMPC_DIST_SCHEDULE_unknown
+COMPLETION: OMPC_final : [#clang::OpenMPClauseKind#]OMPC_final
+COMPLETION: OMPC_firstprivate : [#clang::OpenMPClauseKind#]OMPC_firstprivate
+COMPLETION: OMPC_flush : [#clang::OpenMPClauseKind#]OMPC_flush
+COMPLETION: OMPC_from : [#clang::OpenMPClauseKind#]OMPC_from
+COMPLETION: OMPC_grainsize : [#clang::OpenMPClauseKind#]OMPC_grainsize
+COMPLETION: OMPC_hint : [#clang::OpenMPClauseKind#]OMPC_hint
+COMPLETION: OMPC_if : [#clang::OpenMPClauseKind#]OMPC_if
+COMPLETION: OMPC_in_reduction : [#clang::OpenMPClauseKind#]OMPC_in_reduction
+COMPLETION: OMPC_is_device_ptr : [#clang::OpenMPClauseKind#]OMPC_is_device_ptr
+COMPLETION: OMPC_lastprivate : [#clang::OpenMPClauseKind#]OMPC_lastprivate
+COMPLETION: OMPC_linear : [#clang::OpenMPClauseKind#]OMPC_linear
+COMPLETION: OMPC_LINEAR_ref : [#clang::OpenMPLinearClauseKind#]OMPC_LINEAR_ref
+COMPLETION: OMPC_LINEAR_unknown : [#clang::OpenMPLinearClauseKind#]OMPC_LINEAR_unknown
+COMPLETION: OMPC_LINEAR_uval : [#clang::OpenMPLinearClauseKind#]OMPC_LINEAR_uval
+COMPLETION: OMPC_LINEAR_val : [#clang::OpenMPLinearClauseKind#]OMPC_LINEAR_val
+COMPLETION: OMPC_map : [#clang::OpenMPClauseKind#]OMPC_map
+COMPLETION: OMPC_MAP_alloc : [#clang::OpenMPMapClauseKind#]OMPC_MAP_alloc
+COMPLETION: OMPC_MAP_always : [#clang::OpenMPMapClauseKind#]OMPC_MAP_always
+COMPLETION: OMPC_MAP_delete : [#clang::OpenMPMapClauseKind#]OMPC_MAP_delete
+COMPLETION: OMPC_MAP_from : [#clang::OpenMPMapClauseKind#]OMPC_MAP_from
+COMPLETION: OMPC_MAP_release : [#clang::OpenMPMapClauseKind#]OMPC_MAP_release
+COMPLETION: OMPC_MAP_to : [#clang::OpenMPMapClauseKind#]OMPC_MAP_to
+COMPLETION: OMPC_MAP_tofrom : [#clang::OpenMPMapClauseKind#]OMPC_MAP_tofrom
+COMPLETION: OMPC_MAP_unknown : [#clang::OpenMPMapClauseKind#]OMPC_MAP_unknown
+COMPLETION: OMPC_mergeable : [#clang::OpenMPClauseKind#]OMPC_mergeable
+COMPLETION: OMPC_nogroup : [#clang::OpenMPClauseKind#]OMPC_nogroup
+COMPLETION: OMPC_nowait : [#clang::OpenMPClauseKind#]OMPC_nowait
+COMPLETION: OMPC_num_tasks : [#clang::OpenMPClauseKind#]OMPC_num_tasks
+COMPLETION: OMPC_num_teams : [#clang::OpenMPClauseKind#]OMPC_num_teams
+COMPLETION: OMPC_num_threads : [#clang::OpenMPClauseKind#]OMPC_num_threads
+COMPLETION: OMPC_ordered : [#clang::OpenMPClauseKind#]OMPC_ordered
+COMPLETION: OMPC_priority : [#clang::OpenMPClauseKind#]OMPC_priority
+COMPLETION: OMPC_private : [#clang::OpenMPClauseKind#]OMPC_private
+COMPLETION: OMPC_proc_bind : [#clang::OpenMPClauseKind#]OMPC_proc_bind
+COMPLETION: OMPC_PROC_BIND_close : [#clang::OpenMPProcBindClauseKind#]OMPC_PROC_BIND_close
+COMPLETION: OMPC_PROC_BIND_master : [#clang::OpenMPProcBindClauseKind#]OMPC_PROC_BIND_master
+COMPLETION: OMPC_PROC_BIND_spread : [#clang::OpenMPProcBindClauseKind#]OMPC_PROC_BIND_spread
+COMPLETION: OMPC_PROC_BIND_unknown : [#clang::OpenMPProcBindClauseKind#]OMPC_PROC_BIND_unknown
+COMPLETION: OMPC_read : [#clang::OpenMPClauseKind#]OMPC_read
+COMPLETION: OMPC_reduction : [#clang::OpenMPClauseKind#]OMPC_reduction
+COMPLETION: OMPC_safelen : [#clang::OpenMPClauseKind#]OMPC_safelen
+COMPLETION: OMPC_schedule : [#clang::OpenMPClauseKind#]OMPC_schedule
+COMPLETION: OMPC_SCHEDULE_auto : [#clang::OpenMPScheduleClauseKind#]OMPC_SCHEDULE_auto
+COMPLETION: OMPC_SCHEDULE_dynamic : [#clang::OpenMPScheduleClauseKind#]OMPC_SCHEDULE_dynamic
+COMPLETION: OMPC_SCHEDULE_guided : [#clang::OpenMPScheduleClauseKind#]OMPC_SCHEDULE_guided
+COMPLETION: OMPC_SCHEDULE_MODIFIER_last : [#clang::OpenMPScheduleClauseModifier#]OMPC_SCHEDULE_MODIFIER_last
+COMPLETION: OMPC_SCHEDULE_MODIFIER_monotonic : [#clang::OpenMPScheduleClauseModifier#]OMPC_SCHEDULE_MODIFIER_monotonic
+COMPLETION: OMPC_SCHEDULE_MODIFIER_nonmonotonic : [#clang::OpenMPScheduleClauseModifier#]OMPC_SCHEDULE_MODIFIER_nonmonotonic
+COMPLETION: OMPC_SCHEDULE_MODIFIER_simd : [#clang::OpenMPScheduleClauseModifier#]OMPC_SCHEDULE_MODIFIER_simd
+COMPLETION: OMPC_SCHEDULE_MODIFIER_unknown : [#clang::OpenMPScheduleClauseModifier#]OMPC_SCHEDULE_MODIFIER_unknown
+COMPLETION: OMPC_SCHEDULE_runtime : [#clang::OpenMPScheduleClauseKind#]OMPC_SCHEDULE_runtime
+COMPLETION: OMPC_SCHEDULE_static : [#clang::OpenMPScheduleClauseKind#]OMPC_SCHEDULE_static
+COMPLETION: OMPC_SCHEDULE_unknown : [#clang::OpenMPScheduleClauseKind#]OMPC_SCHEDULE_unknown
+COMPLETION: OMPC_seq_cst : [#clang::OpenMPClauseKind#]OMPC_seq_cst
+COMPLETION: OMPC_shared : [#clang::OpenMPClauseKind#]OMPC_shared
+COMPLETION: OMPC_simd : [#clang::OpenMPClauseKind#]OMPC_simd
+COMPLETION: OMPC_simdlen : [#clang::OpenMPClauseKind#]OMPC_simdlen
+COMPLETION: OMPC_task_reduction : [#clang::OpenMPClauseKind#]OMPC_task_reduction
+COMPLETION: OMPC_thread_limit : [#clang::OpenMPClauseKind#]OMPC_thread_limit
+COMPLETION: OMPC_threadprivate : [#clang::OpenMPClauseKind#]OMPC_threadprivate
+COMPLETION: OMPC_threads : [#clang::OpenMPClauseKind#]OMPC_threads
+COMPLETION: OMPC_to : [#clang::OpenMPClauseKind#]OMPC_to
+COMPLETION: OMPC_uniform : [#clang::OpenMPClauseKind#]OMPC_uniform
+COMPLETION: OMPC_unknown : [#clang::OpenMPClauseKind#]OMPC_unknown
+COMPLETION: OMPC_untied : [#clang::OpenMPClauseKind#]OMPC_untied
+COMPLETION: OMPC_update : [#clang::OpenMPClauseKind#]OMPC_update
+COMPLETION: OMPC_use_device_ptr : [#clang::OpenMPClauseKind#]OMPC_use_device_ptr
+COMPLETION: OMPC_write : [#clang::OpenMPClauseKind#]OMPC_write
+COMPLETION: OMPCancelDirective : OMPCancelDirective
+COMPLETION: OMPCancellationPointDirective : OMPCancellationPointDirective
+COMPLETION: OMPCaptureClause : OMPCaptureClause
+COMPLETION: OMPCapturedExprDecl : OMPCapturedExprDecl
+COMPLETION: OMPCaptureKindAttr : OMPCaptureKindAttr
+COMPLETION: OMPCaptureNoInitAttr : OMPCaptureNoInitAttr
+COMPLETION: OMPClause : OMPClause
+COMPLETION: OMPClauseMappableExprCommon : OMPClauseMappableExprCommon
+COMPLETION: OMPClauseVisitor : OMPClauseVisitor<<#class ImplClass#>{#, <#typename RetTy#>#}>
+COMPLETION: OMPClauseVisitorBase : OMPClauseVisitorBase<<#class ImplClass#>, <#template<...> class Ptr#>, <#typename RetTy#>>
+COMPLETION: OMPClauseWithPostUpdate : OMPClauseWithPostUpdate
+COMPLETION: OMPClauseWithPreInit : OMPClauseWithPreInit
+COMPLETION: OMPCollapseClause : OMPCollapseClause
+COMPLETION: OMPCopyinClause : OMPCopyinClause
+COMPLETION: OMPCopyprivateClause : OMPCopyprivateClause
+COMPLETION: OMPCriticalDirective : OMPCriticalDirective
+COMPLETION: OMPD_atomic : [#clang::OpenMPDirectiveKind#]OMPD_atomic
+COMPLETION: OMPD_barrier : [#clang::OpenMPDirectiveKind#]OMPD_barrier
+COMPLETION: OMPD_cancel : [#clang::OpenMPDirectiveKind#]OMPD_cancel
+COMPLETION: OMPD_cancellation_point : [#clang::OpenMPDirectiveKind#]OMPD_cancellation_point
+COMPLETION: OMPD_critical : [#clang::OpenMPDirectiveKind#]OMPD_critical
+COMPLETION: OMPD_declare_reduction : [#clang::OpenMPDirectiveKind#]OMPD_declare_reduction
+COMPLETION: OMPD_declare_simd : [#clang::OpenMPDirectiveKind#]OMPD_declare_simd
+COMPLETION: OMPD_declare_target : [#clang::OpenMPDirectiveKind#]OMPD_declare_target
+COMPLETION: OMPD_distribute : [#clang::OpenMPDirectiveKind#]OMPD_distribute
+COMPLETION: OMPD_distribute_parallel_for : [#clang::OpenMPDirectiveKind#]OMPD_distribute_parallel_for
+COMPLETION: OMPD_distribute_parallel_for_simd : [#clang::OpenMPDirectiveKind#]OMPD_distribute_parallel_for_simd
+COMPLETION: OMPD_distribute_simd : [#clang::OpenMPDirectiveKind#]OMPD_distribute_simd
+COMPLETION: OMPD_end_declare_target : [#clang::OpenMPDirectiveKind#]OMPD_end_declare_target
+COMPLETION: OMPD_flush : [#clang::OpenMPDirectiveKind#]OMPD_flush
+COMPLETION: OMPD_for : [#clang::OpenMPDirectiveKind#]OMPD_for
+COMPLETION: OMPD_for_simd : [#clang::OpenMPDirectiveKind#]OMPD_for_simd
+COMPLETION: OMPD_master : [#clang::OpenMPDirectiveKind#]OMPD_master
+COMPLETION: OMPD_ordered : [#clang::OpenMPDirectiveKind#]OMPD_ordered
+COMPLETION: OMPD_parallel : [#clang::OpenMPDirectiveKind#]OMPD_parallel
+COMPLETION: OMPD_parallel_for : [#clang::OpenMPDirectiveKind#]OMPD_parallel_for
+COMPLETION: OMPD_parallel_for_simd : [#clang::OpenMPDirectiveKind#]OMPD_parallel_for_simd
+COMPLETION: OMPD_parallel_sections : [#clang::OpenMPDirectiveKind#]OMPD_parallel_sections
+COMPLETION: OMPD_section : [#clang::OpenMPDirectiveKind#]OMPD_section
+COMPLETION: OMPD_sections : [#clang::OpenMPDirectiveKind#]OMPD_sections
+COMPLETION: OMPD_simd : [#clang::OpenMPDirectiveKind#]OMPD_simd
+COMPLETION: OMPD_single : [#clang::OpenMPDirectiveKind#]OMPD_single
+COMPLETION: OMPD_target : [#clang::OpenMPDirectiveKind#]OMPD_target
+COMPLETION: OMPD_target_data : [#clang::OpenMPDirectiveKind#]OMPD_target_data
+COMPLETION: OMPD_target_enter_data : [#clang::OpenMPDirectiveKind#]OMPD_target_enter_data
+COMPLETION: OMPD_target_exit_data : [#clang::OpenMPDirectiveKind#]OMPD_target_exit_data
+COMPLETION: OMPD_target_parallel : [#clang::OpenMPDirectiveKind#]OMPD_target_parallel
+COMPLETION: OMPD_target_parallel_for : [#clang::OpenMPDirectiveKind#]OMPD_target_parallel_for
+COMPLETION: OMPD_target_parallel_for_simd : [#clang::OpenMPDirectiveKind#]OMPD_target_parallel_for_simd
+COMPLETION: OMPD_target_simd : [#clang::OpenMPDirectiveKind#]OMPD_target_simd
+COMPLETION: OMPD_target_teams : [#clang::OpenMPDirectiveKind#]OMPD_target_teams
+COMPLETION: OMPD_target_teams_distribute : [#clang::OpenMPDirectiveKind#]OMPD_target_teams_distribute
+COMPLETION: OMPD_target_teams_distribute_parallel_for : [#clang::OpenMPDirectiveKind#]OMPD_target_teams_distribute_parallel_for
+COMPLETION: OMPD_target_teams_distribute_parallel_for_simd : [#clang::OpenMPDirectiveKind#]OMPD_target_teams_distribute_parallel_for_simd
+COMPLETION: OMPD_target_teams_distribute_simd : [#clang::OpenMPDirectiveKind#]OMPD_target_teams_distribute_simd
+COMPLETION: OMPD_target_update : [#clang::OpenMPDirectiveKind#]OMPD_target_update
+COMPLETION: OMPD_task : [#clang::OpenMPDirectiveKind#]OMPD_task
+COMPLETION: OMPD_taskgroup : [#clang::OpenMPDirectiveKind#]OMPD_taskgroup
+COMPLETION: OMPD_taskloop : [#clang::OpenMPDirectiveKind#]OMPD_taskloop
+COMPLETION: OMPD_taskloop_simd : [#clang::OpenMPDirectiveKind#]OMPD_taskloop_simd
+COMPLETION: OMPD_taskwait : [#clang::OpenMPDirectiveKind#]OMPD_taskwait
+COMPLETION: OMPD_taskyield : [#clang::OpenMPDirectiveKind#]OMPD_taskyield
+COMPLETION: OMPD_teams : [#clang::OpenMPDirectiveKind#]OMPD_teams
+COMPLETION: OMPD_teams_distribute : [#clang::OpenMPDirectiveKind#]OMPD_teams_distribute
+COMPLETION: OMPD_teams_distribute_parallel_for : [#clang::OpenMPDirectiveKind#]OMPD_teams_distribute_parallel_for
+COMPLETION: OMPD_teams_distribute_parallel_for_simd : [#clang::OpenMPDirectiveKind#]OMPD_teams_distribute_parallel_for_simd
+COMPLETION: OMPD_teams_distribute_simd : [#clang::OpenMPDirectiveKind#]OMPD_teams_distribute_simd
+COMPLETION: OMPD_threadprivate : [#clang::OpenMPDirectiveKind#]OMPD_threadprivate
+COMPLETION: OMPD_unknown : [#clang::OpenMPDirectiveKind#]OMPD_unknown
+COMPLETION: OMPDeclareReductionDecl : OMPDeclareReductionDecl
+COMPLETION: OMPDeclareSimdDecl : OMPDeclareSimdDecl
+COMPLETION: OMPDeclareSimdDeclAttr : OMPDeclareSimdDeclAttr
+COMPLETION: OMPDeclareTargetDeclAttr : OMPDeclareTargetDeclAttr
+COMPLETION: OMPDefaultClause : OMPDefaultClause
+COMPLETION: OMPDefaultmapClause : OMPDefaultmapClause
+COMPLETION: OMPDependClause : OMPDependClause
+COMPLETION: OMPDeviceClause : OMPDeviceClause
+COMPLETION: OMPDistributeDirective : OMPDistributeDirective
+COMPLETION: OMPDistributeParallelForDirective : OMPDistributeParallelForDirective
+COMPLETION: OMPDistributeParallelForSimdDirective : OMPDistributeParallelForSimdDirective
+COMPLETION: OMPDistributeSimdDirective : OMPDistributeSimdDirective
+COMPLETION: OMPDistScheduleClause : OMPDistScheduleClause
+COMPLETION: OMPExecutableDirective : OMPExecutableDirective
+COMPLETION: OMPFinalClause : OMPFinalClause
+COMPLETION: OMPFirstprivateClause : OMPFirstprivateClause
+COMPLETION: OMPFlushClause : OMPFlushClause
+COMPLETION: OMPFlushDirective : OMPFlushDirective
+COMPLETION: OMPForDirective : OMPForDirective
+COMPLETION: OMPForSimdDirective : OMPForSimdDirective
+COMPLETION: OMPFromClause : OMPFromClause
+COMPLETION: OMPGrainsizeClause : OMPGrainsizeClause
+COMPLETION: OMPHintClause : OMPHintClause
+COMPLETION: OMPIfClause : OMPIfClause
+COMPLETION: OMPInReductionClause : OMPInReductionClause
+COMPLETION: OMPIsDevicePtrClause : OMPIsDevicePtrClause
+COMPLETION: OMPLastprivateClause : OMPLastprivateClause
+COMPLETION: OMPLinearClause : OMPLinearClause
+COMPLETION: OMPLoopDirective : OMPLoopDirective
+COMPLETION: OMPMapClause : OMPMapClause
+COMPLETION: OMPMappableExprListClause : OMPMappableExprListClause<<#class T#>>
+COMPLETION: OMPMasterDirective : OMPMasterDirective
+COMPLETION: OMPMergeableClause : OMPMergeableClause
+COMPLETION: OMPNogroupClause : OMPNogroupClause
+COMPLETION: OMPNowaitClause : OMPNowaitClause
+COMPLETION: OMPNumTasksClause : OMPNumTasksClause
+COMPLETION: OMPNumTeamsClause : OMPNumTeamsClause
+COMPLETION: OMPNumThreadsClause : OMPNumThreadsClause
+COMPLETION: OMPOrderedClause : OMPOrderedClause
+COMPLETION: OMPOrderedDirective : OMPOrderedDirective
+COMPLETION: OMPParallelDirective : OMPParallelDirective
+COMPLETION: OMPParallelForDirective : OMPParallelForDirective
+COMPLETION: OMPParallelForSimdDirective : OMPParallelForSimdDirective
+COMPLETION: OMPParallelSectionsDirective : OMPParallelSectionsDirective
+COMPLETION: OMPPriorityClause : OMPPriorityClause
+COMPLETION: OMPPrivateClause : OMPPrivateClause
+COMPLETION: OMPProcBindClause : OMPProcBindClause
+COMPLETION: OMPReadClause : OMPReadClause
+COMPLETION: OMPReductionClause : OMPReductionClause
+COMPLETION: OMPSafelenClause : OMPSafelenClause
+COMPLETION: OMPScheduleClause : OMPScheduleClause
+COMPLETION: OMPSectionDirective : OMPSectionDirective
+COMPLETION: OMPSectionsDirective : OMPSectionsDirective
+COMPLETION: OMPSeqCstClause : OMPSeqCstClause
+COMPLETION: OMPSharedClause : OMPSharedClause
+COMPLETION: OMPSIMDClause : OMPSIMDClause
+COMPLETION: OMPSimdDirective : OMPSimdDirective
+COMPLETION: OMPSimdlenClause : OMPSimdlenClause
+COMPLETION: OMPSingleDirective : OMPSingleDirective
+COMPLETION: OMPTargetDataDirective : OMPTargetDataDirective
+COMPLETION: OMPTargetDirective : OMPTargetDirective
+COMPLETION: OMPTargetEnterDataDirective : OMPTargetEnterDataDirective
+COMPLETION: OMPTargetExitDataDirective : OMPTargetExitDataDirective
+COMPLETION: OMPTargetParallelDirective : OMPTargetParallelDirective
+COMPLETION: OMPTargetParallelForDirective : OMPTargetParallelForDirective
+COMPLETION: OMPTargetParallelForSimdDirective : OMPTargetParallelForSimdDirective
+COMPLETION: OMPTargetSimdDirective : OMPTargetSimdDirective
+COMPLETION: OMPTargetTeamsDirective : OMPTargetTeamsDirective
+COMPLETION: OMPTargetTeamsDistributeDirective : OMPTargetTeamsDistributeDirective
+COMPLETION: OMPTargetTeamsDistributeParallelForDirective : OMPTargetTeamsDistributeParallelForDirective
+COMPLETION: OMPTargetTeamsDistributeParallelForSimdDirective : OMPTargetTeamsDistributeParallelForSimdDirective
+COMPLETION: OMPTargetTeamsDistributeSimdDirective : OMPTargetTeamsDistributeSimdDirective
+COMPLETION: OMPTargetUpdateDirective : OMPTargetUpdateDirective
+COMPLETION: OMPTaskDirective : OMPTaskDirective
+COMPLETION: OMPTaskgroupDirective : OMPTaskgroupDirective
+COMPLETION: OMPTaskLoopDirective : OMPTaskLoopDirective
+COMPLETION: OMPTaskLoopSimdDirective : OMPTaskLoopSimdDirective
+COMPLETION: OMPTaskReductionClause : OMPTaskReductionClause
+COMPLETION: OMPTaskwaitDirective : OMPTaskwaitDirective
+COMPLETION: OMPTaskyieldDirective : OMPTaskyieldDirective
+COMPLETION: OMPTeamsDirective : OMPTeamsDirective
+COMPLETION: OMPTeamsDistributeDirective : OMPTeamsDistributeDirective
+COMPLETION: OMPTeamsDistributeParallelForDirective : OMPTeamsDistributeParallelForDirective
+COMPLETION: OMPTeamsDistributeParallelForSimdDirective : OMPTeamsDistributeParallelForSimdDirective
+COMPLETION: OMPTeamsDistributeSimdDirective : OMPTeamsDistributeSimdDirective
+COMPLETION: OMPThreadLimitClause : OMPThreadLimitClause
+COMPLETION: OMPThreadPrivateDecl : OMPThreadPrivateDecl
+COMPLETION: OMPThreadPrivateDeclAttr : OMPThreadPrivateDeclAttr
+COMPLETION: OMPThreadsClause : OMPThreadsClause
+COMPLETION: OMPToClause : OMPToClause
+COMPLETION: OMPUntiedClause : OMPUntiedClause
+COMPLETION: OMPUpdateClause : OMPUpdateClause
+COMPLETION: OMPUseDevicePtrClause : OMPUseDevicePtrClause
+COMPLETION: OMPVarListClause : OMPVarListClause<<#class T#>>
+COMPLETION: OMPWriteClause : OMPWriteClause
+COMPLETION: OnlyLargestCloneConstraint : OnlyLargestCloneConstraint
+COMPLETION: OO_Amp : [#clang::OverloadedOperatorKind#]OO_Amp
+COMPLETION: OO_AmpAmp : [#clang::OverloadedOperatorKind#]OO_AmpAmp
+COMPLETION: OO_AmpEqual : [#clang::OverloadedOperatorKind#]OO_AmpEqual
+COMPLETION: OO_Array_Delete : [#clang::OverloadedOperatorKind#]OO_Array_Delete
+COMPLETION: OO_Array_New : [#clang::OverloadedOperatorKind#]OO_Array_New
+COMPLETION: OO_Arrow : [#clang::OverloadedOperatorKind#]OO_Arrow
+COMPLETION: OO_ArrowStar : [#clang::OverloadedOperatorKind#]OO_ArrowStar
+COMPLETION: OO_Call : [#clang::OverloadedOperatorKind#]OO_Call
+COMPLETION: OO_Caret : [#clang::OverloadedOperatorKind#]OO_Caret
+COMPLETION: OO_CaretEqual : [#clang::OverloadedOperatorKind#]OO_CaretEqual
+COMPLETION: OO_Coawait : [#clang::OverloadedOperatorKind#]OO_Coawait
+COMPLETION: OO_Comma : [#clang::OverloadedOperatorKind#]OO_Comma
+COMPLETION: OO_Conditional : [#clang::OverloadedOperatorKind#]OO_Conditional
+COMPLETION: OO_Delete : [#clang::OverloadedOperatorKind#]OO_Delete
+COMPLETION: OO_Equal : [#clang::OverloadedOperatorKind#]OO_Equal
+COMPLETION: OO_EqualEqual : [#clang::OverloadedOperatorKind#]OO_EqualEqual
+COMPLETION: OO_Exclaim : [#clang::OverloadedOperatorKind#]OO_Exclaim
+COMPLETION: OO_ExclaimEqual : [#clang::OverloadedOperatorKind#]OO_ExclaimEqual
+COMPLETION: OO_Greater : [#clang::OverloadedOperatorKind#]OO_Greater
+COMPLETION: OO_GreaterEqual : [#clang::OverloadedOperatorKind#]OO_GreaterEqual
+COMPLETION: OO_GreaterGreater : [#clang::OverloadedOperatorKind#]OO_GreaterGreater
+COMPLETION: OO_GreaterGreaterEqual : [#clang::OverloadedOperatorKind#]OO_GreaterGreaterEqual
+COMPLETION: OO_Less : [#clang::OverloadedOperatorKind#]OO_Less
+COMPLETION: OO_LessEqual : [#clang::OverloadedOperatorKind#]OO_LessEqual
+COMPLETION: OO_LessLess : [#clang::OverloadedOperatorKind#]OO_LessLess
+COMPLETION: OO_LessLessEqual : [#clang::OverloadedOperatorKind#]OO_LessLessEqual
+COMPLETION: OO_Minus : [#clang::OverloadedOperatorKind#]OO_Minus
+COMPLETION: OO_MinusEqual : [#clang::OverloadedOperatorKind#]OO_MinusEqual
+COMPLETION: OO_MinusMinus : [#clang::OverloadedOperatorKind#]OO_MinusMinus
+COMPLETION: OO_New : [#clang::OverloadedOperatorKind#]OO_New
+COMPLETION: OO_None : [#clang::OverloadedOperatorKind#]OO_None
+COMPLETION: OO_Percent : [#clang::OverloadedOperatorKind#]OO_Percent
+COMPLETION: OO_PercentEqual : [#clang::OverloadedOperatorKind#]OO_PercentEqual
+COMPLETION: OO_Pipe : [#clang::OverloadedOperatorKind#]OO_Pipe
+COMPLETION: OO_PipeEqual : [#clang::OverloadedOperatorKind#]OO_PipeEqual
+COMPLETION: OO_PipePipe : [#clang::OverloadedOperatorKind#]OO_PipePipe
+COMPLETION: OO_Plus : [#clang::OverloadedOperatorKind#]OO_Plus
+COMPLETION: OO_PlusEqual : [#clang::OverloadedOperatorKind#]OO_PlusEqual
+COMPLETION: OO_PlusPlus : [#clang::OverloadedOperatorKind#]OO_PlusPlus
+COMPLETION: OO_Slash : [#clang::OverloadedOperatorKind#]OO_Slash
+COMPLETION: OO_SlashEqual : [#clang::OverloadedOperatorKind#]OO_SlashEqual
+COMPLETION: OO_Spaceship : [#clang::OverloadedOperatorKind#]OO_Spaceship
+COMPLETION: OO_Star : [#clang::OverloadedOperatorKind#]OO_Star
+COMPLETION: OO_StarEqual : [#clang::OverloadedOperatorKind#]OO_StarEqual
+COMPLETION: OO_Subscript : [#clang::OverloadedOperatorKind#]OO_Subscript
+COMPLETION: OO_Tilde : [#clang::OverloadedOperatorKind#]OO_Tilde
+COMPLETION: OpaquePtr : OpaquePtr<<#class PtrTy#>>
+COMPLETION: OpaqueValueExpr : OpaqueValueExpr
+COMPLETION: OpenCLAccessAttr : OpenCLAccessAttr
+COMPLETION: OpenCLIntelReqdSubGroupSizeAttr : OpenCLIntelReqdSubGroupSizeAttr
+COMPLETION: OpenCLKernelAttr : OpenCLKernelAttr
+COMPLETION: OpenCLOptions : OpenCLOptions
+COMPLETION: OpenCLUnrollHintAttr : OpenCLUnrollHintAttr
+COMPLETION: OpenMPClauseKind : OpenMPClauseKind
+COMPLETION: OpenMPDefaultClauseKind : OpenMPDefaultClauseKind
+COMPLETION: OpenMPDefaultmapClauseKind : OpenMPDefaultmapClauseKind
+COMPLETION: OpenMPDefaultmapClauseModifier : OpenMPDefaultmapClauseModifier
+COMPLETION: OpenMPDependClauseKind : OpenMPDependClauseKind
+COMPLETION: OpenMPDirectiveKind : OpenMPDirectiveKind
+COMPLETION: OpenMPDistScheduleClauseKind : OpenMPDistScheduleClauseKind
+COMPLETION: OpenMPLinearClauseKind : OpenMPLinearClauseKind
+COMPLETION: OpenMPMapClauseKind : OpenMPMapClauseKind
+COMPLETION: OpenMPProcBindClauseKind : OpenMPProcBindClauseKind
+COMPLETION: OpenMPScheduleClauseKind : OpenMPScheduleClauseKind
+COMPLETION: OpenMPScheduleClauseModifier : OpenMPScheduleClauseModifier
+COMPLETION: OpenMPScheduleTy : OpenMPScheduleTy
+COMPLETION: operator!= : [#bool#]operator!=(<#const SourceLocation &LHS#>, <#const SourceLocation &RHS#>)
+COMPLETION: operator!= : [#bool#]operator!=(<#CanQual<T> x#>, <#CanQual<U> y#>)
+COMPLETION: operator& : [#DiagnosticLevelMask#]operator&(<#DiagnosticLevelMask LHS#>, <#DiagnosticLevelMask RHS#>)
+COMPLETION: operator< : [#bool#]operator<(<#const SourceLocation &LHS#>, <#const SourceLocation &RHS#>)
+COMPLETION: operator< : [#bool#]operator<(<#DeclarationName LHS#>, <#DeclarationName RHS#>)
+COMPLETION: operator< : [#bool#]operator<(<#const CodeCompletionResult &X#>, <#const CodeCompletionResult &Y#>)
+COMPLETION: operator< : [#bool#]operator<(<#const LineEntry &lhs#>, <#const LineEntry &rhs#>)
+COMPLETION: operator< : [#bool#]operator<(<#const LineEntry &E#>, <#unsigned int Offset#>)
+COMPLETION: operator< : [#bool#]operator<(<#unsigned int Offset#>, <#const LineEntry &E#>)
+COMPLETION: operator<< : [#raw_ostream &#]operator<<(<#raw_ostream &Out#>, <#DiagnosticLevelMask M#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#const AddFlagValue V#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#StringRef S#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#const char *Str#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#int I#>)
+COMPLETION: operator<< : [#typename std::enable_if<std::is_same<T, bool>::value, const DiagnosticBuilder &>::type#]operator<<(<#const DiagnosticBuilder &DB#>, <#T I#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#unsigned int I#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#tok::TokenKind I#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#const IdentifierInfo *II#>)
+COMPLETION: operator<< : [#typename std::enable_if<std::is_same<typename std::remove_const<T>::type, DeclContext>::value, const DiagnosticBuilder &>::type#]operator<<(<#const DiagnosticBuilder &DB#>, <#T *DC#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#SourceRange R#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#ArrayRef<SourceRange> Ranges#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#const CharSourceRange &R#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#const FixItHint &Hint#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#ArrayRef<FixItHint> Hints#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#DiagNullabilityKind nullability#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#const PartialDiagnostic &PD#>)
+COMPLETION: operator<< : [#raw_ostream &#]operator<<(<#raw_ostream &OS#>, <#DeclarationName N#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#DeclarationName N#>)
+COMPLETION: operator<< : [#const PartialDiagnostic &#]operator<<(<#const PartialDiagnostic &PD#>, <#DeclarationName N#>)
+COMPLETION: operator<< : [#raw_ostream &#]operator<<(<#raw_ostream &OS#>, <#DeclarationNameInfo DNInfo#>)
+COMPLETION: operator<< : [#raw_ostream &#]operator<<(<#raw_ostream &Out#>, <#const VersionTuple &V#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#NestedNameSpecifier *NNS#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#TemplateName N#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#QualType T#>)
+COMPLETION: operator<< : [#const PartialDiagnostic &#]operator<<(<#const PartialDiagnostic &PD#>, <#QualType T#>)
+COMPLETION: operator<< : [#raw_ostream &#]operator<<(<#raw_ostream &OS#>, <#const NamedDecl &ND#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#const NamedDecl *ND#>)
+COMPLETION: operator<< : [#const PartialDiagnostic &#]operator<<(<#const PartialDiagnostic &PD#>, <#const NamedDecl *ND#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#const TemplateArgument &Arg#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#CanQualType T#>)
+COMPLETION: operator<< : [#raw_ostream &#]operator<<(<#raw_ostream &out#>, <#const ObjCRuntime &value#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#const Attr *At#>)
+COMPLETION: operator<< : [#const PartialDiagnostic &#]operator<<(<#const PartialDiagnostic &PD#>, <#const Attr *At#>)
+COMPLETION: operator<< : [#const DiagnosticBuilder &#]operator<<(<#const DiagnosticBuilder &DB#>, <#AccessSpecifier AS#>)
+COMPLETION: operator<< : [#const PartialDiagnostic &#]operator<<(<#const PartialDiagnostic &DB#>, <#AccessSpecifier AS#>)
+COMPLETION: operator<< : [#raw_ostream &#]operator<<(<#raw_ostream &OS#>, <#const ObjCCategoryImplDecl &CID#>)
+COMPLETION: operator<< : [#raw_ostream &#]operator<<(<#raw_ostream &OS#>, <#const ObjCImplementationDecl &ID#>)
+COMPLETION: operator<< : [#raw_ostream &#]operator<<(<#raw_ostream &OS#>, <#const CodeCompletionString &CCS#>)
+COMPLETION: operator<= : [#bool#]operator<=(<#DeclarationName LHS#>, <#DeclarationName RHS#>)
+COMPLETION: operator<= : [#bool#]operator<=(<#const CodeCompletionResult &X#>, <#const CodeCompletionResult &Y#>)
+COMPLETION: operator== : [#bool#]operator==(<#const SourceLocation &LHS#>, <#const SourceLocation &RHS#>)
+COMPLETION: operator== : [#bool#]operator==(<#CanQual<T> x#>, <#CanQual<U> y#>)
+COMPLETION: operator> : [#bool#]operator>(<#DeclarationName LHS#>, <#DeclarationName RHS#>)
+COMPLETION: operator> : [#bool#]operator>(<#const CodeCompletionResult &X#>, <#const CodeCompletionResult &Y#>)
+COMPLETION: operator>= : [#bool#]operator>=(<#DeclarationName LHS#>, <#DeclarationName RHS#>)
+COMPLETION: operator>= : [#bool#]operator>=(<#const CodeCompletionResult &X#>, <#const CodeCompletionResult &Y#>)
+COMPLETION: operator| : [#DiagnosticLevelMask#]operator|(<#DiagnosticLevelMask LHS#>, <#DiagnosticLevelMask RHS#>)
+COMPLETION: operator~ : [#DiagnosticLevelMask#]operator~(<#DiagnosticLevelMask M#>)
+COMPLETION: OptimizeNoneAttr : OptimizeNoneAttr
+COMPLETION: Optional : Optional<<#typename T#>>
+COMPLETION: OR_Ambiguous : [#clang::OverloadingResult#]OR_Ambiguous
+COMPLETION: OR_Deleted : [#clang::OverloadingResult#]OR_Deleted
+COMPLETION: OR_No_Viable_Function : [#clang::OverloadingResult#]OR_No_Viable_Function
+COMPLETION: OR_Success : [#clang::OverloadingResult#]OR_Success
+COMPLETION: OverloadableAttr : OverloadableAttr
+COMPLETION: OverloadCandidate : OverloadCandidate
+COMPLETION: OverloadCandidateDisplayKind : OverloadCandidateDisplayKind
+COMPLETION: OverloadCandidateSet : OverloadCandidateSet
+COMPLETION: OverloadedOperatorKind : OverloadedOperatorKind
+COMPLETION: OverloadedTemplateStorage : OverloadedTemplateStorage
+COMPLETION: OverloadExpr : OverloadExpr
+COMPLETION: OverloadFailureKind : OverloadFailureKind
+COMPLETION: OverloadFixItKind : OverloadFixItKind
+COMPLETION: OverloadingResult : OverloadingResult
+COMPLETION: OverloadsShown : OverloadsShown
+COMPLETION: OverrideAttr : OverrideAttr
+COMPLETION: OverridingMethods : OverridingMethods
+COMPLETION: Ovl_All : [#clang::OverloadsShown#]Ovl_All
+COMPLETION: Ovl_Best : [#clang::OverloadsShown#]Ovl_Best
+COMPLETION: ovl_fail_addr_not_available : [#clang::OverloadFailureKind#]ovl_fail_addr_not_available
+COMPLETION: ovl_fail_bad_conversion : [#clang::OverloadFailureKind#]ovl_fail_bad_conversion
+COMPLETION: ovl_fail_bad_deduction : [#clang::OverloadFailureKind#]ovl_fail_bad_deduction
+COMPLETION: ovl_fail_bad_final_conversion : [#clang::OverloadFailureKind#]ovl_fail_bad_final_conversion
+COMPLETION: ovl_fail_bad_target : [#clang::OverloadFailureKind#]ovl_fail_bad_target
+COMPLETION: ovl_fail_enable_if : [#clang::OverloadFailureKind#]ovl_fail_enable_if
+COMPLETION: ovl_fail_ext_disabled : [#clang::OverloadFailureKind#]ovl_fail_ext_disabled
+COMPLETION: ovl_fail_final_conversion_not_exact : [#clang::OverloadFailureKind#]ovl_fail_final_conversion_not_exact
+COMPLETION: ovl_fail_illegal_constructor : [#clang::OverloadFailureKind#]ovl_fail_illegal_constructor
+COMPLETION: ovl_fail_inhctor_slice : [#clang::OverloadFailureKind#]ovl_fail_inhctor_slice
+COMPLETION: ovl_fail_too_few_arguments : [#clang::OverloadFailureKind#]ovl_fail_too_few_arguments
+COMPLETION: ovl_fail_too_many_arguments : [#clang::OverloadFailureKind#]ovl_fail_too_many_arguments
+COMPLETION: ovl_fail_trivial_conversion : [#clang::OverloadFailureKind#]ovl_fail_trivial_conversion
+COMPLETION: OwnershipAttr : OwnershipAttr
+COMPLETION: OwningArrayRef : OwningArrayRef<<#typename T#>>
+COMPLETION: PackedAttr : PackedAttr
+COMPLETION: PackExpansionExpr : PackExpansionExpr
+COMPLETION: PackExpansionType : PackExpansionType
+COMPLETION: PackExpansionTypeLoc : PackExpansionTypeLoc
+COMPLETION: PackExpansionTypeLocInfo : PackExpansionTypeLocInfo
+COMPLETION: ParameterABI : ParameterABI
+COMPLETION: ParameterABIAttr : ParameterABIAttr
+COMPLETION: ParamTypestateAttr : ParamTypestateAttr
+COMPLETION: ParenBraceBracketBalancer : ParenBraceBracketBalancer
+COMPLETION: ParenExpr : ParenExpr
+COMPLETION: ParenListExpr : ParenListExpr
+COMPLETION: ParenLocInfo : ParenLocInfo
+COMPLETION: ParentMap : ParentMap
+COMPLETION: ParenType : ParenType
+COMPLETION: ParenTypeLoc : ParenTypeLoc
+COMPLETION: ParmVarDecl : ParmVarDecl
+COMPLETION: ParseAST : [#void#]ParseAST(<#Preprocessor &pp#>, <#ASTConsumer *C#>, <#ASTContext &Ctx#>{#, <#bool PrintStats = false#>{#, <#TranslationUnitKind TUKind = TU_Complete#>{#, <#CodeCompleteConsumer *CompletionConsumer = nullptr#>{#, <#bool SkipFunctionBodies = false#>#}#}#}#})
+COMPLETION: ParseAST : [#void#]ParseAST(<#Sema &S#>{#, <#bool PrintStats = false#>{#, <#bool SkipFunctionBodies = false#>#}#})
+COMPLETION: ParsedAttributes : ParsedAttributes
+COMPLETION: ParseDiagnosticArgs : [#bool#]ParseDiagnosticArgs(<#DiagnosticOptions &Opts#>, <#llvm::opt::ArgList &Args#>{#, <#DiagnosticsEngine *Diags = nullptr#>{#, <#bool DefaultDiagColor = true#>{#, <#bool DefaultShowOpt = true#>#}#}#})
+COMPLETION: ParsedSourceLocation : ParsedSourceLocation
+COMPLETION: ParsedSourceRange : ParsedSourceRange
+COMPLETION: ParsedTemplateArgument : ParsedTemplateArgument
+COMPLETION: ParsedTemplateTy : ParsedTemplateTy
+COMPLETION: ParsedType : ParsedType
+COMPLETION: Parser : Parser
+COMPLETION: parseSanitizerValue : [#SanitizerMask#]parseSanitizerValue(<#StringRef Value#>, <#bool AllowGroups#>)
+COMPLETION: ParsingDeclarator : ParsingDeclarator
+COMPLETION: ParsingDeclRAIIObject : ParsingDeclRAIIObject
+COMPLETION: ParsingDeclSpec : ParsingDeclSpec
+COMPLETION: ParsingFieldDeclarator : ParsingFieldDeclarator
+COMPLETION: PartialDiagnostic : PartialDiagnostic
+COMPLETION: PartialDiagnosticAt : PartialDiagnosticAt
+COMPLETION: PascalAttr : PascalAttr
+COMPLETION: PassObjectSizeAttr : PassObjectSizeAttr
+COMPLETION: PCHBuffer : PCHBuffer
+COMPLETION: PCHContainerOperations : PCHContainerOperations
+COMPLETION: PCHContainerReader : PCHContainerReader
+COMPLETION: PCHContainerWriter : PCHContainerWriter
+COMPLETION: PCHGenerator : PCHGenerator
+COMPLETION: PCHValidator : PCHValidator
+COMPLETION: PCK_Compiler : [#clang::PragmaMSCommentKind#]PCK_Compiler
+COMPLETION: PCK_ExeStr : [#clang::PragmaMSCommentKind#]PCK_ExeStr
+COMPLETION: PCK_Lib : [#clang::PragmaMSCommentKind#]PCK_Lib
+COMPLETION: PCK_Linker : [#clang::PragmaMSCommentKind#]PCK_Linker
+COMPLETION: PCK_Unknown : [#clang::PragmaMSCommentKind#]PCK_Unknown
+COMPLETION: PCK_User : [#clang::PragmaMSCommentKind#]PCK_User
+COMPLETION: PcsAttr : PcsAttr
+COMPLETION: PD_HTML : [#clang::AnalysisDiagClients#]PD_HTML
+COMPLETION: PD_HTML_SINGLE_FILE : [#clang::AnalysisDiagClients#]PD_HTML_SINGLE_FILE
+COMPLETION: PD_NONE : [#clang::AnalysisDiagClients#]PD_NONE
+COMPLETION: PD_PLIST : [#clang::AnalysisDiagClients#]PD_PLIST
+COMPLETION: PD_PLIST_HTML : [#clang::AnalysisDiagClients#]PD_PLIST_HTML
+COMPLETION: PD_PLIST_MULTI_FILE : [#clang::AnalysisDiagClients#]PD_PLIST_MULTI_FILE
+COMPLETION: PD_TEXT : [#clang::AnalysisDiagClients#]PD_TEXT
+COMPLETION: PIK___pragma : [#clang::PragmaIntroducerKind#]PIK___pragma
+COMPLETION: PIK__Pragma : [#clang::PragmaIntroducerKind#]PIK__Pragma
+COMPLETION: PIK_HashPragma : [#clang::PragmaIntroducerKind#]PIK_HashPragma
+COMPLETION: PipeType : PipeType
+COMPLETION: PipeTypeLoc : PipeTypeLoc
+COMPLETION: PipeTypeLocInfo : PipeTypeLocInfo
+COMPLETION: PluginASTAction : PluginASTAction
+COMPLETION: PMSST_OFF : [#clang::PragmaMSStructKind#]PMSST_OFF
+COMPLETION: PMSST_ON : [#clang::PragmaMSStructKind#]PMSST_ON
+COMPLETION: PointerLikeLocInfo : PointerLikeLocInfo
+COMPLETION: PointerLikeTypeLoc : PointerLikeTypeLoc<<#class Derived#>, <#class TypeClass#>{#, <#class LocalData#>#}>
+COMPLETION: PointerType : PointerType
+COMPLETION: PointerTypeLoc : PointerTypeLoc
+COMPLETION: PoisonIdentifierRAIIObject : PoisonIdentifierRAIIObject
+COMPLETION: PoisonSEHIdentifiersRAIIObject : PoisonSEHIdentifiersRAIIObject
+COMPLETION: PostCondition : PostCondition
+COMPLETION: PostImplicitCall : PostImplicitCall
+COMPLETION: PostInitializer : PostInitializer
+COMPLETION: PostLoad : PostLoad
+COMPLETION: PostLValue : PostLValue
+COMPLETION: PostOrderCFGView : PostOrderCFGView
+COMPLETION: PostStmt : PostStmt
+COMPLETION: PostStmtPurgeDeadSymbols : PostStmtPurgeDeadSymbols
+COMPLETION: PostStore : PostStore
+COMPLETION: PPC : PPC
+COMPLETION: PPCallbacks : PPCallbacks
+COMPLETION: PPChainedCallbacks : PPChainedCallbacks
+COMPLETION: PPConditionalDirectiveRecord : PPConditionalDirectiveRecord
+COMPLETION: PPConditionalInfo : PPConditionalInfo
+COMPLETION: PragmaClangBSSSectionAttr : PragmaClangBSSSectionAttr
+COMPLETION: PragmaClangDataSectionAttr : PragmaClangDataSectionAttr
+COMPLETION: PragmaClangRodataSectionAttr : PragmaClangRodataSectionAttr
+COMPLETION: PragmaClangTextSectionAttr : PragmaClangTextSectionAttr
+COMPLETION: PragmaCommentDecl : PragmaCommentDecl
+COMPLETION: PragmaDetectMismatchDecl : PragmaDetectMismatchDecl
+COMPLETION: PragmaHandler : PragmaHandler
+COMPLETION: PragmaHandlerRegistry : PragmaHandlerRegistry
+COMPLETION: PragmaIntroducerKind : PragmaIntroducerKind
+COMPLETION: PragmaMSCommentKind : PragmaMSCommentKind
+COMPLETION: PragmaMSStructKind : PragmaMSStructKind
+COMPLETION: PragmaNamespace : PragmaNamespace
+COMPLETION: PreambleBounds : PreambleBounds
+COMPLETION: PreambleCallbacks : PreambleCallbacks
+COMPLETION: prec : prec
+COMPLETION: PrecompiledPreamble : PrecompiledPreamble
+COMPLETION: PredefinedExpr : PredefinedExpr
+COMPLETION: PreImplicitCall : PreImplicitCall
+COMPLETION: PreLoad : PreLoad
+COMPLETION: PreprocessedEntity : PreprocessedEntity
+COMPLETION: PreprocessingDirective : PreprocessingDirective
+COMPLETION: PreprocessingRecord : PreprocessingRecord
+COMPLETION: PreprocessOnlyAction : PreprocessOnlyAction
+COMPLETION: Preprocessor : Preprocessor
+COMPLETION: PreprocessorFrontendAction : PreprocessorFrontendAction
+COMPLETION: PreprocessorLexer : PreprocessorLexer
+COMPLETION: PreprocessorOptions : PreprocessorOptions
+COMPLETION: PreprocessorOutputOptions : PreprocessorOutputOptions
+COMPLETION: PreserveAllAttr : PreserveAllAttr
+COMPLETION: PreserveMostAttr : PreserveMostAttr
+COMPLETION: PreStmt : PreStmt
+COMPLETION: PreStmtPurgeDeadSymbols : PreStmtPurgeDeadSymbols
+COMPLETION: PreStore : PreStore
+COMPLETION: PresumedLoc : PresumedLoc
+COMPLETION: PrettyDeclStackTraceEntry : PrettyDeclStackTraceEntry
+COMPLETION: PrettyStackTraceDecl : PrettyStackTraceDecl
+COMPLETION: PrettyStackTraceLoc : PrettyStackTraceLoc
+COMPLETION: PrinterHelper : PrinterHelper
+COMPLETION: PrintingCodeCompleteConsumer : PrintingCodeCompleteConsumer
+COMPLETION: PrintingPolicy : PrintingPolicy
+COMPLETION: PrintPreambleAction : PrintPreambleAction
+COMPLETION: PrintPreprocessedAction : PrintPreprocessedAction
+COMPLETION: printTemplateArgumentList : [#void#]printTemplateArgumentList(<#raw_ostream &OS#>, <#ArrayRef<TemplateArgument> Args#>, <#const PrintingPolicy &Policy#>)
+COMPLETION: printTemplateArgumentList : [#void#]printTemplateArgumentList(<#raw_ostream &OS#>, <#ArrayRef<TemplateArgumentLoc> Args#>, <#const PrintingPolicy &Policy#>)
+COMPLETION: printTemplateArgumentList : [#void#]printTemplateArgumentList(<#raw_ostream &OS#>, <#const TemplateArgumentListInfo &Args#>, <#const PrintingPolicy &Policy#>)
+COMPLETION: ProcessWarningOptions : [#void#]ProcessWarningOptions(<#DiagnosticsEngine &Diags#>, <#const DiagnosticOptions &Opts#>{#, <#bool ReportDiags = true#>#})
+COMPLETION: ProgramPoint : ProgramPoint
+COMPLETION: ProgramPointTag : ProgramPointTag
+COMPLETION: ProtectedVisibility : [#clang::Visibility#]ProtectedVisibility
+COMPLETION: PseudoConstantAnalysis : PseudoConstantAnalysis
+COMPLETION: PseudoDestructorTypeStorage : PseudoDestructorTypeStorage
+COMPLETION: PseudoObjectExpr : PseudoObjectExpr
+COMPLETION: PtGuardedByAttr : PtGuardedByAttr
+COMPLETION: PtGuardedVarAttr : PtGuardedVarAttr
+COMPLETION: PTHLexer : PTHLexer
+COMPLETION: PTHManager : PTHManager
+COMPLETION: PureAttr : PureAttr
+COMPLETION: PurgeBlock : [#clang::AnalysisPurgeMode#]PurgeBlock
+COMPLETION: PurgeNone : [#clang::AnalysisPurgeMode#]PurgeNone
+COMPLETION: PurgeStmt : [#clang::AnalysisPurgeMode#]PurgeStmt
+COMPLETION: QualifiedTemplateName : QualifiedTemplateName
+COMPLETION: QualifiedTypeLoc : QualifiedTypeLoc
+COMPLETION: QualifierCollector : QualifierCollector
+COMPLETION: QualifierInfo : QualifierInfo
+COMPLETION: Qualifiers : Qualifiers
+COMPLETION: QualType : QualType
+COMPLETION: QualTypeOrdering : QualTypeOrdering
+COMPLETION: RangeConstraintsModel : [#clang::AnalysisConstraints#]RangeConstraintsModel
+COMPLETION: raw_ostream : raw_ostream
+COMPLETION: raw_pwrite_stream : raw_pwrite_stream
+COMPLETION: RawComment : RawComment
+COMPLETION: RawCommentList : RawCommentList
+COMPLETION: RawPCHContainerReader : RawPCHContainerReader
+COMPLETION: RawPCHContainerWriter : RawPCHContainerWriter
+COMPLETION: reachable_code : reachable_code
+COMPLETION: RecordDecl : RecordDecl
+COMPLETION: RecordType : RecordType
+COMPLETION: RecordTypeLoc : RecordTypeLoc
+COMPLETION: RecursiveASTVisitor : RecursiveASTVisitor<<#typename Derived#>>
+COMPLETION: RecursiveCloneTypeIIHashConstraint : RecursiveCloneTypeIIHashConstraint
+COMPLETION: RecursiveCloneTypeIIVerifyConstraint : RecursiveCloneTypeIIVerifyConstraint
+COMPLETION: Redeclarable : Redeclarable<<#typename decl_type#>>
+COMPLETION: RedeclarableTemplateDecl : RedeclarableTemplateDecl
+COMPLETION: RefCountedBase : RefCountedBase<<#class Derived#>>
+COMPLETION: ReferenceType : ReferenceType
+COMPLETION: ReferenceTypeLoc : ReferenceTypeLoc
+COMPLETION: RefQualifierKind : RefQualifierKind
+COMPLETION: RegCallAttr : RegCallAttr
+COMPLETION: RegionStoreModel : [#clang::AnalysisStores#]RegionStoreModel
+COMPLETION: RelaxedLiveVariables : RelaxedLiveVariables
+COMPLETION: ReleaseCapabilityAttr : ReleaseCapabilityAttr
+COMPLETION: RenderScriptKernelAttr : RenderScriptKernelAttr
+COMPLETION: ReqdWorkGroupSizeAttr : ReqdWorkGroupSizeAttr
+COMPLETION: RequireConstantInitAttr : RequireConstantInitAttr
+COMPLETION: RequiresCapabilityAttr : RequiresCapabilityAttr
+COMPLETION: RestrictAttr : RestrictAttr
+COMPLETION: ReturnAdjustment : ReturnAdjustment
+COMPLETION: ReturnsNonNullAttr : ReturnsNonNullAttr
+COMPLETION: ReturnStmt : ReturnStmt
+COMPLETION: ReturnsTwiceAttr : ReturnsTwiceAttr
+COMPLETION: ReturnTypestateAttr : ReturnTypestateAttr
+COMPLETION: RewriteBuffer : RewriteBuffer
+COMPLETION: RewriteIncludesAction : RewriteIncludesAction
+COMPLETION: RewriteIncludesInInput : [#void#]RewriteIncludesInInput(<#Preprocessor &PP#>, <#raw_ostream *OS#>, <#const PreprocessorOutputOptions &Opts#>)
+COMPLETION: RewriteMacrosAction : RewriteMacrosAction
+COMPLETION: RewriteMacrosInInput : [#void#]RewriteMacrosInInput(<#Preprocessor &PP#>, <#raw_ostream *OS#>)
+COMPLETION: RewriteObjCAction : RewriteObjCAction
+COMPLETION: Rewriter : Rewriter
+COMPLETION: RewriteRope : RewriteRope
+COMPLETION: RewriteTestAction : RewriteTestAction
+COMPLETION: RopePiece : RopePiece
+COMPLETION: RopePieceBTree : RopePieceBTree
+COMPLETION: RopePieceBTreeIterator : RopePieceBTreeIterator
+COMPLETION: RopeRefCountString : RopeRefCountString
+COMPLETION: RQ_LValue : [#clang::RefQualifierKind#]RQ_LValue
+COMPLETION: RQ_None : [#clang::RefQualifierKind#]RQ_None
+COMPLETION: RQ_RValue : [#clang::RefQualifierKind#]RQ_RValue
+COMPLETION: runUninitializedVariablesAnalysis : [#void#]runUninitializedVariablesAnalysis(<#const DeclContext &dc#>, <#const CFG &cfg#>, <#AnalysisDeclContext &ac#>, <#UninitVariablesHandler &handler#>, <#UninitVariablesAnalysisStats &stats#>)
+COMPLETION: RValueReferenceType : RValueReferenceType
+COMPLETION: RValueReferenceTypeLoc : RValueReferenceTypeLoc
+COMPLETION: SanitizerBlacklist : SanitizerBlacklist
+COMPLETION: SanitizerKind : SanitizerKind
+COMPLETION: SanitizerMask : SanitizerMask
+COMPLETION: SanitizerSet : SanitizerSet
+COMPLETION: SanitizerSpecialCaseList : SanitizerSpecialCaseList
+COMPLETION: SaveAndRestore : SaveAndRestore<<#typename T#>>
+COMPLETION: SavedStreamPosition : SavedStreamPosition
+COMPLETION: SC_Auto : [#clang::StorageClass#]SC_Auto
+COMPLETION: SC_Extern : [#clang::StorageClass#]SC_Extern
+COMPLETION: SC_None : [#clang::StorageClass#]SC_None
+COMPLETION: SC_PrivateExtern : [#clang::StorageClass#]SC_PrivateExtern
+COMPLETION: SC_Register : [#clang::StorageClass#]SC_Register
+COMPLETION: SC_Static : [#clang::StorageClass#]SC_Static
+COMPLETION: Scope : Scope
+COMPLETION: ScopeContext : ScopeContext
+COMPLETION: ScopedLockableAttr : ScopedLockableAttr
+COMPLETION: ScratchBuffer : ScratchBuffer
+COMPLETION: SD_Automatic : [#clang::StorageDuration#]SD_Automatic
+COMPLETION: SD_Dynamic : [#clang::StorageDuration#]SD_Dynamic
+COMPLETION: SD_FullExpression : [#clang::StorageDuration#]SD_FullExpression
+COMPLETION: SD_Static : [#clang::StorageDuration#]SD_Static
+COMPLETION: SD_Thread : [#clang::StorageDuration#]SD_Thread
+COMPLETION: SectionAttr : SectionAttr
+COMPLETION: SEHExceptStmt : SEHExceptStmt
+COMPLETION: SEHFinallyStmt : SEHFinallyStmt
+COMPLETION: SEHLeaveStmt : SEHLeaveStmt
+COMPLETION: SEHTryStmt : SEHTryStmt
+COMPLETION: SelectAnyAttr : SelectAnyAttr
+COMPLETION: Selector : Selector
+COMPLETION: SelectorLocationsKind : SelectorLocationsKind
+COMPLETION: SelectorTable : SelectorTable
+COMPLETION: SelLoc_NonStandard : [#clang::SelectorLocationsKind#]SelLoc_NonStandard
+COMPLETION: SelLoc_StandardNoSpace : [#clang::SelectorLocationsKind#]SelLoc_StandardNoSpace
+COMPLETION: SelLoc_StandardWithSpace : [#clang::SelectorLocationsKind#]SelLoc_StandardWithSpace
+COMPLETION: Sema : Sema
+COMPLETION: sema : sema
+COMPLETION: SemaConsumer : SemaConsumer
+COMPLETION: SentinelAttr : SentinelAttr
+COMPLETION: serialization : serialization
+COMPLETION: serialized_diags : serialized_diags
+COMPLETION: SetTypestateAttr : SetTypestateAttr
+COMPLETION: SFF_CFString : [#clang::ObjCStringFormatFamily#]SFF_CFString
+COMPLETION: SFF_None : [#clang::ObjCStringFormatFamily#]SFF_None
+COMPLETION: SFF_NSString : [#clang::ObjCStringFormatFamily#]SFF_NSString
+COMPLETION: SharedTrylockFunctionAttr : SharedTrylockFunctionAttr
+COMPLETION: ShuffleVectorExpr : ShuffleVectorExpr
+COMPLETION: SimpleASTReaderListener : SimpleASTReaderListener
+COMPLETION: SimpleProgramPointTag : SimpleProgramPointTag
+COMPLETION: SimplifiedTypeClass : SimplifiedTypeClass
+COMPLETION: SizeOfPackExpr : SizeOfPackExpr
+COMPLETION: SmallString : SmallString<<#unsigned int InternalLen#>>
+COMPLETION: SmallVector : SmallVector<<#typename T#>, <#unsigned int N#>>
+COMPLETION: SmallVectorImpl : SmallVectorImpl<<#typename T#>>
+COMPLETION: SourceLocation : SourceLocation
+COMPLETION: SourceManager : SourceManager
+COMPLETION: SourceMgr : SourceMgr
+COMPLETION: SourceRange : SourceRange
+COMPLETION: specific_attr_begin : [#specific_attr_iterator<SpecificAttr, Container>#]specific_attr_begin<<#typename SpecificAttr#>>(<#const Container &container#>)
+COMPLETION: specific_attr_end : [#specific_attr_iterator<SpecificAttr, Container>#]specific_attr_end<<#typename SpecificAttr#>>(<#const Container &container#>)
+COMPLETION: specific_attr_iterator : specific_attr_iterator<<#typename SpecificAttr#>{#, <#typename Container#>#}>
+COMPLETION: SplitQualType : SplitQualType
+COMPLETION: SrcMgr : SrcMgr
+COMPLETION: StackFrameContext : StackFrameContext
+COMPLETION: StandardConversionSequence : StandardConversionSequence
+COMPLETION: StaticAssertDecl : StaticAssertDecl
+COMPLETION: STC_Arithmetic : [#clang::SimplifiedTypeClass#]STC_Arithmetic
+COMPLETION: STC_Array : [#clang::SimplifiedTypeClass#]STC_Array
+COMPLETION: STC_Block : [#clang::SimplifiedTypeClass#]STC_Block
+COMPLETION: STC_Function : [#clang::SimplifiedTypeClass#]STC_Function
+COMPLETION: STC_ObjectiveC : [#clang::SimplifiedTypeClass#]STC_ObjectiveC
+COMPLETION: STC_Other : [#clang::SimplifiedTypeClass#]STC_Other
+COMPLETION: STC_Pointer : [#clang::SimplifiedTypeClass#]STC_Pointer
+COMPLETION: STC_Record : [#clang::SimplifiedTypeClass#]STC_Record
+COMPLETION: STC_Void : [#clang::SimplifiedTypeClass#]STC_Void
+COMPLETION: StdCallAttr : StdCallAttr
+COMPLETION: Stmt : Stmt
+COMPLETION: StmtAttr : StmtAttr
+COMPLETION: StmtEmpty : [#StmtResult#]StmtEmpty()
+COMPLETION: StmtError : [#StmtResult#]StmtError()
+COMPLETION: StmtError : [#StmtResult#]StmtError(<#const DiagnosticBuilder &#>)
+COMPLETION: StmtExpr : StmtExpr
+COMPLETION: StmtIterator : StmtIterator
+COMPLETION: StmtIteratorBase : StmtIteratorBase
+COMPLETION: StmtIteratorImpl : StmtIteratorImpl<<#typename DERIVED#>, <#typename REFERENCE#>>
+COMPLETION: StmtPoint : StmtPoint
+COMPLETION: StmtResult : StmtResult
+COMPLETION: StmtSequence : StmtSequence
+COMPLETION: StmtVisitor : StmtVisitor<<#typename ImplClass#>{#, <#typename RetTy#>, <#typename ParamTys#>#}>
+COMPLETION: StmtVisitorBase : StmtVisitorBase<<#template<...> class Ptr#>, <#typename ImplClass#>{#, <#typename RetTy#>, <#class ParamTys#>#}>
+COMPLETION: StorageClass : StorageClass
+COMPLETION: StorageDuration : StorageDuration
+COMPLETION: StoredDeclsList : StoredDeclsList
+COMPLETION: StoredDeclsMap : StoredDeclsMap
+COMPLETION: StoredDiagnostic : StoredDiagnostic
+COMPLETION: StringLiteral : StringLiteral
+COMPLETION: StringLiteralParser : StringLiteralParser
+COMPLETION: StringRef : StringRef
+COMPLETION: StringSizerHelper : StringSizerHelper<<#size_t SizeOfStr#>, <#typename FieldType#>>
+COMPLETION: StringToCudaArch : [#CudaArch#]StringToCudaArch(<#llvm::StringRef S#>)
+COMPLETION: StringToCudaVirtualArch : [#CudaVirtualArch#]StringToCudaVirtualArch(<#llvm::StringRef S#>)
+COMPLETION: StructuralEquivalenceContext : StructuralEquivalenceContext
+COMPLETION: SubobjectAdjustment : SubobjectAdjustment
+COMPLETION: SubstNonTypeTemplateParmExpr : SubstNonTypeTemplateParmExpr
+COMPLETION: SubstNonTypeTemplateParmPackExpr : SubstNonTypeTemplateParmPackExpr
+COMPLETION: SubstTemplateTemplateParmPackStorage : SubstTemplateTemplateParmPackStorage
+COMPLETION: SubstTemplateTemplateParmStorage : SubstTemplateTemplateParmStorage
+COMPLETION: SubstTemplateTypeParmPackType : SubstTemplateTypeParmPackType
+COMPLETION: SubstTemplateTypeParmPackTypeLoc : SubstTemplateTypeParmPackTypeLoc
+COMPLETION: SubstTemplateTypeParmType : SubstTemplateTypeParmType
+COMPLETION: SubstTemplateTypeParmTypeLoc : SubstTemplateTypeParmTypeLoc
+COMPLETION: supportsVariadicCall : [#bool#]supportsVariadicCall(<#CallingConv CC#>)
+COMPLETION: SuppressAccessChecks : SuppressAccessChecks
+COMPLETION: SuppressAttr : SuppressAttr
+COMPLETION: SwiftCallAttr : SwiftCallAttr
+COMPLETION: SwiftContextAttr : SwiftContextAttr
+COMPLETION: SwiftErrorResultAttr : SwiftErrorResultAttr
+COMPLETION: SwiftIndirectResultAttr : SwiftIndirectResultAttr
+COMPLETION: SwitchCase : SwitchCase
+COMPLETION: SwitchStmt : SwitchStmt
+COMPLETION: SyncScope : SyncScope
+COMPLETION: SyntaxOnlyAction : SyntaxOnlyAction
+COMPLETION: SystemZ : SystemZ
+COMPLETION: SysVABIAttr : SysVABIAttr
+COMPLETION: TagDecl : TagDecl
+COMPLETION: TagType : TagType
+COMPLETION: TagTypeKind : TagTypeKind
+COMPLETION: TagTypeLoc : TagTypeLoc
+COMPLETION: TargetAttr : TargetAttr
+COMPLETION: TargetCXXABI : TargetCXXABI
+COMPLETION: TargetInfo : TargetInfo
+COMPLETION: TargetOptions : TargetOptions
+COMPLETION: TemplateArgument : TemplateArgument
+COMPLETION: TemplateArgumentList : TemplateArgumentList
+COMPLETION: TemplateArgumentListInfo : TemplateArgumentListInfo
+COMPLETION: TemplateArgumentLoc : TemplateArgumentLoc
+COMPLETION: TemplateArgumentLocInfo : TemplateArgumentLocInfo
+COMPLETION: TemplateDecl : TemplateDecl
+COMPLETION: TemplateDeclInstantiator : TemplateDeclInstantiator
+COMPLETION: TemplateDiffTypes : TemplateDiffTypes
+COMPLETION: TemplateIdAnnotation : TemplateIdAnnotation
+COMPLETION: TemplateName : TemplateName
+COMPLETION: TemplateNameKind : TemplateNameKind
+COMPLETION: TemplateNameLocInfo : TemplateNameLocInfo
+COMPLETION: TemplateParameter : TemplateParameter
+COMPLETION: TemplateParameterList : TemplateParameterList
+COMPLETION: TemplateParmPosition : TemplateParmPosition
+COMPLETION: TemplatePartialOrderingContext : TemplatePartialOrderingContext
+COMPLETION: TemplateSpecCandidate : TemplateSpecCandidate
+COMPLETION: TemplateSpecCandidateSet : TemplateSpecCandidateSet
+COMPLETION: TemplateSpecializationKind : TemplateSpecializationKind
+COMPLETION: TemplateSpecializationLocInfo : TemplateSpecializationLocInfo
+COMPLETION: TemplateSpecializationType : TemplateSpecializationType
+COMPLETION: TemplateSpecializationTypeLoc : TemplateSpecializationTypeLoc
+COMPLETION: TemplateTemplateParmDecl : TemplateTemplateParmDecl
+COMPLETION: TemplateTypeParmDecl : TemplateTypeParmDecl
+COMPLETION: TemplateTypeParmType : TemplateTypeParmType
+COMPLETION: TemplateTypeParmTypeLoc : TemplateTypeParmTypeLoc
+COMPLETION: TestTypestateAttr : TestTypestateAttr
+COMPLETION: TextDiagnostic : TextDiagnostic
+COMPLETION: TextDiagnosticBuffer : TextDiagnosticBuffer
+COMPLETION: TextDiagnosticFormat : TextDiagnosticFormat
+COMPLETION: TextDiagnosticPrinter : TextDiagnosticPrinter
+COMPLETION: ThisAdjustment : ThisAdjustment
+COMPLETION: ThisCallAttr : ThisCallAttr
+COMPLETION: ThreadAttr : ThreadAttr
+COMPLETION: threadSafety : threadSafety
+COMPLETION: ThreadStorageClassSpecifier : ThreadStorageClassSpecifier
+COMPLETION: ThunkInfo : ThunkInfo
+COMPLETION: TLSModelAttr : TLSModelAttr
+COMPLETION: TNK_Dependent_template_name : [#clang::TemplateNameKind#]TNK_Dependent_template_name
+COMPLETION: TNK_Function_template : [#clang::TemplateNameKind#]TNK_Function_template
+COMPLETION: TNK_Non_template : [#clang::TemplateNameKind#]TNK_Non_template
+COMPLETION: TNK_Type_template : [#clang::TemplateNameKind#]TNK_Type_template
+COMPLETION: TNK_Var_template : [#clang::TemplateNameKind#]TNK_Var_template
+COMPLETION: ToggleHighlight : [#const char#]ToggleHighlight
+COMPLETION: tok : tok
+COMPLETION: Token : Token
+COMPLETION: TokenConcatenation : TokenConcatenation
+COMPLETION: TokenLexer : TokenLexer
+COMPLETION: TokenRewriter : TokenRewriter
+COMPLETION: TokenValue : TokenValue
+COMPLETION: toLowercase : [#char#]toLowercase(<#char c#>)
+COMPLETION: tooling : tooling
+COMPLETION: toTargetAddressSpace : [#unsigned int#]toTargetAddressSpace(<#LangAS AS#>)
+COMPLETION: toUppercase : [#char#]toUppercase(<#char c#>)
+COMPLETION: TPOC : TPOC
+COMPLETION: TPOC_Call : [#clang::TPOC#]TPOC_Call
+COMPLETION: TPOC_Conversion : [#clang::TPOC#]TPOC_Conversion
+COMPLETION: TPOC_Other : [#clang::TPOC#]TPOC_Other
+COMPLETION: TranslationUnitDecl : TranslationUnitDecl
+COMPLETION: TranslationUnitKind : TranslationUnitKind
+COMPLETION: TransparentUnionAttr : TransparentUnionAttr
+COMPLETION: TrivialModuleLoader : TrivialModuleLoader
+COMPLETION: TryAcquireCapabilityAttr : TryAcquireCapabilityAttr
+COMPLETION: TSCS___thread : [#clang::ThreadStorageClassSpecifier#]TSCS___thread
+COMPLETION: TSCS__Thread_local : [#clang::ThreadStorageClassSpecifier#]TSCS__Thread_local
+COMPLETION: TSCS_thread_local : [#clang::ThreadStorageClassSpecifier#]TSCS_thread_local
+COMPLETION: TSCS_unspecified : [#clang::ThreadStorageClassSpecifier#]TSCS_unspecified
+COMPLETION: TSK_ExplicitInstantiationDeclaration : [#clang::TemplateSpecializationKind#]TSK_ExplicitInstantiationDeclaration
+COMPLETION: TSK_ExplicitInstantiationDefinition : [#clang::TemplateSpecializationKind#]TSK_ExplicitInstantiationDefinition
+COMPLETION: TSK_ExplicitSpecialization : [#clang::TemplateSpecializationKind#]TSK_ExplicitSpecialization
+COMPLETION: TSK_ImplicitInstantiation : [#clang::TemplateSpecializationKind#]TSK_ImplicitInstantiation
+COMPLETION: TSK_Undeclared : [#clang::TemplateSpecializationKind#]TSK_Undeclared
+COMPLETION: TSP_pipe : [#clang::TypeSpecifiersPipe#]TSP_pipe
+COMPLETION: TSP_unspecified : [#clang::TypeSpecifiersPipe#]TSP_unspecified
+COMPLETION: TSS_signed : [#clang::TypeSpecifierSign#]TSS_signed
+COMPLETION: TSS_unsigned : [#clang::TypeSpecifierSign#]TSS_unsigned
+COMPLETION: TSS_unspecified : [#clang::TypeSpecifierSign#]TSS_unspecified
+COMPLETION: TST_atomic : [#clang::TypeSpecifierType#]TST_atomic
+COMPLETION: TST_auto : [#clang::TypeSpecifierType#]TST_auto
+COMPLETION: TST_auto_type : [#clang::TypeSpecifierType#]TST_auto_type
+COMPLETION: TST_bool : [#clang::TypeSpecifierType#]TST_bool
+COMPLETION: TST_char : [#clang::TypeSpecifierType#]TST_char
+COMPLETION: TST_char16 : [#clang::TypeSpecifierType#]TST_char16
+COMPLETION: TST_char32 : [#clang::TypeSpecifierType#]TST_char32
+COMPLETION: TST_class : [#clang::TypeSpecifierType#]TST_class
+COMPLETION: TST_decimal128 : [#clang::TypeSpecifierType#]TST_decimal128
+COMPLETION: TST_decimal32 : [#clang::TypeSpecifierType#]TST_decimal32
+COMPLETION: TST_decimal64 : [#clang::TypeSpecifierType#]TST_decimal64
+COMPLETION: TST_decltype : [#clang::TypeSpecifierType#]TST_decltype
+COMPLETION: TST_decltype_auto : [#clang::TypeSpecifierType#]TST_decltype_auto
+COMPLETION: TST_double : [#clang::TypeSpecifierType#]TST_double
+COMPLETION: TST_enum : [#clang::TypeSpecifierType#]TST_enum
+COMPLETION: TST_error : [#clang::TypeSpecifierType#]TST_error
+COMPLETION: TST_float : [#clang::TypeSpecifierType#]TST_float
+COMPLETION: TST_float128 : [#clang::TypeSpecifierType#]TST_float128
+COMPLETION: TST_Float16 : [#clang::TypeSpecifierType#]TST_Float16
+COMPLETION: TST_half : [#clang::TypeSpecifierType#]TST_half
+COMPLETION: TST_image1d_array_t : [#clang::TypeSpecifierType#]TST_image1d_array_t
+COMPLETION: TST_image1d_buffer_t : [#clang::TypeSpecifierType#]TST_image1d_buffer_t
+COMPLETION: TST_image1d_t : [#clang::TypeSpecifierType#]TST_image1d_t
+COMPLETION: TST_image2d_array_depth_t : [#clang::TypeSpecifierType#]TST_image2d_array_depth_t
+COMPLETION: TST_image2d_array_msaa_depth_t : [#clang::TypeSpecifierType#]TST_image2d_array_msaa_depth_t
+COMPLETION: TST_image2d_array_msaa_t : [#clang::TypeSpecifierType#]TST_image2d_array_msaa_t
+COMPLETION: TST_image2d_array_t : [#clang::TypeSpecifierType#]TST_image2d_array_t
+COMPLETION: TST_image2d_depth_t : [#clang::TypeSpecifierType#]TST_image2d_depth_t
+COMPLETION: TST_image2d_msaa_depth_t : [#clang::TypeSpecifierType#]TST_image2d_msaa_depth_t
+COMPLETION: TST_image2d_msaa_t : [#clang::TypeSpecifierType#]TST_image2d_msaa_t
+COMPLETION: TST_image2d_t : [#clang::TypeSpecifierType#]TST_image2d_t
+COMPLETION: TST_image3d_t : [#clang::TypeSpecifierType#]TST_image3d_t
+COMPLETION: TST_int : [#clang::TypeSpecifierType#]TST_int
+COMPLETION: TST_int128 : [#clang::TypeSpecifierType#]TST_int128
+COMPLETION: TST_interface : [#clang::TypeSpecifierType#]TST_interface
+COMPLETION: TST_struct : [#clang::TypeSpecifierType#]TST_struct
+COMPLETION: TST_typename : [#clang::TypeSpecifierType#]TST_typename
+COMPLETION: TST_typeofExpr : [#clang::TypeSpecifierType#]TST_typeofExpr
+COMPLETION: TST_typeofType : [#clang::TypeSpecifierType#]TST_typeofType
+COMPLETION: TST_underlyingType : [#clang::TypeSpecifierType#]TST_underlyingType
+COMPLETION: TST_union : [#clang::TypeSpecifierType#]TST_union
+COMPLETION: TST_unknown_anytype : [#clang::TypeSpecifierType#]TST_unknown_anytype
+COMPLETION: TST_unspecified : [#clang::TypeSpecifierType#]TST_unspecified
+COMPLETION: TST_void : [#clang::TypeSpecifierType#]TST_void
+COMPLETION: TST_wchar : [#clang::TypeSpecifierType#]TST_wchar
+COMPLETION: TSW_long : [#clang::TypeSpecifierWidth#]TSW_long
+COMPLETION: TSW_longlong : [#clang::TypeSpecifierWidth#]TSW_longlong
+COMPLETION: TSW_short : [#clang::TypeSpecifierWidth#]TSW_short
+COMPLETION: TSW_unspecified : [#clang::TypeSpecifierWidth#]TSW_unspecified
+COMPLETION: TT_IsConstructible : [#clang::TypeTrait#]TT_IsConstructible
+COMPLETION: TT_IsNothrowConstructible : [#clang::TypeTrait#]TT_IsNothrowConstructible
+COMPLETION: TT_IsTriviallyConstructible : [#clang::TypeTrait#]TT_IsTriviallyConstructible
+COMPLETION: TTK_Class : [#clang::TagTypeKind#]TTK_Class
+COMPLETION: TTK_Enum : [#clang::TagTypeKind#]TTK_Enum
+COMPLETION: TTK_Interface : [#clang::TagTypeKind#]TTK_Interface
+COMPLETION: TTK_Struct : [#clang::TagTypeKind#]TTK_Struct
+COMPLETION: TTK_Union : [#clang::TagTypeKind#]TTK_Union
+COMPLETION: TU_Complete : [#clang::TranslationUnitKind#]TU_Complete
+COMPLETION: TU_Module : [#clang::TranslationUnitKind#]TU_Module
+COMPLETION: TU_Prefix : [#clang::TranslationUnitKind#]TU_Prefix
+COMPLETION: Twine : Twine
+COMPLETION: Type : Type
+COMPLETION: TypeAliasDecl : TypeAliasDecl
+COMPLETION: TypeAliasTemplateDecl : TypeAliasTemplateDecl
+COMPLETION: TypeAlignment : [#clang::(anonymous)#]TypeAlignment
+COMPLETION: TypeAlignmentInBits : [#clang::(anonymous)#]TypeAlignmentInBits
+COMPLETION: TypeDecl : TypeDecl
+COMPLETION: TypedefDecl : TypedefDecl
+COMPLETION: TypedefNameDecl : TypedefNameDecl
+COMPLETION: TypedefType : TypedefType
+COMPLETION: TypedefTypeLoc : TypedefTypeLoc
+COMPLETION: TypeInfo : TypeInfo
+COMPLETION: TypeIsArrayType : TypeIsArrayType<<#typename T#>>
+COMPLETION: TypeLoc : TypeLoc
+COMPLETION: TypeLocVisitor : TypeLocVisitor<<#typename ImplClass#>{#, <#typename RetTy#>#}>
+COMPLETION: TypeName : TypeName
+COMPLETION: TypeOfExprType : TypeOfExprType
+COMPLETION: TypeOfExprTypeLoc : TypeOfExprTypeLoc
+COMPLETION: TypeOfExprTypeLocInfo : TypeOfExprTypeLocInfo
+COMPLETION: TypeofLikeTypeLoc : TypeofLikeTypeLoc<<#class Derived#>, <#class TypeClass#>{#, <#class LocalData#>#}>
+COMPLETION: TypeofLocInfo : TypeofLocInfo
+COMPLETION: TypeOfType : TypeOfType
+COMPLETION: TypeOfTypeLoc : TypeOfTypeLoc
+COMPLETION: TypeOfTypeLocInfo : TypeOfTypeLocInfo
+COMPLETION: TypeResult : TypeResult
+COMPLETION: TypeSourceInfo : TypeSourceInfo
+COMPLETION: TypeSpecifierSign : TypeSpecifierSign
+COMPLETION: TypeSpecifiersPipe : TypeSpecifiersPipe
+COMPLETION: TypeSpecifierType : TypeSpecifierType
+COMPLETION: TypeSpecifierWidth : TypeSpecifierWidth
+COMPLETION: TypeSpecLocInfo : TypeSpecLocInfo
+COMPLETION: TypeSpecTypeLoc : TypeSpecTypeLoc
+COMPLETION: TypeTagForDatatypeAttr : TypeTagForDatatypeAttr
+COMPLETION: TypeTrait : TypeTrait
+COMPLETION: TypeTraitExpr : TypeTraitExpr
+COMPLETION: TypeVisibilityAttr : TypeVisibilityAttr
+COMPLETION: TypeVisitor : TypeVisitor<<#typename ImplClass#>{#, <#typename RetTy#>#}>
+COMPLETION: TypeWithKeyword : TypeWithKeyword
+COMPLETION: TypoCorrection : TypoCorrection
+COMPLETION: TypoCorrectionConsumer : TypoCorrectionConsumer
+COMPLETION: TypoExpr : TypoExpr
+COMPLETION: UETT_AlignOf : [#clang::UnaryExprOrTypeTrait#]UETT_AlignOf
+COMPLETION: UETT_OpenMPRequiredSimdAlign : [#clang::UnaryExprOrTypeTrait#]UETT_OpenMPRequiredSimdAlign
+COMPLETION: UETT_SizeOf : [#clang::UnaryExprOrTypeTrait#]UETT_SizeOf
+COMPLETION: UETT_VecStep : [#clang::UnaryExprOrTypeTrait#]UETT_VecStep
+COMPLETION: UnaryExprOrTypeTrait : UnaryExprOrTypeTrait
+COMPLETION: UnaryExprOrTypeTraitExpr : UnaryExprOrTypeTraitExpr
+COMPLETION: UnaryOperator : UnaryOperator
+COMPLETION: UnaryOperatorKind : UnaryOperatorKind
+COMPLETION: UnaryTransformType : UnaryTransformType
+COMPLETION: UnaryTransformTypeLoc : UnaryTransformTypeLoc
+COMPLETION: UnaryTransformTypeLocInfo : UnaryTransformTypeLocInfo
+COMPLETION: UnavailableAttr : UnavailableAttr
+COMPLETION: UncommonTemplateNameStorage : UncommonTemplateNameStorage
+COMPLETION: UndefMacroDirective : UndefMacroDirective
+COMPLETION: UnexpandedParameterPack : UnexpandedParameterPack
+COMPLETION: UninitUse : UninitUse
+COMPLETION: UninitVariablesAnalysisStats : UninitVariablesAnalysisStats
+COMPLETION: UninitVariablesHandler : UninitVariablesHandler
+COMPLETION: UnionOpaquePtr : UnionOpaquePtr<<#class T#>>
+COMPLETION: UnionParsedTemplateTy : UnionParsedTemplateTy
+COMPLETION: UnionParsedType : UnionParsedType
+COMPLETION: UniqueExternalLinkage : [#clang::Linkage#]UniqueExternalLinkage
+COMPLETION: UniqueVirtualMethod : UniqueVirtualMethod
+COMPLETION: UnqualifiedId : UnqualifiedId
+COMPLETION: UnqualifiedIdKind : UnqualifiedIdKind
+COMPLETION: UnqualTypeLoc : UnqualTypeLoc
+COMPLETION: UnresolvedLookupExpr : UnresolvedLookupExpr
+COMPLETION: UnresolvedMemberExpr : UnresolvedMemberExpr
+COMPLETION: UnresolvedSet : UnresolvedSet<<#unsigned int N#>>
+COMPLETION: UnresolvedSetImpl : UnresolvedSetImpl
+COMPLETION: UnresolvedSetIterator : UnresolvedSetIterator
+COMPLETION: UnresolvedUsingType : UnresolvedUsingType
+COMPLETION: UnresolvedUsingTypeLoc : UnresolvedUsingTypeLoc
+COMPLETION: UnresolvedUsingTypenameDecl : UnresolvedUsingTypenameDecl
+COMPLETION: UnresolvedUsingValueDecl : UnresolvedUsingValueDecl
+COMPLETION: UnusedAttr : UnusedAttr
+COMPLETION: UO_AddrOf : [#clang::UnaryOperatorKind#]UO_AddrOf
+COMPLETION: UO_Coawait : [#clang::UnaryOperatorKind#]UO_Coawait
+COMPLETION: UO_Deref : [#clang::UnaryOperatorKind#]UO_Deref
+COMPLETION: UO_Extension : [#clang::UnaryOperatorKind#]UO_Extension
+COMPLETION: UO_Imag : [#clang::UnaryOperatorKind#]UO_Imag
+COMPLETION: UO_LNot : [#clang::UnaryOperatorKind#]UO_LNot
+COMPLETION: UO_Minus : [#clang::UnaryOperatorKind#]UO_Minus
+COMPLETION: UO_Not : [#clang::UnaryOperatorKind#]UO_Not
+COMPLETION: UO_Plus : [#clang::UnaryOperatorKind#]UO_Plus
+COMPLETION: UO_PostDec : [#clang::UnaryOperatorKind#]UO_PostDec
+COMPLETION: UO_PostInc : [#clang::UnaryOperatorKind#]UO_PostInc
+COMPLETION: UO_PreDec : [#clang::UnaryOperatorKind#]UO_PreDec
+COMPLETION: UO_PreInc : [#clang::UnaryOperatorKind#]UO_PreInc
+COMPLETION: UO_Real : [#clang::UnaryOperatorKind#]UO_Real
+COMPLETION: UsedAttr : UsedAttr
+COMPLETION: UserDefinedConversionSequence : UserDefinedConversionSequence
+COMPLETION: UserDefinedLiteral : UserDefinedLiteral
+COMPLETION: UsingDecl : UsingDecl
+COMPLETION: UsingDirectiveDecl : UsingDirectiveDecl
+COMPLETION: UsingPackDecl : UsingPackDecl
+COMPLETION: UsingShadowDecl : UsingShadowDecl
+COMPLETION: UTT_HasNothrowAssign : [#clang::TypeTrait#]UTT_HasNothrowAssign
+COMPLETION: UTT_HasNothrowConstructor : [#clang::TypeTrait#]UTT_HasNothrowConstructor
+COMPLETION: UTT_HasNothrowCopy : [#clang::TypeTrait#]UTT_HasNothrowCopy
+COMPLETION: UTT_HasNothrowMoveAssign : [#clang::TypeTrait#]UTT_HasNothrowMoveAssign
+COMPLETION: UTT_HasTrivialAssign : [#clang::TypeTrait#]UTT_HasTrivialAssign
+COMPLETION: UTT_HasTrivialCopy : [#clang::TypeTrait#]UTT_HasTrivialCopy
+COMPLETION: UTT_HasTrivialDefaultConstructor : [#clang::TypeTrait#]UTT_HasTrivialDefaultConstructor
+COMPLETION: UTT_HasTrivialDestructor : [#clang::TypeTrait#]UTT_HasTrivialDestructor
+COMPLETION: UTT_HasTrivialMoveAssign : [#clang::TypeTrait#]UTT_HasTrivialMoveAssign
+COMPLETION: UTT_HasTrivialMoveConstructor : [#clang::TypeTrait#]UTT_HasTrivialMoveConstructor
+COMPLETION: UTT_HasUniqueObjectRepresentations : [#clang::TypeTrait#]UTT_HasUniqueObjectRepresentations
+COMPLETION: UTT_HasVirtualDestructor : [#clang::TypeTrait#]UTT_HasVirtualDestructor
+COMPLETION: UTT_IsAbstract : [#clang::TypeTrait#]UTT_IsAbstract
+COMPLETION: UTT_IsAggregate : [#clang::TypeTrait#]UTT_IsAggregate
+COMPLETION: UTT_IsArithmetic : [#clang::TypeTrait#]UTT_IsArithmetic
+COMPLETION: UTT_IsArray : [#clang::TypeTrait#]UTT_IsArray
+COMPLETION: UTT_IsClass : [#clang::TypeTrait#]UTT_IsClass
+COMPLETION: UTT_IsCompleteType : [#clang::TypeTrait#]UTT_IsCompleteType
+COMPLETION: UTT_IsCompound : [#clang::TypeTrait#]UTT_IsCompound
+COMPLETION: UTT_IsConst : [#clang::TypeTrait#]UTT_IsConst
+COMPLETION: UTT_IsDestructible : [#clang::TypeTrait#]UTT_IsDestructible
+COMPLETION: UTT_IsEmpty : [#clang::TypeTrait#]UTT_IsEmpty
+COMPLETION: UTT_IsEnum : [#clang::TypeTrait#]UTT_IsEnum
+COMPLETION: UTT_IsFinal : [#clang::TypeTrait#]UTT_IsFinal
+COMPLETION: UTT_IsFloatingPoint : [#clang::TypeTrait#]UTT_IsFloatingPoint
+COMPLETION: UTT_IsFunction : [#clang::TypeTrait#]UTT_IsFunction
+COMPLETION: UTT_IsFundamental : [#clang::TypeTrait#]UTT_IsFundamental
+COMPLETION: UTT_IsIntegral : [#clang::TypeTrait#]UTT_IsIntegral
+COMPLETION: UTT_IsInterfaceClass : [#clang::TypeTrait#]UTT_IsInterfaceClass
+COMPLETION: UTT_IsLiteral : [#clang::TypeTrait#]UTT_IsLiteral
+COMPLETION: UTT_IsLvalueReference : [#clang::TypeTrait#]UTT_IsLvalueReference
+COMPLETION: UTT_IsMemberFunctionPointer : [#clang::TypeTrait#]UTT_IsMemberFunctionPointer
+COMPLETION: UTT_IsMemberObjectPointer : [#clang::TypeTrait#]UTT_IsMemberObjectPointer
+COMPLETION: UTT_IsMemberPointer : [#clang::TypeTrait#]UTT_IsMemberPointer
+COMPLETION: UTT_IsNothrowDestructible : [#clang::TypeTrait#]UTT_IsNothrowDestructible
+COMPLETION: UTT_IsObject : [#clang::TypeTrait#]UTT_IsObject
+COMPLETION: UTT_IsPOD : [#clang::TypeTrait#]UTT_IsPOD
+COMPLETION: UTT_IsPointer : [#clang::TypeTrait#]UTT_IsPointer
+COMPLETION: UTT_IsPolymorphic : [#clang::TypeTrait#]UTT_IsPolymorphic
+COMPLETION: UTT_IsReference : [#clang::TypeTrait#]UTT_IsReference
+COMPLETION: UTT_IsRvalueReference : [#clang::TypeTrait#]UTT_IsRvalueReference
+COMPLETION: UTT_IsScalar : [#clang::TypeTrait#]UTT_IsScalar
+COMPLETION: UTT_IsSealed : [#clang::TypeTrait#]UTT_IsSealed
+COMPLETION: UTT_IsSigned : [#clang::TypeTrait#]UTT_IsSigned
+COMPLETION: UTT_IsStandardLayout : [#clang::TypeTrait#]UTT_IsStandardLayout
+COMPLETION: UTT_IsTrivial : [#clang::TypeTrait#]UTT_IsTrivial
+COMPLETION: UTT_IsTriviallyCopyable : [#clang::TypeTrait#]UTT_IsTriviallyCopyable
+COMPLETION: UTT_IsTriviallyDestructible : [#clang::TypeTrait#]UTT_IsTriviallyDestructible
+COMPLETION: UTT_IsUnion : [#clang::TypeTrait#]UTT_IsUnion
+COMPLETION: UTT_IsUnsigned : [#clang::TypeTrait#]UTT_IsUnsigned
+COMPLETION: UTT_IsVoid : [#clang::TypeTrait#]UTT_IsVoid
+COMPLETION: UTT_IsVolatile : [#clang::TypeTrait#]UTT_IsVolatile
+COMPLETION: UTT_Last : [#clang::TypeTrait#]UTT_Last
+COMPLETION: UuidAttr : UuidAttr
+COMPLETION: VAArgExpr : VAArgExpr
+COMPLETION: ValueDecl : ValueDecl
+COMPLETION: VAOptDefinitionContext : VAOptDefinitionContext
+COMPLETION: VAOptExpansionContext : VAOptExpansionContext
+COMPLETION: VarDecl : VarDecl
+COMPLETION: VariableArrayType : VariableArrayType
+COMPLETION: VariableArrayTypeLoc : VariableArrayTypeLoc
+COMPLETION: VariablePattern : VariablePattern
+COMPLETION: VariadicMacroScopeGuard : VariadicMacroScopeGuard
+COMPLETION: VarTemplateDecl : VarTemplateDecl
+COMPLETION: VarTemplatePartialSpecializationDecl : VarTemplatePartialSpecializationDecl
+COMPLETION: VarTemplateSpecializationDecl : VarTemplateSpecializationDecl
+COMPLETION: VecReturnAttr : VecReturnAttr
+COMPLETION: VectorCallAttr : VectorCallAttr
+COMPLETION: VectorType : VectorType
+COMPLETION: VectorTypeLoc : VectorTypeLoc
+COMPLETION: VecTypeHintAttr : VecTypeHintAttr
+COMPLETION: VerifyDiagnosticConsumer : VerifyDiagnosticConsumer
+COMPLETION: VerifyPCHAction : VerifyPCHAction
+COMPLETION: VersionTuple : VersionTuple
+COMPLETION: vfs : vfs
+COMPLETION: VirtSpecifiers : VirtSpecifiers
+COMPLETION: VirtualArchForCudaArch : [#CudaVirtualArch#]VirtualArchForCudaArch(<#CudaArch A#>)
+COMPLETION: VirtualBaseInfo : VirtualBaseInfo
+COMPLETION: Visibility : Visibility
+COMPLETION: VisibilityAttr : VisibilityAttr
+COMPLETION: VisibilityMacroDirective : VisibilityMacroDirective
+COMPLETION: VisibleDeclConsumer : VisibleDeclConsumer
+COMPLETION: VisibleModuleSet : VisibleModuleSet
+COMPLETION: VisibleNoLinkage : [#clang::Linkage#]VisibleNoLinkage
+COMPLETION: VK_LValue : [#clang::ExprValueKind#]VK_LValue
+COMPLETION: VK_RValue : [#clang::ExprValueKind#]VK_RValue
+COMPLETION: VK_XValue : [#clang::ExprValueKind#]VK_XValue
+COMPLETION: VPtrInfo : VPtrInfo
+COMPLETION: VPtrInfoVector : VPtrInfoVector
+COMPLETION: VTableComponent : VTableComponent
+COMPLETION: VTableContextBase : VTableContextBase
+COMPLETION: VTableLayout : VTableLayout
+COMPLETION: VTTBuilder : VTTBuilder
+COMPLETION: VTTComponent : VTTComponent
+COMPLETION: VTTVTable : VTTVTable
+COMPLETION: WarnUnusedAttr : WarnUnusedAttr
+COMPLETION: WarnUnusedResultAttr : WarnUnusedResultAttr
+COMPLETION: WeakAttr : WeakAttr
+COMPLETION: WeakImportAttr : WeakImportAttr
+COMPLETION: WeakInfo : WeakInfo
+COMPLETION: WeakRefAttr : WeakRefAttr
+COMPLETION: WebAssembly : WebAssembly
+COMPLETION: WhileStmt : WhileStmt
+COMPLETION: WorkGroupSizeHintAttr : WorkGroupSizeHintAttr
+COMPLETION: WrapperFrontendAction : WrapperFrontendAction
+COMPLETION: WrittenBuiltinSpecs : WrittenBuiltinSpecs
+COMPLETION: X86 : X86
+COMPLETION: X86ForceAlignArgPointerAttr : X86ForceAlignArgPointerAttr
+COMPLETION: XCore : XCore
+COMPLETION: XRayFunctionFilter : XRayFunctionFilter
+COMPLETION: XRayInstrumentAttr : XRayInstrumentAttr
+COMPLETION: XRayLogArgsAttr : XRayLogArgsAttr
+COMPLETION: Z3ConstraintsModel : [#clang::AnalysisConstraints#]Z3ConstraintsModel
