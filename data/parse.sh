@@ -3,7 +3,9 @@
 dst_dir="results"
 template="template.cpp"
 target_symbol="__HOGEHOGE__"
-clang_lib_path='-I/usr/local/Cellar/llvm/6.0.0/include'
+clang_lib_path='/usr/local/Cellar/llvm/6.0.0/include'
+# ubuntu
+# clang_lib_path='/usr/lib/llvm-5.0/include'
 function xargs-printf() {
 	while read line || [ -n "${line}" ]; do
 		printf "$@" $line
@@ -13,7 +15,7 @@ function xargs-printf() {
 [[ ! -e $dst_dir ]] && mkdir -p $dst_dir
 cd $dst_dir
 
-(cd /usr/local/Cellar/llvm/6.0.0/include/clang && find . -name "*.h" | xargs-printf '#include "clang/%s"\n') >$template
+(cd "$clang_lib_path/clang" && find . -name "*.h" | xargs-printf '#include "clang/%s"\n') >$template
 cat >>$template <<EOF
 void dummy(){
 $target_symbol
@@ -30,7 +32,8 @@ function parse() {
 	filename=$(echo "$target" | sed 's/:/-/g').cpp
 	cat $template | sed 's/'$target_symbol'/'$comp_target'/g' >"$filename"
 	line_no=$(sed -n '/'$target_symbol'/=' $template)
-	for target in $(clang++ -Xclang -fsyntax-only -Xclang -code-completion-at=$filename:$line_no:$((${#comp_target} + 1)) "$filename" -c $clang_lib_path | tee $filename.comp |
+	# NOTE: macでは-std=c++11はなくても大丈夫
+	for target in $(clang++ -Xclang -fsyntax-only -Xclang -code-completion-at=$filename:$line_no:$((${#comp_target} + 1)) "$filename" -c -std=c++11 "-I$clang_lib_path" | tee $filename.comp |
 		grep -v '#' | awk '{if ($2 != "'$namespace'") print $2; }' | xargs-printf "$comp_target%s\n"); do
 		# 		echo $target
 		[[ ${map_tmp[$target]} == '' ]] && map_tmp[$target]='not yet'
