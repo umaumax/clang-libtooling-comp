@@ -28,3 +28,10 @@ cat parse-list.txt | xargs -L 1 ./parse.sh
 
 go run main.go
 ```
+
+## template.cppの作り方
+```
+(cd /usr/local/Cellar/llvm/6.0.0/include/clang && find . -name "*.h" | xargs-printf '#include "clang/AST/%s"\n')
+ls /usr/local/Cellar/llvm/6.0.0/include/clang/AST | grep -v '.inc' | xargs-printf '#include "clang/AST/%s"\n' > $template
+# あとは適当に
+```
